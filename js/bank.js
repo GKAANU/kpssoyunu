@@ -117,7 +117,9 @@ KPSS.SECTIONS = [
   { id: 'xMakroPara', name: 'ÇIKMIŞ — Makro İktisat ve Para', tag: 'Çıkmış Soru', emoji: '🎯', color: '#f59e0b', boss: 'Enflasyon Devi', bossEmoji: '🎯', src: 'Makro İktisat ve Para Çıkmış 2025' },
   { id: 'xMikro',     name: 'ÇIKMIŞ — Mikro İktisat',      tag: 'Çıkmış Soru', emoji: '🎯', color: '#8b5cf6', boss: 'Marjinal Fayda',  bossEmoji: '🎯', src: 'Mikro İktisat Çıkmış 2025' },
   { id: 'xSon4',      name: 'ÇIKMIŞ — Son 4\'lü İktisat',  tag: 'Çıkmış Soru', emoji: '🎯', color: '#ec4899', boss: 'Dörtlü Sınav',    bossEmoji: '🎯', src: 'Son 4\'lü İktisat Çıkmış' },
-  { id: 'xMaliye',    name: 'ÇIKMIŞ — Maliye',           tag: 'Çıkmış Soru', emoji: '🎯', color: '#06b6d4', boss: 'Bütçe Bekçisi',  bossEmoji: '🎯', src: 'Maliye Çıkmışlar 2025' }
+  { id: 'xMaliye',    name: 'ÇIKMIŞ — Maliye',           tag: 'Çıkmış Soru', emoji: '🎯', color: '#06b6d4', boss: 'Bütçe Bekçisi',  bossEmoji: '🎯', src: 'Maliye Çıkmışlar 2025' },
+  { id: 'xMuhasebe1', name: 'ÇIKMIŞ — Muhasebe I',        tag: 'Çıkmış Soru', emoji: '🎯', color: '#84cc16', boss: 'Tekdüzen Hesap',  bossEmoji: '🎯', src: 'Muhasebe Çıkmış 1. Cilt' },
+  { id: 'xMuhasebe2', name: 'ÇIKMIŞ — Muhasebe II',       tag: 'Çıkmış Soru', emoji: '🎯', color: '#eab308', boss: 'Bilanço Ustası', bossEmoji: '🎯', src: 'Muhasebe Çıkmış 2. Cilt' }
 ];
 
 /* soru bankaları buraya dolar: KPSS.BANKS[sectionId] = [ {...}, ... ] */

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KPSS Arena — Notlardan Oyuna</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="fx"></canvas>
+<div id="bg-orbs"><span></span><span></span><span></span></div>
+
+<!-- ============ ÜST BAR ============ -->
+<header id="topbar" class="hidden">
+  <button class="icon-btn" id="btn-home" title="Ana menü">◀</button>
+  <div class="player">
+    <div class="avatar" id="avatar">🎯</div>
+    <div class="player-meta">
+      <div class="player-line">
+        <span id="lvl-badge" class="lvl-badge">Sv 1</span>
+        <span id="player-title" class="player-title">Çaylak</span>
+      </div>
+      <div class="xp-track"><div class="xp-fill" id="xp-fill"></div><span class="xp-text" id="xp-text">0 / 100 XP</span></div>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <div class="stat-chip" title="Toplam altın"><span>🪙</span><b id="coin-count">0</b></div>
+    <div class="stat-chip" title="En uzun seri"><span>🔥</span><b id="best-streak">0</b></div>
+    <button class="icon-btn" id="btn-settings" title="Ayarlar">⚙</button>
+  </div>
+</header>
+
+<main id="app">
+
+  <!-- ============ 1. AÇILIŞ ============ -->
+  <section class="screen active" id="scr-splash">
+    <div class="splash-wrap">
+      <div class="logo-stack">
+        <div class="logo-glow"></div>
+        <h1 class="logo">KPSS<span>ARENA</span></h1>
+        <p class="tagline">Notların oyuna dönüştü. Küçük turlar, büyük ilerleme.</p>
+      </div>
+
+      <div class="splash-cards">
+        <div class="mini-card"><b id="splash-seccount">9</b><span>Bölüm</span></div>
+        <div class="mini-card"><b id="splash-qcount">0</b><span>Soru</span></div>
+        <div class="mini-card"><b>4</b><span>Oyun Modu</span></div>
+      </div>
+
+      <button class="btn btn-primary btn-xl" id="btn-start">
+        <span>OYNA</span>
+        <small id="splash-resume"></small>
+      </button>
+
+      <div class="splash-hints">
+        <p>⚡ Her tur <b>farklı sorular</b> — banka karışıyor, yanlışların öne çıkıyor.</p>
+        <p>🧠 Tur sonunda <b>yanlışların tek tek açıklanır.</b></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. BÖLÜM HARİTASI ============ -->
+  <section class="screen" id="scr-map">
+    <div class="screen-head">
+      <h2>Bölüm Seç</h2>
+      <p class="sub">Her not dosyası kendi arenası. Yüzde, o bölümü ne kadar sağlam bildiğin.</p>
+    </div>
+
+    <div class="overall-bar">
+      <div class="overall-info">
+        <span>Genel Hakimiyet</span>
+        <b id="overall-pct">0%</b>
+      </div>
+      <div class="overall-track"><div class="overall-fill" id="overall-fill"></div></div>
+    </div>
+
+    <div class="section-grid" id="section-grid"></div>
+
+    <div class="map-actions">
+      <button class="btn btn-ghost" id="btn-mistake-camp">🩹 Hata Kampı<small id="mistake-count">0 soru bekliyor</small></button>
+      <button class="btn btn-ghost" id="btn-mixed">🎲 Karışık Arena<small>Tüm bölümlerden</small></button>
+      <button class="btn btn-ghost" id="btn-badges">🏅 Madalyalar<small id="badge-count-lbl">0 kazanıldı</small></button>
+    </div>
+  </section>
+
+  <!-- ============ 3. TUR KURULUMU ============ -->
+  <section class="screen" id="scr-setup">
+    <div class="setup-hero" id="setup-hero">
+      <div class="setup-emoji" id="setup-emoji">📚</div>
+      <div>
+        <h2 id="setup-title">Bölüm</h2>
+        <p class="sub" id="setup-sub"></p>
+      </div>
+    </div>
+
+    <div class="setup-stats" id="setup-stats"></div>
+
+    <div class="setup-block">
+      <h3>Kaç soru?</h3>
+      <div class="chip-row" id="len-row">
+        <button class="chip" data-len="5">5<small>ısınma</small></button>
+        <button class="chip active" data-len="10">10<small>ideal</small></button>
+        <button class="chip" data-len="15">15<small>odak</small></button>
+        <button class="chip" data-len="20">20<small>maraton</small></button>
+      </div>
+    </div>
+
+    <div class="setup-block">
+      <h3>Mod</h3>
+      <div class="mode-row" id="mode-row">
+        <button class="mode-card active" data-mode="classic">
+          <span class="mode-emoji">🎯</span>
+          <b>Klasik</b>
+          <small>Baskı yok. Seri tut, puan topla.</small>
+        </button>
+        <button class="mode-card" data-mode="time">
+          <span class="mode-emoji">⏱️</span>
+          <b>Zamana Karşı</b>
+          <small>Soru başına 20 saniye. Hız bonusu var.</small>
+        </button>
+        <button class="mode-card" data-mode="boss">
+          <span class="mode-emoji">👹</span>
+          <b>Boss Savaşı</b>
+          <small>3 canın var. Bossun canını sıfırla.</small>
+        </button>
+        <button class="mode-card" data-mode="survival">
+          <span class="mode-emoji">💀</span>
+          <b>Hayatta Kalma</b>
+          <small>Tek yanlışta tur biter. Serin ne kadar?</small>
+        </button>
+      </div>
+    </div>
+
+    <button class="btn btn-primary btn-xl" id="btn-go">BAŞLA</button>
+  </section>
+
+  <!-- ============ 4. QUIZ ============ -->
+  <section class="screen" id="scr-quiz">
+    <div class="quiz-hud">
+      <div class="hud-left">
+        <div class="q-counter"><b id="q-index">1</b><span id="q-total">/10</span></div>
+        <div class="q-topic" id="q-topic">—</div>
+      </div>
+      <div class="hud-mid">
+        <div class="prog-track"><div class="prog-fill" id="prog-fill"></div></div>
+      </div>
+      <div class="hud-right">
+        <div class="streak-box" id="streak-box"><span class="flame">🔥</span><b id="streak-num">0</b></div>
+        <div class="score-box">⭐ <b id="score-num">0</b></div>
+      </div>
+    </div>
+
+    <div class="hearts" id="hearts"></div>
+
+    <div class="boss-panel hidden" id="boss-panel">
+      <div class="boss-face" id="boss-face">👹</div>
+      <div class="boss-bar-wrap">
+        <div class="boss-name" id="boss-name">Bölüm Bossu</div>
+        <div class="boss-track"><div class="boss-fill" id="boss-fill"></div></div>
+        <div class="boss-hp" id="boss-hp">1000 / 1000</div>
+      </div>
+    </div>
+
+    <div class="timer-wrap hidden" id="timer-wrap">
+      <div class="timer-track"><div class="timer-fill" id="timer-fill"></div></div>
+      <span id="timer-num">20</span>
+    </div>
+
+    <div class="q-card" id="q-card">
+      <div class="q-diff" id="q-diff"></div>
+      <p class="q-text" id="q-text">Soru yükleniyor…</p>
+    </div>
+
+    <div class="options" id="options"></div>
+
+    <div class="quiz-foot">
+      <button class="btn btn-tool" id="btn-5050" title="İki yanlış şıkkı sil">
+        <span>✂️ 50:50</span><small id="cost-5050">15 🪙</small>
+      </button>
+      <button class="btn btn-tool" id="btn-hint" title="Konu ipucu ver">
+        <span>💡 İpucu</span><small id="cost-hint">10 🪙</small>
+      </button>
+      <button class="btn btn-tool" id="btn-skip" title="Bu soruyu geç (yanlış sayılmaz)">
+        <span>⏭️ Pas</span><small id="cost-skip">25 🪙</small>
+      </button>
+    </div>
+
+    <div class="feedback-pop" id="feedback-pop"></div>
+    <div class="combo-pop" id="combo-pop"></div>
+  </section>
+
+  <!-- ============ 5. SONUÇ ============ -->
+  <section class="screen" id="scr-result">
+    <div class="result-head">
+      <div class="result-emoji" id="result-emoji">🎉</div>
+      <h2 id="result-title">Tur bitti!</h2>
+      <p class="sub" id="result-sub"></p>
+    </div>
+
+    <div class="result-cards">
+      <div class="ring-wrap">
+        <svg viewBox="0 0 120 120" class="ring">
+          <circle class="ring-bg" cx="60" cy="60" r="52"></circle>
+          <circle class="ring-fg" id="ring-fg" cx="60" cy="60" r="52"></circle>
+        </svg>
+        <div class="ring-label"><b id="acc-pct">0%</b><span>doğruluk</span></div>
+      </div>
+      <div class="result-stats">
+        <div class="rstat ok"><span>✅ Doğru</span><b id="res-correct">0</b></div>
+        <div class="rstat bad"><span>❌ Yanlış</span><b id="res-wrong">0</b></div>
+        <div class="rstat"><span>⏭️ Pas</span><b id="res-skip">0</b></div>
+        <div class="rstat"><span>🔥 En uzun seri</span><b id="res-streak">0</b></div>
+        <div class="rstat"><span>⭐ Puan</span><b id="res-score">0</b></div>
+        <div class="rstat gold"><span>🪙 Altın</span><b id="res-coins">0</b></div>
+      </div>
+    </div>
+
+    <div class="xp-gain-box">
+      <div class="xp-gain-top"><span>Kazanılan XP</span><b id="res-xp">+0</b></div>
+      <div class="xp-track big"><div class="xp-fill" id="res-xp-fill"></div><span class="xp-text" id="res-xp-text"></span></div>
+      <div class="levelup-banner hidden" id="levelup-banner">🎊 SEVİYE ATLADIN! <b id="levelup-lvl"></b></div>
+    </div>
+
+    <div class="badge-drops hidden" id="badge-drops"></div>
+
+    <!-- YANLIŞ ANALİZİ -->
+    <div class="review-block" id="review-block">
+      <div class="review-head">
+        <h3 id="review-title">🔍 Yanlışlarının Açıklaması</h3>
+        <p class="sub">Acele etme. Her birini bir kez oku — bir sonraki turda bunlar tekrar gelecek.</p>
+      </div>
+      <div id="review-list"></div>
+    </div>
+
+    <div class="result-actions">
+      <button class="btn btn-primary" id="btn-again">🔄 Yeni Tur<small>farklı sorular</small></button>
+      <button class="btn btn-ghost" id="btn-retry-wrong">🩹 Sadece Yanlışlarım</button>
+      <button class="btn btn-ghost" id="btn-to-map">🗺️ Bölümlere Dön</button>
+    </div>
+  </section>
+
+  <!-- ============ 6. MADALYALAR ============ -->
+  <section class="screen" id="scr-badges">
+    <div class="screen-head">
+      <h2>🏅 Madalyalar</h2>
+      <p class="sub">Çalıştıkça açılır. Hepsini toplamaya çalış.</p>
+    </div>
+    <div class="badge-grid" id="badge-grid"></div>
+  </section>
+
+</main>
+
+<!-- ============ AYARLAR ============ -->
+<div class="modal-back hidden" id="modal-settings">
+  <div class="modal">
+    <h3>⚙ Ayarlar</h3>
+
+    <label class="switch-row">
+      <span><b>Ses efektleri</b><small>Doğru/yanlış sesleri</small></span>
+      <input type="checkbox" id="set-sound" checked><i class="switch"></i>
+    </label>
+
+    <label class="switch-row">
+      <span><b>Animasyonlar</b><small>Kapatınca sakin mod</small></span>
+      <input type="checkbox" id="set-motion" checked><i class="switch"></i>
+    </label>
+
+    <label class="switch-row">
+      <span><b>Büyük yazı</b><small>Okumayı kolaylaştırır</small></span>
+      <input type="checkbox" id="set-bigtext"><i class="switch"></i>
+    </label>
+
+    <label class="switch-row">
+      <span><b>Otomatik geçiş</b><small>Cevaptan sonra kendi geçsin</small></span>
+      <input type="checkbox" id="set-autonext" checked><i class="switch"></i>
+    </label>
+
+    <div class="modal-sep"></div>
+
+    <button class="btn btn-danger-ghost btn-block" id="btn-reset">🗑️ Tüm ilerlemeyi sıfırla</button>
+    <button class="btn btn-primary btn-block" id="btn-close-settings">Kapat</button>
+  </div>
+</div>
+
+<div id="toast-wrap"></div>
+
+<!-- ============ VERİ ============ -->
+<script src="js/bank.js"></script>
+<script src="js/banks/idare.js"></script>
+<script src="js/banks/idare2.js"></script>
+<script src="js/banks/idare3.js"></script>
+<script src="js/banks/idare4.js"></script>
+<script src="js/banks/idare5.js"></script>
+<script src="js/banks/idare6.js"></script>
+<script src="js/banks/idare7.js"></script>
+<script src="js/banks/idare8.js"></script>
+<script src="js/banks/idare9.js"></script>
+<script src="js/banks/idare10.js"></script>
+<script src="js/banks/idare11.js"></script>
+<script src="js/banks/idare12.js"></script>
+<script src="js/banks/idare13.js"></script>
+<script src="js/banks/idare14.js"></script>
+<script src="js/banks/borclar.js"></script>
+<script src="js/banks/borclar2.js"></script>
+<script src="js/banks/borclar3.js"></script>
+<script src="js/banks/ticaret.js"></script>
+<script src="js/banks/ticaret2.js"></script>
+<script src="js/banks/ticaret3.js"></script>
+<script src="js/banks/icra.js"></script>
+<script src="js/banks/icra2.js"></script>
+<script src="js/banks/trekonomi.js"></script>
+<script src="js/banks/trdonem.js"></script>
+<script src="js/banks/uluslararasi.js"></script>
+<script src="js/banks/para.js"></script>
+<script src="js/banks/buyume.js"></script>
+
+<!-- ============ MOTOR ============ -->
+<script src="js/store.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

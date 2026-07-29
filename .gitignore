@@ -1,0 +1,5 @@
+# Ders notu PDF'leri depoya girmez (telif)
+*.pdf
+
+# macOS
+.DS_Store

@@ -151,7 +151,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Yetki devrinden sonra devreden makamın o yetkiyi kullanması bakımından aşağıdakilerden hangisi doğrudur?",
-  o: ["Devir kaldırılmadıkça kullanamaz; istisnası Cumhurbaşkanıdır", "Devralanla birlikte kullanmaya devam eder", "Her zaman serbestçe kullanabilir", "Yalnızca yazılı izin alarak kullanabilir", "Hiçbir istisna olmaksızın kullanamaz"],
+  o: ["Devir kaldırılmadıkça kullanamaz; istisna CB", "Devralanla birlikte kullanmaya devam eder", "Her zaman ve serbestçe kullanabilmektedir", "Yalnızca yazılı izin alarak kullanabilir", "Hiçbir istisna olmaksızın kullanamaz"],
   a: 0,
   e: "YETKİ DEVRİ KALDIRILMADIĞI MÜDDETÇE YETKİYİ DEVREDEN MAKAM BU YETKİLERİNİ KULLANAMAZ. İSTİSNASI: CUMHURBAŞKANI DEVRETTİĞİ YETKİYİ, GEREK GÖRDÜĞÜNDE KENDİSİ DE DOĞRUDAN KULLANABİLİR. İMZA DEVRİNDE ise devreden makam devrettiği yetkiyi DEVRALAN GÖREVLİYLE BİRLİKTE KULLANMAYA DEVAM EDER.",
   t: "Yetki ve İmza Devri", d: 3
@@ -186,7 +186,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "İdari işlemlerde gerekçe gösterilmesi bakımından aşağıdakilerden hangisi doğrudur?",
-  o: ["Genel bir şekil şartı değildir, kanun öngörürse zorunludur", "Her idari işlem için istisnasız zorunludur", "Yalnızca düzenleyici işlemlerde zorunludur", "Hiçbir hâlde aranmaz, iç işlem sayılır", "Gerekçesizlik yokluk yaptırımına yol açar"],
+  o: ["Genel bir şekil şartı değil; kanun öngörürse", "Her idari işlem bakımından istisnasız zorunlu", "Yalnızca düzenleyici işlemlerde zorunludur", "Hiçbir hâlde aranmaz; iç işlem sayılır", "Gerekçesizlik yokluk yaptırımına yol açar"],
   a: 0,
   e: "İdariyi işlem yapmaya sevk eden maddi/hukuki olayların işlem metninde yazılı olarak belirtilmesine GEREKÇE denir. KURAL OLARAK idarenin aldığı kararların geçerli olması için MUTLAKA GEREKÇELİ OLARAK KALEME ALINMALARI ŞART DEĞİLDİR — GEREKÇE GENEL BİR ŞEKİL ŞARTI DEĞİLDİR. FAKAT KANUNLARDA gerekçe zorunluluğu getirilmiş olabilir; bu istisnai durumlarda gerekçesizlik ŞEKİL YÖNÜNDEN AYKIRILIK doğurur. Ayrıca BİLGİ EDİNME YASASI kapsamında veya İPTAL DAVASI açıldığında idare gerekçeyi belirtmek zorunda kalır.",
   t: "Şekil Unsuru", d: 3

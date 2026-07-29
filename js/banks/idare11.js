@@ -25,7 +25,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Görevden uzaklaştırılan memur hakkında soruşturmaya ne kadar süre içinde başlanması şarttır?",
-  o: ["Görevden uzaklaştırmayı izleyen 10 iş günü içerisinde", "30 gün içinde", "15 gün içinde", "2 ay içinde", "Süre öngörülmemiştir"],
+  o: ["10 iş günü içinde", "30 gün içinde", "15 gün içinde", "2 ay içinde", "Süre öngörülmemiştir"],
   a: 0,
   e: "GÖREVDEN UZAKLAŞTIRILAN MEMUR HAKKINDA GÖREVDEN UZAKLAŞTIRMAYI İZLEYEN 10 İŞ GÜNÜ İÇERİSİNDE SORUŞTURMAYA BAŞLANMASI ŞARTTIR.",
   t: "Görevden Uzaklaştırma", d: 3
@@ -88,14 +88,14 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Cumhurbaşkanlığında görevli memurlar hakkında soruşturma izni vermeye kim yetkilidir?",
-  o: ["Cumhurbaşkanlığı İdari İşler Başkanlığı", "Cumhurbaşkanı bizzat", "İçişleri Bakanı", "TBMM Genel Sekreteri", "Danıştay Başkanı"],
+  o: ["Cumhurbaşkanlığı İdari İşler Başkanlığı", "Cumhurbaşkanının kendisi bizzat", "İçişleri Bakanlığı merkez teşkilatı", "TBMM Genel Sekreterliği", "Danıştay Başkanlığı"],
   a: 0,
   e: "TBMM'DE GÖREVLİ memurlar hakkında TBMM GENEL SEKRETERİ; TBMM GENEL SEKRETERİ VE YARDIMCILARI hakkında TBMM BAŞKANI; CUMHURBAŞKANLIĞINDA GÖREVLİ memurlar hakkında CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANLIĞI yetkilidir ve bunların hepsinde İTİRAZ MERCİİ DANIŞTAY'dır. CUMHURBAŞKANLIĞI İDARİ İŞLER BAŞKANI hakkında CUMHURBAŞKANI yetkilidir ve İTİRAZ MERCİİ YOKTUR.",
   t: "Memurların Yargılanması", d: 3
 },
 {
   q: "Büyükşehir, il ve ilçe belediye başkanları ile belediye meclisi üyeleri hakkında soruşturma izni vermeye kim yetkilidir?",
-  o: ["İçişleri Bakanı yetkilidir, itiraz mercii Danıştay'dır", "Vali yetkilidir, itiraz mercii BİM'dir", "Cumhurbaşkanı yetkilidir", "Kaymakam yetkilidir", "TBMM Başkanı yetkilidir"],
+  o: ["İçişleri Bakanı; itiraz mercii Danıştay", "İlin valisi; itiraz mercii BİM", "Cumhurbaşkanı; itiraz mercii Danıştay", "İlçe kaymakamı; itiraz mercii BİM", "TBMM Başkanı; itiraz mercii AYM"],
   a: 0,
   e: "BÜYÜKŞEHİR BELEDİYE BAŞKANLARI, İL VE İLÇE BELEDİYE BAŞKANLARI; büyükşehir, il ve ilçe BELEDİYE MECLİSİ ÜYELERİ ile İL GENEL MECLİSİ ÜYELERİ hakkında İÇİŞLERİ BAKANI yetkilidir ve İTİRAZ MERCİİ DANIŞTAY'dır. İLÇELERDEKİ BELDE BELEDİYE BAŞKANLARI ve belde belediye meclisi üyeleri hakkında ise KAYMAKAM (merkez ilçelerde VALİ) yetkilidir ve itiraz mercii BİM'dir.",
   t: "Memurların Yargılanması", d: 3
@@ -158,7 +158,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Kamu Denetçiliği Kurumu ne zaman kurulmuş ve ne zaman faaliyete geçmiştir?",
-  o: ["12 Eylül 2010 Anayasa değişikliği ile kurulmuş, 2012'de faaliyete geçmiştir", "1982 Anayasası ile kurulmuştur", "2017 Anayasa değişikliği ile kurulmuştur", "2010'da kurulmuş ve aynı yıl faaliyete geçmiştir", "1961 Anayasası ile kurulmuştur"],
+  o: ["2010 değişikliğiyle kuruldu, 2012'de başladı", "2010 değişikliğiyle kuruldu, aynı yıl başladı", "1982 Anayasası ile kurulmuş bir kurumdur", "2017 Anayasa değişikliği ile kurulmuştur", "1961 Anayasası ile kurulmuş bir kurumdur"],
   a: 0,
   e: "KAMU DENETÇİLİĞİ KURUMU 12 EYLÜL 2010 ANAYASA DEĞİŞİKLİĞİ İLE KURULMUŞ, 2012'DE FAALİYETE GEÇMİŞTİR. Anayasanın 74. maddesine göre HERKES KAMU DENETÇİSİNE BAŞVURMA HAKKINA SAHİPTİR. TBMM BAŞKANLIĞINA BAĞLI olarak kurulmuştur; KAMU TÜZEL KİŞİLİĞİNE HAİZ ve ÖZEL BÜTÇELİ bir idaredir. MERKEZİ ANKARA'DADIR.",
   t: "Kamu Denetçiliği Kurumu", d: 3
@@ -200,21 +200,21 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Kamu Denetçiliği Kurumuna başvuru süresi ne kadardır?",
-  o: ["Cevap tarihinden ya da otuz günün bitiminden altı ay", "Cevap tarihinden itibaren altmış gün", "Cevap tarihinden itibaren otuz gün", "İşlem tarihinden itibaren bir yıl", "Süre öngörülmemiştir"],
+  o: ["Cevap veya 30 günün bitiminden altı ay", "Cevap tarihinden itibaren altmış gün", "Cevap tarihinden itibaren otuz gün", "İşlem tarihinden itibaren bir yıl", "Herhangi bir süre öngörülmemiştir"],
   a: 0,
   e: "İDARE TARAFINDAN VERİLECEK CEVABIN TEBLİĞİ TARİHİNDEN ya da idare başvuruya OTUZ GÜN İÇİNDE CEVAP VERMEDİĞİ takdirde bu sürenin bitmesinden itibaren ALTI AY İÇİNDE Kamu Denetçiliği Kurumuna başvurulabilir. DAVA AÇMA SÜRESİ İÇİNDE YAPILAN BAŞVURU, İŞLEMEYE BAŞLAMIŞ OLAN DAVA AÇMA SÜRESİNİ DURDURUR. Kuruma İLLERDE VALİLİKLER, İLÇELERDE KAYMAKAMLIKLAR aracılığıyla da başvurulabilir ve BAŞVURULARDAN ÜCRET ALINMAZ.",
   t: "Kamu Denetçiliği Kurumu", d: 3
 },
 {
   q: "Kamu Denetçiliği Kurumu inceleme ve araştırmasını ne kadar sürede sonuçlandırır?",
-  o: ["Başvuru tarihinden itibaren en geç altı ay içinde", "Üç ay içinde", "Bir yıl içinde", "Otuz gün içinde", "Süre öngörülmemiştir"],
+  o: ["En geç altı ay içinde", "En geç üç ay içinde", "En geç bir yıl içinde", "En geç otuz gün içinde", "Süre öngörülmemiştir"],
   a: 0,
   e: "KURUM, İNCELEME VE ARAŞTIRMASINI BAŞVURU TARİHİNDEN İTİBAREN EN GEÇ ALTI AY İÇİNDE SONUÇLANDIRIR. İnceleme sonucu ile varsa ÇÖZÜM ÖNERİLERİ İLGİLİ MERCİE VE BAŞVURANA BİLDİRİLİR; Kurum başvurana BAŞVURU YOLLARINI, SÜRESİNİ VE BAŞVURULACAK MAKAMI da gösterir. Kurumun istediği BİLGİ VE BELGELERİN, tebliğden itibaren OTUZ GÜN İÇİNDE verilmesi zorunludur.",
   t: "Kamu Denetçiliği Kurumu", d: 3
 },
 {
   q: "İlgili merci Kamu Denetçiliği Kurumu'nun önerisini uygulanabilir görmezse ne yapar?",
-  o: ["Bunun gerekçesini otuz gün içinde Kuruma bildirir", "Hiçbir bildirim yapmaz", "On beş gün içinde bildirir", "Mahkemeye başvurur", "Öneriyi uygulamak zorundadır"],
+  o: ["Gerekçesini 30 gün içinde bildirir", "Gerekçesini 15 gün içinde bildirir", "Herhangi bir bildirimde bulunmaz", "Konuyu mahkemeye intikal ettirir", "Öneriyi uygulamak zorundadır"],
   a: 0,
   e: "İlgili merci, Kamu Denetçiliği Kurumu'nun ÖNERİLERİ DOĞRULTUSUNDA tesis ettiği işlemi veya Kurumun önerdiği çözümü UYGULANABİLİR NİTELİKTE GÖRMEDİĞİ TAKDİRDE BUNUN GEREKÇESİNİ OTUZ GÜN İÇİNDE KURUMA BİLDİRİR. Kamu Denetçiliği Kurumu, HER TAKVİM YILI SONUNDA faaliyetleri ve önerileri kapsayan bir RAPOR hazırlayarak TBMM'YE SUNAR.",
   t: "Kamu Denetçiliği Kurumu", d: 3
@@ -228,7 +228,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "İdari yargı nedir?",
-  o: ["İdari işlem, eylem ve sözleşmelerden kaynaklanan uyuşmazlıkların çözüldüğü yargı koludur", "Ceza davalarının görüldüğü yargı koludur", "Özel hukuk uyuşmazlıklarının çözüldüğü yargı koludur", "Anayasa uyuşmazlıklarının çözüldüğü yargı koludur", "Hesap yargılamasının yapıldığı yargı koludur"],
+  o: ["İdari uyuşmazlıkların çözüldüğü yargı kolu", "Ceza davalarının görüldüğü yargı kolu", "Özel hukuk uyuşmazlıklarının yargı kolu", "Anayasa uyuşmazlıklarının yargı kolu", "Hesap yargılamasının yapıldığı yargı kolu"],
   a: 0,
   e: "İDARİ YARGI: İDARİ İŞLEM, EYLEM VE SÖZLEŞMELERDEN KAYNAKLANAN UYUŞMAZLIKLARIN ÇÖZÜLDÜĞÜ YARGI KOLUDUR. KURAL: İDARENİN HER TÜRLÜ EYLEM VE İŞLEMİNE KARŞI YARGI YOLU AÇIKTIR (AY m. 125).",
   t: "İdari Yargı", d: 1

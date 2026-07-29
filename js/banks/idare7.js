@@ -10,7 +10,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Acele kamulaştırmada bilirkişilerce değer tespiti ne kadar süre içinde yapılır?",
-  o: ["İlgili idarenin talebi ile yedi gün içinde", "On beş gün içinde", "Otuz gün içinde", "Üç gün içinde", "Süre öngörülmemiştir"],
+  o: ["Yedi gün içinde", "On beş gün içinde", "Otuz gün içinde", "Üç gün içinde", "Süre öngörülmemiştir"],
   a: 0,
   e: "Acele kamulaştırmada KIYMET TAKDİRİ DIŞINDAKİ İŞLEMLER SONRADAN TAMAMLANMAK ÜZERE, ilgili idarenin talebi ile YEDİ GÜN İÇİNDE o taşınmazın MAHKEMECE SEÇİLECEK BİLİRKİŞİLERCE DEĞERİNİN TESPİT EDİLMESİYLE, İDARE ADINA TESCİLİ ve belirtilen bankaya kamulaştırma bedelinin yatırılmasıyla gerçekleştirilir.",
   t: "Acele Kamulaştırma", d: 3
@@ -108,7 +108,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Kamu malları tahsis amacına göre kaç kısma ayrılır?",
-  o: ["Üç: sahipsiz mallar, orta malları ve hizmet malları", "İki: orta malları ve hizmet malları", "Dört", "İki: kamu malları ve özel mallar", "Beş"],
+  o: ["Üç: sahipsiz, orta ve hizmet malları", "İki: orta malları ve hizmet malları", "İki: kamu malları ve özel mallar", "Dört: sahipsiz, orta, hizmet ve özel", "Beş: sahipsiz, orta, hizmet, özel ve ortak"],
   a: 0,
   e: "Kamu malları tahsis amacına göre 'SAHİPSİZ MALLAR', 'ORTA MALLARI' ve 'HİZMET MALLARI' olmak üzere ÜÇ KISMA AYRILIR.",
   t: "İdarenin Malları", d: 2
@@ -150,7 +150,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Kamu düzeninin unsurları hangileridir?",
-  o: ["Güvenlik, dirlik (esenlik), genel sağlık ve genel ahlak", "Güvenlik ve genel sağlık", "Güvenlik, esenlik ve adalet", "Sadece güvenlik", "Güvenlik, sağlık, ahlak ve ekonomi"],
+  o: ["Güvenlik, dirlik, genel sağlık ve genel ahlak", "Güvenlik, esenlik, sağlık, ahlak ve ekonomi", "Güvenlik, esenlik ve adaletin sağlanması", "Yalnızca güvenliğin sağlanması", "Güvenlik ve genel sağlığın korunması"],
   a: 0,
   e: "KAMU DÜZENİNİN UNSURLARI: 1) GÜVENLİK (bireylerin can ve mal güvenliği), 2) DİRLİK/ESENLİK (toplumun huzur ve sükununun korunması; gürültü, kirlilik gibi düzensizliklerden korunma), 3) GENEL SAĞLIK (bulaşıcı hastalıklardan korunma), 4) GENEL AHLAK (toplum düzenini tehlikeye sokan ahlaki tutumların önlenmesi).",
   t: "Kolluk", d: 2
@@ -199,7 +199,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Genel idari kolluk amirleri ve personeli kimlerdir?",
-  o: ["Amirleri: İçişleri Bakanı, vali, kaymakam; Personeli: polis, jandarma, sahil güvenlik, bekçi", "Amirleri: Cumhurbaşkanı ve bakanlar; Personeli: zabıta ve korucu", "Amirleri: vali ve belediye başkanı", "Personeli: sadece polis", "Amirleri: muhtar ve belediye başkanı"],
+  o: ["İçişleri Bakanı, vali, kaymakam ve polis", "Cumhurbaşkanı, bakanlar, zabıta ve korucu", "Vali, belediye başkanı ve zabıta amiri", "Muhtar, belediye başkanı ve bekçi", "Yalnızca polis ve jandarma teşkilatı"],
   a: 0,
   e: "GENEL İDARİ KOLLUK AMİRLERİ: İÇİŞLERİ BAKANI, VALİ, KAYMAKAM. PERSONELİ: POLİS, JANDARMA, SAHİL GÜVENLİK, BEKÇİ. MAKAMLARI (kolluk alanında düzenleyici ve/veya bireysel işlem yapanlar): CUMHURBAŞKANI (düzenleyici+bireysel), İÇİŞLERİ BAKANI (düzenleyici+bireysel), VALİ (düzenleyici+bireysel), KAYMAKAM (SADECE BİREYSEL).",
   t: "Kolluk", d: 3
@@ -248,14 +248,14 @@ KPSS.registerBank('idare', [
 },
 {
   q: "2911 sayılı Toplantı ve Gösteri Yürüyüşleri Kanunu'na göre toplantı yapılabilmesi için ne kadar önce bildirimde bulunulur?",
-  o: ["En az kırk sekiz saat önce ilgili yerin mülki idare amirliğine", "En az yirmi dört saat önce", "En az yedi gün önce", "En az bir hafta önce valiliğe", "Bildirim gerekmez"],
+  o: ["En az 48 saat önce mülki idare amirliğine", "En az 24 saat önce mülki idare amirliğine", "En az yedi gün önce mülki idare amirliğine", "En az bir hafta önce doğrudan valiliğe", "Herhangi bir bildirimde bulunulması gerekmez"],
   a: 0,
   e: "2911 sayılı Toplantı ve Gösteri Yürüyüşleri Kanunu'nun 10. maddesine göre toplantı yapılabilmesi için EN AZ KIRK SEKİZ SAAT ÖNCE İLGİLİ YERİN MÜLKİ İDARE AMİRLİĞİNE BİLDİRİMDE BULUNULMASI gerekir. Bu BİLDİRİM USULÜNE örnektir.",
   t: "Kolluk Usulleri", d: 3
 },
 {
   q: "Kamu hizmetlerinin kurulmasında ve kaldırılmasında yetki kimdedir?",
-  o: ["Siyasi organlardadır (TBMM ve Cumhurbaşkanı)", "İdari makamlardadır", "Yargı organlarındadır", "Belediye meclislerindedir", "Bakanlıklardadır"],
+  o: ["Siyasi organlarda (TBMM ve CB)", "İdari makamlarda ve bakanlıklarda", "Yargı organlarında ve Danıştay'da", "Belediye meclislerinde ve encümende", "Kamu kurumlarının yönetim kurullarında"],
   a: 0,
   e: "KAMU HİZMETLERİNİN KURULMASINDA VE KALDIRILMASINDA YETKİ SİYASİ ORGANLARDADIR (TBMM VE CUMHURBAŞKANI).",
   t: "Kamu Hizmeti", d: 2
@@ -290,7 +290,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Kamu hizmetlerinde eşitlik ilkesi hangi kavramlarla da ifade edilir?",
-  o: ["Nesnellik, tarafsızlık ya da ayrımcılık yasağı", "Süreklilik ve düzenlilik", "Bedelsizlik ve meccanilik", "Değişkenlik ve uyarlama", "Kamu yararı"],
+  o: ["Nesnellik, tarafsızlık ve ayrımcılık yasağı", "Süreklilik, düzenlilik ve kesintisizlik", "Bedelsizlik, meccanilik ve karşılıksızlık", "Değişkenlik, uyarlama ve esneklik", "Kamu yararı ve hizmet gereklilikleri"],
   a: 0,
   e: "EŞİTLİK İLKESİ: idare kamu hizmetini kullanıcılara AYRIM YAPILMAKSIZIN EŞİT BİÇİMDE sunmalıdır. Eşitlik ilkesi 'NESNELLİK', 'TARAFSIZLIK' ya da 'AYRIMCILIK YASAĞI' olarak da ifade edilebilir.",
   t: "Kamu Hizmeti İlkeleri", d: 2
@@ -339,7 +339,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Bilimsel, teknik ve kültürel kamu hizmetlerine örnek olarak aşağıdakilerden hangisi verilebilir?",
-  o: ["TÜBİTAK ve Devlet Tiyatroları'nın yürüttüğü kamu hizmeti", "Adalet ve savunma hizmetleri", "Elektrik ve doğal gaz hizmetleri", "Sosyal güvenlik hizmetleri", "Şehir içi ulaşım hizmeti"],
+  o: ["TÜBİTAK ve Devlet Tiyatroları", "Adalet ve savunma hizmetleri", "Elektrik ve doğal gaz hizmetleri", "Sosyal güvenlik hizmetleri", "Şehir içi ulaşım hizmetleri"],
   a: 0,
   e: "BİLİMSEL, TEKNİK VE KÜLTÜREL KAMU HİZMETLERİ, devletin BİLİM, KÜLTÜR VE SANAT alanlarına ilişkin yürüttüğü hizmetlerdir. Bu hizmetler nitelikleri gereği ÖZERK KURULUŞLAR, BAĞIMSIZ PERSONELLER, SERBEST USULLER gibi daha geniş olanaklarla sunulur. Örnekler: TÜBİTAK ve DEVLET TİYATROLARI'nın yürüttüğü kamu hizmeti.",
   t: "Kamu Hizmeti Türleri", d: 2

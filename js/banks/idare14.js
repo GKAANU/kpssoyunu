@@ -193,7 +193,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "BİM Danıştay'ın bozma kararına uymayıp ısrar ederse ısrar kararının temyizi nerede incelenir?",
-  o: ["Danıştay İdari veya Vergi Dava Daireleri Kurulunda", "Aynı Danıştay dairesinde", "Danıştay Başkanlar Kurulunda", "Danıştay Genel Kurulunda", "Uyuşmazlık Mahkemesinde"],
+  o: ["İdari veya Vergi Dava Daireleri Kurulunda", "Kararı bozan aynı Danıştay dairesinde", "Danıştay Başkanlar Kurulunda", "Danıştay Genel Kurulunda", "Uyuşmazlık Mahkemesinde"],
   a: 0,
   e: "BÖLGE İDARE MAHKEMESİ, Danıştayca verilen BOZMA KARARINA UYABİLECEĞİ GİBİ KARARINDA ISRAR DA EDEBİLİR. Bölge idare mahkemesi bozmaya uymayarak ısrar ederse, ISRAR KARARININ TEMYİZİ hâlinde talep, konusuna göre DANIŞTAY İDARİ VEYA VERGİ DAVA DAİRELERİ KURULUNCA incelenir ve karara bağlanır. DANIŞTAY İDARİ VE VERGİ DAVA DAİRELERİ KURULLARI KARARLARINA UYULMASI ZORUNLUDUR.",
   t: "Temyiz", d: 3
@@ -242,7 +242,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "İvedi yargılama usulünde dava açma süresi ve ilk inceleme süresi ne kadardır?",
-  o: ["Dava açma süresi 30 gün, ilk inceleme süresi 7 gündür", "60 gün ve 15 gün", "10 gün ve 7 gün", "30 gün ve 15 gün", "15 gün ve 7 gün"],
+  o: ["30 gün ve 7 gün", "60 gün ve 15 gün", "30 gün ve 15 gün", "15 gün ve 7 gün", "10 gün ve 7 gün"],
   a: 0,
   e: "İVEDİ YARGILAMA USULÜ: DAVA AÇMA SÜRESİ 30 GÜN, İLK İNCELEME SÜRESİ 7 GÜN, SAVUNMA SÜRESİ 15 GÜN (bir defaya mahsus 15 gün uzatılabilir), 2. DİLEKÇE/SAVUNMA YOK, YD KARARLARINA İTİRAZ YOK, dava dosyanın tekemmülünden itibaren 1 AY içinde karara bağlanır, İSTİNAF YOK, TEMYİZE BAŞVURU 15 GÜN, temyizin karara bağlanması 2 AY.",
   t: "Yargılama Usulleri", d: 3
@@ -270,7 +270,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Danıştay, bölge idare, idare ve vergi mahkemelerinde dosyalar ne kadar sürede sonuçlandırılır?",
-  o: ["Tekemmül tarihinden itibaren en geç 6 ay içinde", "3 ay içinde", "1 yıl içinde", "30 gün içinde", "Süre öngörülmemiştir"],
+  o: ["Tekemmülden itibaren en geç 6 ay", "Tekemmülden itibaren en geç 3 ay", "Tekemmülden itibaren en geç 1 yıl", "Tekemmülden itibaren en geç 30 gün", "Herhangi bir süre öngörülmemiştir"],
   a: 0,
   e: "DANIŞTAY, BÖLGE İDARE, İDARE VE VERGİ MAHKEMELERİNDE DOSYALAR, TEKEMMÜL TARİHİNDEN İTİBAREN EN GEÇ 6 AY İÇİNDE SONUÇLANDIRILIR.",
   t: "Mahkeme Kararları", d: 2

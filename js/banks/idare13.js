@@ -18,7 +18,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Zımni ret üzerine süresinde dava açılmamış ve sonradan idare açık ret cevabı vermişse ne olur?",
-  o: ["İlgililer bu cevabın tebliğinden itibaren 60 gün içinde dava açabilir", "Dava açma hakkı düşmüştür", "30 gün içinde dava açabilir", "Sadece Kamu Denetçiliğine başvurabilir", "15 gün içinde dava açabilir"],
+  o: ["Tebliğden itibaren 60 gün içinde dava açabilir", "Tebliğden itibaren 30 gün içinde dava açabilir", "Tebliğden itibaren 15 gün içinde dava açabilir", "Dava açma hakkı tümüyle düşmüş sayılır", "Yalnızca Kamu Denetçiliğine başvurabilir"],
   a: 0,
   e: "Başvurunun ZIMNEN REDDEDİLMESİ durumunda bu işleme karşı DAVA AÇILMAMASI veya SÜRESİNDE DAVA AÇILMADIĞI gerekçesiyle davanın SÜREDEN REDDEDİLMESİ durumunda, idare tarafından OTUZ GÜNLÜK SÜRENİN BİTMESİNİN ARDINDAN AÇIK BİR RET CEVABI VERİLİRSE, İLGİLİLER BU CEVABIN TEBLİĞİNDEN İTİBAREN 60 GÜN İÇİNDE DAVA AÇABİLİR.",
   t: "Dava Süresinin Başlaması", d: 3
@@ -123,14 +123,14 @@ KPSS.registerBank('idare', [
 },
 {
   q: "İdari eylemde ön karar başvurusunun reddi hâlinde dava açma süresi ne kadardır?",
-  o: ["Tebliğden ya da otuz günün bitiminden itibaren altmış gün", "Tebliğden itibaren otuz gün", "Tebliğden itibaren on beş gün", "Eylem tarihinden itibaren bir yıl", "Süre öngörülmemiştir"],
+  o: ["Tebliğ veya 30 günün bitiminden 60 gün", "Tebliğ tarihinden itibaren otuz gün", "Tebliğ tarihinden itibaren on beş gün", "Eylem tarihinden itibaren bir yıl", "Herhangi bir süre öngörülmemiştir"],
   a: 0,
   e: "Ön karar başvurusunun KISMEN YA DA TAMAMEN REDDİ durumunda, bu konudaki İŞLEMİN TEBLİĞİNİ İZLEYEN TARİHTEN İTİBAREN ya da istek hakkında OTUZ GÜN İÇİNDE CEVAP VERİLMEDİĞİ takdirde BU SÜRENİN BİTTİĞİ TARİHTEN İTİBAREN 60 GÜN İÇİNDE DAVA AÇILABİLİR.",
   t: "Tam Yargı Davası", d: 3
 },
 {
   q: "Bayındırlık-ulaştırma hizmeti veya idari eylemden doğan tam yargı davasında yetkili mahkeme hangisidir?",
-  o: ["Hizmetin görüldüğü veya eylemin yapıldığı yer idare mahkemesi", "İşlemi yapan idarenin bulunduğu yer mahkemesi", "Davacının ikametgahı mahkemesi", "Ankara idare mahkemesi", "Danıştay"],
+  o: ["Hizmetin görüldüğü yer mahkemesi", "İşlemi yapan idarenin bulunduğu yer", "Davacının ikametgahı mahkemesi", "Her hâlde Ankara idare mahkemesi", "İlk derece mahkemesi olarak Danıştay"],
   a: 0,
   e: "BAYINDIRLIK-ULAŞTIRMA HİZMETİ VEYA İDARİ EYLEMDEN doğan tam yargı davasında yetkili mahkeme HİZMETİN GÖRÜLDÜĞÜ VEYA EYLEMİN YAPILDIĞI YER İDARE MAHKEMESİDİR. NOT: ZARAR, İDAREYE YABANCI ÜÇÜNCÜ KİŞİNİN EYLEMİNDEN kaynaklanıyorsa yetkili mahkeme DAVACININ İKAMETGAHININ BULUNDUĞU YER İDARE MAHKEMESİDİR.",
   t: "Tam Yargı Davası", d: 3
@@ -263,7 +263,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "İdare/vergi mahkemeleri ile tek hakim tarafından verilen yürütmenin durdurulması kararlarına itiraz nereye ve kaç gün içinde yapılır?",
-  o: ["Bölge idare mahkemesine 7 gün içinde ve bir defaya mahsus olarak", "Danıştay'a 30 gün içinde", "BİM'e 30 gün içinde", "Danıştay'a 7 gün içinde", "İtiraz yolu kapalıdır"],
+  o: ["BİM'e 7 gün içinde ve bir defaya mahsus", "BİM'e 30 gün içinde ve bir defaya mahsus", "Danıştay'a 7 gün içinde ve bir defaya mahsus", "Danıştay'a 30 gün içinde ve sınırsız olarak", "İtiraz yolu tümüyle kapalı tutulmuştur"],
   a: 0,
   e: "İYUK m. 27/7 ile yürütmenin durdurulmasının KABUL YA DA RET şeklindeki kararlarına karşı BİR DEFAYA MAHSUS İTİRAZ yolu öngörülmüştür. Karar İDARE/VERGİ MAHKEMELERİ İLE TEK HAKİM tarafından verilmişse 7 GÜN İÇİNDE BÖLGE İDARE MAHKEMESİNE itiraz edilir.",
   t: "Yürütmenin Durdurulması", d: 3

@@ -11,7 +11,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "İdari yargıda re'sen inceleme yöntemi ne anlama gelir?",
-  o: ["Mahkeme, tarafların talebi olmasa da bilgi, belge, bilirkişi ve keşif isteyebilir", "Mahkeme dava açılmadan inceleme yapabilir", "Taraflar delil sunamaz", "Mahkeme yerindelik denetimi yapabilir", "Mahkeme kendiliğinden dava açabilir"],
+  o: ["Talep olmasa da delil ve keşif isteyebilmesi", "Dava açılmadan önce inceleme yapabilmesi", "Tarafların hiç delil sunamaması", "Yerindelik denetimi de yapabilmesi", "Kendiliğinden dava açabilmesi"],
   a: 0,
   e: "İdari yargıda RE'SEN İNCELEME YÖNTEMİ uygulanır: MAHKEME, TARAFLARIN TALEBİ OLMASA DA BİLGİ, BELGE, BİLİRKİŞİ VE KEŞİF İSTEYEBİLİR.",
   t: "İdari Yargılama Usulü", d: 2
@@ -109,7 +109,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "İptal davası hangi tür işlemlere karşı açılabilir?",
-  o: ["İcrai (hukuksal sonuç doğuran) ve kesin idari işlemler hakkında açılır", "Her türlü idari faaliyete karşı", "Hazırlık işlemlerine karşı da açılabilir", "Bilgilendirici işlemlere karşı", "İdarenin iç yazışmalarına karşı"],
+  o: ["İcrai ve kesin nitelikteki idari işlemlere", "İdarenin her türlü faaliyetine karşı", "İdarenin hazırlık işlemlerine karşı", "İdarenin bilgilendirici işlemlerine karşı", "İdarenin iç yazışmalarına karşı"],
   a: 0,
   e: "İptal davasının konusunu İDARİ İŞLEMLER teşkil eder ve iptal davaları İCRAİ (HUKUKSAL SONUÇ DOĞURAN) VE KESİN İDARİ İŞLEMLER HAKKINDA AÇILIR. İptal davasının amacı İDARİ İŞLEMİN HUKUKA UYGUNLUĞU KARİNESİNİ ÇÜRÜTMEKTİR. Öngörülmüşse ZORUNLU İDARİ BAŞVURU YOLLARININ TÜKETİLMİŞ OLMASI gerekir.",
   t: "İptal Davası", d: 2
@@ -179,14 +179,14 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Kamu görevlilerinin atanması ve nakilleri ile ilgili davalarda yetkili mahkeme hangisidir?",
-  o: ["Kamu görevlilerinin yeni veya eski görev yeri idare mahkemesi", "Sadece yeni görev yeri idare mahkemesi", "Sadece eski görev yeri idare mahkemesi", "Ankara idare mahkemesi", "Kamu görevlisinin ikametgahı mahkemesi"],
+  o: ["Yeni veya eski görev yeri mahkemesi", "Yalnızca yeni görev yeri mahkemesi", "Yalnızca eski görev yeri mahkemesi", "Her hâlde Ankara idare mahkemesi", "Görevlinin ikametgahı mahkemesi"],
   a: 0,
   e: "KAMU GÖREVLİLERİNİN ATANMASI VE NAKİLLERİ ile ilgili davalarda yetkili mahkeme, KAMU GÖREVLİLERİNİN YENİ VEYA ESKİ GÖREV YERİ İDARE MAHKEMESİDİR.",
   t: "Yetki Kuralları", d: 3
 },
 {
   q: "Kamu görevlilerinin görevlerine son verilmesi, emekli edilmeleri ya da görevden uzaklaştırılmaları durumunda yetkili mahkeme hangisidir?",
-  o: ["Kamu görevlisinin son görev yaptığı yer idare mahkemesi", "Yeni görev yeri idare mahkemesi", "Ankara idare mahkemesi", "İkametgahının bulunduğu yer mahkemesi", "Danıştay"],
+  o: ["Son görev yaptığı yer mahkemesi", "Yeni görev yeri idare mahkemesi", "Her hâlde Ankara idare mahkemesi", "İkametgahının bulunduğu yer mahkemesi", "İlk derece olarak Danıştay"],
   a: 0,
   e: "KAMU GÖREVLİLERİNİN GÖREVLERİNE SON VERİLMESİ, EMEKLİ EDİLMELERİ YA DA GÖREVDEN UZAKLAŞTIRILMALARI durumunda yetkili mahkeme, KAMU GÖREVLİSİNİN SON GÖREV YAPTIĞI YER İDARE MAHKEMESİDİR.",
   t: "Yetki Kuralları", d: 3
@@ -200,7 +200,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Hâkim ve savcıların mali-sosyal haklarına ilişkin davalarda yetkili mahkeme hangisidir?",
-  o: ["Görev yerine en yakın BİM'in bulunduğu yer mahkemesi", "Görev yaptığı yerin idare mahkemesi", "Ankara İdare Mahkemesi", "İlk derece olarak Danıştay", "Hâkimler ve Savcılar Kurulu"],
+  o: ["Görev yerine en yakın BİM'in yeri", "Görev yaptığı yerin idare mahkemesi", "Her hâlde Ankara İdare Mahkemesi", "İlk derece mahkemesi olarak Danıştay", "Hâkimler ve Savcılar Kurulu"],
   a: 0,
   e: "HÂKİM VE SAVCILARIN MALİ VE SOSYAL HAKLARINA VE SİCİLLERİNE ilişkin konularla, MÜFETTİŞ HAL KÂĞITLARINA karşı açacakları ve idare mahkemelerinin görevine giren davalarda yetkili mahkeme, HÂKİM VEYA SAVCININ GÖREV YAPTIĞI YERİN İDARİ YARGI YETKİSİ YÖNÜNDEN BAĞLI OLDUĞU BÖLGE İDARE MAHKEMESİNE EN YAKIN BÖLGE İDARE MAHKEMESİNİN BULUNDUĞU YER İDARE MAHKEMESİDİR.",
   t: "Yetki Kuralları", d: 3
@@ -214,7 +214,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Askerî hizmete ilişkin işlemlerden doğan uyuşmazlıklarda yetkili mahkeme hangisidir?",
-  o: ["İlgilinin görev yerinin bağlı olduğu BİM'in bulunduğu yer", "Her hâlde Ankara İdare Mahkemesi", "Askerî Yüksek İdare Mahkemesi", "İlk derece olarak Danıştay", "En yakın BİM'in bulunduğu yer mahkemesi"],
+  o: ["Görev yerinin bağlı olduğu BİM'in yeri", "En yakın BİM'in bulunduğu yer mahkemesi", "Her hâlde Ankara İdare Mahkemesi", "Askerî Yüksek İdare Mahkemesi", "İlk derece mahkemesi olarak Danıştay"],
   a: 0,
   e: "MİLLİ SAVUNMA BAKANLIĞI'NDA ÇALIŞAN KAMU PERSONELİ ile askerlik hizmetini yerine getiren YEDEK SUBAY VE YEDEK ASTSUBAYLAR ile ERBAŞ VE ERLERİ ilgilendiren ve ASKERÎ HİZMETE İLİŞKİN idari işlem ve eylemlerden doğan uyuşmazlıklarda İLGİLİNİN GÖREV YAPTIĞI YERİN İDARİ YARGI YETKİSİ YÖNÜNDEN BAĞLI OLDUĞU BÖLGE İDARE MAHKEMESİNİN BULUNDUĞU YERDEKİ İDARE MAHKEMESİ YETKİLİDİR.",
   t: "Yetki Kuralları", d: 3
@@ -228,14 +228,14 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Özel kanunlarında ayrı süre gösterilmeyen hallerde dava açma süresi ne kadardır?",
-  o: ["Danıştay'da ve idare mahkemelerinde altmış, vergi mahkemelerinde otuz gün", "Her yerde altmış gün", "Her yerde otuz gün", "Danıştay'da otuz, idare mahkemelerinde altmış gün", "Danıştay'da doksan gün"],
+  o: ["Danıştay ve idarede 60, vergide 30 gün", "Danıştay ve idarede 30, vergide 60 gün", "Her yerde ve her hâlde altmış gün", "Her yerde ve her hâlde otuz gün", "Danıştay'da doksan, diğerlerinde altmış gün"],
   a: 0,
   e: "DAVA AÇMA SÜRESİ, ÖZEL KANUNLARINDA AYRI SÜRE GÖSTERİLMEYEN HALLERDE DANIŞTAYDA VE İDARE MAHKEMELERİNDE ALTMIŞ, VERGİ MAHKEMELERİNDE OTUZ GÜNDÜR.",
   t: "Dava Açma Süreleri", d: 1
 },
 {
   q: "Bireysel işlemlerde dava açma süresi ne zaman işlemeye başlar?",
-  o: ["İdari uyuşmazlıklarda yazılı bildirimi izleyen günden itibaren", "İşlemin yapıldığı günden itibaren", "İşlemin Resmi Gazetede yayımı ile", "Öğrenme tarihinden itibaren her halde", "Tebliğ tarihinden itibaren"],
+  o: ["Yazılı bildirimi izleyen günden itibaren", "İşlemin yapıldığı günden itibaren", "Resmi Gazetede yayımı gününden itibaren", "Her hâlde öğrenme tarihinden itibaren", "Tebliğ tarihinin kendisinden itibaren"],
   a: 0,
   e: "BİREYSEL İŞLEMLERDE, İDARİ UYUŞMAZLIKLARDA dava açma süresi YAZILI BİLDİRİMİ İZLEYEN GÜNDEN İTİBAREN işlemeye başlar.",
   t: "Dava Açma Süreleri", d: 2
@@ -270,7 +270,7 @@ KPSS.registerBank('idare', [
 },
 {
   q: "Vergi uyuşmazlıklarında tahakkuku tahsile bağlı olan vergilerde dava süresi ne zaman başlar?",
-  o: ["Tahsilatın yapıldığı tarihi izleyen günden itibaren", "Tebliğ tarihinden itibaren", "Tescil tarihinden itibaren", "Ödeme tarihinden itibaren", "Beyan tarihinden itibaren"],
+  o: ["Tahsilatı izleyen günden itibaren", "Tebliğ tarihini izleyen günden itibaren", "Tescil tarihini izleyen günden itibaren", "Ödeme tarihini izleyen günden itibaren", "Beyan tarihini izleyen günden itibaren"],
   a: 0,
   e: "Vergi, resim ve harçlar ile benzeri mali yükümler ve bunların zam ve cezalarından doğan uyuşmazlıklarda süre şu tarihleri izleyen günden başlar: ▪ TAHAKKUKU TAHSİLE BAĞLI OLAN vergilerde TAHSİLATIN; ▪ TEBLİĞ YAPILAN hallerde veya tebliğ yerine geçen işlemlerde TEBLİĞİN; ▪ TEVKİF YOLUYLA alınan vergilerde İSTİHKAK SAHİPLERİNE ÖDEMENİN; ▪ TESCİLE BAĞLI vergilerde TESCİLİN yapıldığı; ▪ İDARENİN DAVA AÇMASI GEREKEN konularda İLGİLİ MERCİ VEYA KOMİSYON KARARININ İDAREYE GELDİĞİ tarih.",
   t: "Dava Açma Süreleri", d: 3

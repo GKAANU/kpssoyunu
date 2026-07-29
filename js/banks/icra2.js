@@ -65,7 +65,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Açık artırma süresinin son 10 dakikası içinde yeni bir teklif verilirse ne olur?",
-  o: ["Açık artırma bir defaya mahsus olmak üzere 10 dakika uzatılır", "Artırma sona erer", "Artırma 1 gün uzatılır", "Artırma iptal edilir", "Artırma sınırsız uzatılabilir"],
+  o: ["Bir defaya mahsus 10 dakika uzatılır", "Artırma o anda sona ermiş sayılır", "Artırma tam bir gün uzatılır", "Artırma iptal edilerek yenilenir", "Artırma sınırsız biçimde uzatılabilir"],
   a: 0,
   e: "Açık artırma süresinin SON ON DAKİKASI içinde yeni bir teklifin verilmesi halinde açık artırma BİR DEFAYA MAHSUS OLMAK ÜZERE ON DAKİKA UZATILIR.",
   t: "Satış", d: 3
@@ -121,7 +121,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Altın ve gümüş eşya ile ilgili satış kuralı nedir?",
-  o: ["Maden halindeki kıymetlerinden daha aşağı bir bedel ile satılamaz", "Muhammen kıymetin %50'sinden aşağı satılamaz", "Sadece pazarlık usulüyle satılır", "Hiçbir şekilde satılamaz", "Serbestçe satılır"],
+  o: ["Maden hâlindeki kıymetinden aşağı satılamaz", "Muhammen kıymetin %50'sinden aşağı satılamaz", "Yalnızca pazarlık usulüyle satılabilir", "Hiçbir hâlde satışa çıkarılamaz", "Herhangi bir sınır olmaksızın satılır"],
   a: 0,
   e: "ALTIN VE GÜMÜŞ EŞYA, MADEN HALİNDEKİ KIYMETLERİNDEN DAHA AŞAĞI BİR BEDEL İLE SATILAMAZ.",
   t: "Satış", d: 3
@@ -198,7 +198,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "İcra mahkemesi ihalenin feshi talebini işin esasına girerek reddederse ne olur?",
-  o: ["Haksız yere fesih talep eden kişiye ihale bedelinin %10'u kadar para cezası verir", "Ceza verilmez", "İhale bedelinin %20'si para cezası verilir", "Tazminata hükmedilir", "Teminat irat kaydedilir"],
+  o: ["İhale bedelinin %10'u para cezası verir", "İhale bedelinin %20'si para cezası verir", "Tazminata hükmetmekle yetinir", "Gösterilen teminatı irat kaydeder", "Herhangi bir ceza veya yaptırım uygulamaz"],
   a: 0,
   e: "İcra mahkemesi ihalenin feshi talebini İŞİN ESASINA GİREREK reddetmişse, haksız yere fesih talep eden kişiye İHALE BEDELİNİN %10'U kadar PARA CEZASI verir. Mahkeme USULDEN ret kararı vermişse PARA CEZASI VERİLMEZ.",
   t: "İhalenin Feshi", d: 3
@@ -289,14 +289,14 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Kambiyo senetlerine mahsus haciz yolunda hangi kurumlar söz konusu OLMAZ?",
-  o: ["İtirazın kesin/geçici kaldırılması ve borçtan kurtulma davası", "Haciz ve satış aşamaları", "Ödeme emrine şikayet", "Mal beyanı", "Sıra cetveli"],
+  o: ["İtirazın kaldırılması ve borçtan kurtulma davası", "Haciz ve satış aşamalarının uygulanması", "Ödeme emrine karşı şikayet yolu", "Borçlunun mal beyanında bulunması", "Sıra cetvelinin düzenlenmesi"],
   a: 0,
   e: "İtiraz İCRA MAHKEMESİNDE yapıldığı için bu takipte İTİRAZIN KESİN YA DA GEÇİCİ KALDIRILMASI söz konusu OLMAZ ve BORÇTAN KURTULMA DAVASI AÇILMAZ. Haciz, satış ve paraların paylaştırılması aşamaları genel haciz yolu ile aynıdır.",
   t: "Kambiyo Senetleri", d: 3
 },
 {
   q: "Kambiyo senetlerine mahsus haciz yolunda takip talebine eklenmesi gereken zorunlu unsurlar arasında aşağıdakilerden hangisi vardır?",
-  o: ["Kambiyo senedinin aslı ve borçlu sayısı kadar onaylı örneği", "Sadece senedin fotokopisi", "Aciz belgesi", "İlam", "Noter senedi"],
+  o: ["Senedin aslı ve onaylı örnekleri", "Senedin yalnızca fotokopisi", "Alacaklının aciz belgesi", "Kesinleşmiş bir mahkeme ilamı", "Düzenleme biçiminde noter senedi"],
   a: 0,
   e: "Zorunlu unsurlar: KAMBİYO SENEDİNİN ASLI VE BORÇLU SAYISI KADAR ONAYLI ÖRNEĞİ, ödememe protestosu zorunluysa protestonun çekilip eklenmesi, çeklerde kısmi ödeme yapılmışsa bankaca verilen çekin arkalı önlü fotokopisi.",
   t: "Kambiyo Senetleri", d: 3
@@ -331,7 +331,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Bir mahkeme hükmü (ilam) kaç yılda zamanaşımına uğrar ve hangi ilamlar zamanaşımına uğramaz?",
-  o: ["10 yıl; taşınmazların aynına ve aile hukukuna ilişkin ilamlar zamanaşımına uğramaz", "20 yıl; ceza ilamları zamanaşımına uğramaz", "10 yıl; tüm ilamlar zamanaşımına uğrar", "5 yıl; nafaka ilamları uğramaz", "20 yıl; taşınmazların aynına ilişkin ilamlar uğramaz"],
+  o: ["10 yıl; taşınmaz aynı ve aile hukuku ilamları hariç", "20 yıl; taşınmaz aynına ilişkin ilamlar hariç", "10 yıl; hiçbir ilam istisna tutulmamıştır", "20 yıl; ceza ilamları istisna tutulmuştur", "5 yıl; nafaka ilamları istisna tutulmuştur"],
   a: 0,
   e: "Bir mahkeme hükmü (ilam) 10 YIL geçmekle zamanaşımına uğrar. Ancak TAŞINMAZLARIN AYNINA ve AİLE HUKUKUNA ilişkin ilamlar zamanaşımına UĞRAMAZLAR.",
   t: "İlamlı İcra", d: 2
@@ -352,7 +352,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Özel yasalarda sayılan ilam niteliğindeki belgeler arasında aşağıdakilerden hangisi vardır?",
-  o: ["Tüketici sorunları hakem heyetinin verdiği kararlar", "Ticaret odası aidat bildirimleri", "Vergi ihbarnameleri", "Banka kredi sözleşmeleri", "Sigorta poliçeleri"],
+  o: ["Tüketici hakem heyeti kararları", "Ticaret odası aidat bildirimi", "Vergi ihbarnameleri", "Banka kredi sözleşmeleri", "Sigorta poliçeleri"],
   a: 0,
   e: "Özel yasalarda sayılan ilam niteliğindeki belgeler: avukatlarla müvekkillerinin imzaladıkları UZLAŞMA TUTANAKLARI, TÜKETİCİ SORUNLARI HAKEM HEYETİ kararları, BAROLARIN para cezası/gider kararları, ODALARIN aidat ve para cezalarına ilişkin kararları ve NOTERLER BİRLİĞİ DİSİPLİN KURULU kararları.",
   t: "İlamlı İcra", d: 3
@@ -429,7 +429,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Rehinli malların satış talep süreleri ve icra dairesinin satış süreleri nedir?",
-  o: ["Taşınırda 6 ay içinde talep, 2 ay içinde satış; taşınmazda 1 yıl içinde talep, 3 ay içinde satış", "Taşınırda 1 yıl talep, 3 ay satış; taşınmazda 6 ay talep, 2 ay satış", "İkisinde de 1 yıl talep, 3 ay satış", "Taşınırda 6 ay talep, 3 ay satış; taşınmazda 1 yıl talep, 2 ay satış", "İkisinde de 6 ay talep, 2 ay satış"],
+  o: ["Taşınırda 6 ay-2 ay; taşınmazda 1 yıl-3 ay", "Taşınırda 1 yıl-3 ay; taşınmazda 6 ay-2 ay", "Taşınırda 6 ay-3 ay; taşınmazda 1 yıl-2 ay", "Her ikisinde de 1 yıl talep ve 3 ay satış", "Her ikisinde de 6 ay talep ve 2 ay satış"],
   a: 0,
   e: "TAŞINIR rehninde satış talep süresi 6 AY, icra dairesi 2 AY içinde satar. TAŞINMAZ rehninde satış talep süresi 1 YIL, icra dairesi 3 AY içinde satar. Alacaklı bu hak düşürücü süreler içinde satış talep etmezse İCRA TAKİBİ DÜŞER.",
   t: "Rehnin Paraya Çevrilmesi", d: 3
@@ -443,7 +443,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Rehin açığı belgesi neyi gösterir?",
-  o: ["Sadece rehinli mallar hakkında yorum yapılmasını sağlar; borçlunun aczini göstermez", "Borçlunun tüm malvarlığının yetersizliğini gösterir", "Borçlunun iflas ettiğini gösterir", "Borç ikrarı içermez", "Alacağın zamanaşımına uğradığını gösterir"],
+  o: ["Borçlunun aczini göstermez", "Borçlunun tüm malvarlığının yetersizliğini gösterir", "Borçlunun iflas etmiş olduğunu gösterir", "Alacağın zamanaşımına uğradığını gösterir", "Borç ikrarı niteliğinde bir belge sayılır"],
   a: 0,
   e: "Rehin açığı belgesi BORÇLUNUN ACZİNİ GÖSTERMEZ; borçlunun tüm malvarlığı hakkında bir yorum yapılamaz. Sadece SADECE REHİNLİ MALLAR hakkında yorum yapılabilir: rehinli mal satılmış ancak satış bedeli alacağı karşılamaya yetmemiştir.",
   t: "Rehin Açığı Belgesi", d: 3
@@ -527,7 +527,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Malın haczedildiğini öğrenen 3. kişi istihkak iddiasını hangi süre içinde ve nereye yapmalıdır?",
-  o: ["Haczi öğrendiği tarihten itibaren 7 gün içinde icra dairesine", "7 gün içinde icra mahkemesine", "3 gün içinde icra dairesine", "7 gün içinde genel mahkemeye", "Süresiz olarak icra dairesine"],
+  o: ["7 gün içinde icra dairesine", "7 gün içinde icra mahkemesine", "3 gün içinde icra dairesine", "7 gün içinde genel mahkemeye", "Süresiz olarak icra dairesine"],
   a: 0,
   e: "Malın haczedildiğini öğrenen 3. kişi, haczi öğrendiği tarihten itibaren 7 GÜN içinde İCRA DAİRESİNDE istihkak iddiasında bulunmalıdır. Aksi takdirde aynı takip için bu iddiayı bir daha ileri süremez.",
   t: "İstihkak Davası", d: 2
@@ -618,7 +618,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "Borçlu ihtiyati haciz kararı verilirken mahkemede DİNLENMEMİŞSE hangi sebeplere itiraz edebilir?",
-  o: ["Mahkemenin yetkisine, teminatın oranına ve ihtiyati haczin dayandığı sebeplere", "Sadece mahkemenin yetkisine", "Sadece teminatın oranına", "Hiçbir sebebe itiraz edemez, doğrudan istinafa gider", "Sadece alacağın miktarına"],
+  o: ["Yetkiye, teminata ve haczin sebeplerine", "Yalnızca mahkemenin yetkisine", "Yalnızca teminatın oranına", "Yalnızca alacağın miktarına", "Hiçbir sebebe; doğrudan istinafa gider"],
   a: 0,
   e: "Borçlu dinlenmemişse doğrudan istinafa BAŞVURAMAZ; MAHKEMENİN YETKİSİNE, TEMİNATIN ORANINA ve İHTİYATİ HACZİN DAYANDIĞI SEBEPLERE (para alacağı, vadenin gelmesi, rehne bağlı olmama) itiraz edebilir. Borçlu DİNLENMİŞSE itiraz etmeden doğrudan istinaf yoluna başvurabilir.",
   t: "İhtiyati Haciz", d: 3
@@ -744,7 +744,7 @@ KPSS.registerBank('icra', [
 },
 {
   q: "İflasta itirazın kaldırılması nereden istenir?",
-  o: ["İflas davası ile birlikte asliye ticaret mahkemesinden", "İcra mahkemesinden", "İcra dairesinden", "Genel mahkemeden", "Bölge adliye mahkemesinden"],
+  o: ["Asliye ticaret mahkemesinden", "İcra mahkemesinden", "İcra dairesinden", "Genel mahkemeden", "Bölge adliye mahkemesinden"],
   a: 0,
   e: "İFLASTA İTİRAZIN KALDIRILMASI, İFLAS DAVASI İLE BİRLİKTE ASLİYE TİCARET MAHKEMESİNDEN istenir. Asliye ticaret mahkemesi iflas kararı vermedikçe iflasın hüküm ve sonuçları doğmaz.",
   t: "İflas", d: 3

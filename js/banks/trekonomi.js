@@ -1,7 +1,5 @@
 /* Türkiye Ekonomisi — Ders Notu — kaynak: "M-TREKODERSNOTU(güncel).pdf" (Dr. Ahmet Emrah Tayyar) */
 KPSS.registerBank('trekonomi', [
-
-/* ---------- OSMANLI EKONOMİSİ ---------- */
 {
   q: "Osmanlı ekonomisinin dayandığı dirlik sisteminde topraklar değerine göre nasıl ayrılır?",
   o: ["Has, Zeamet, Tımar", "Mülk, Miri, Vakıf", "Öşür, Haraç, Cizye", "Mukataa, İltizam, Malikane", "Metruk, Ölü, Vakıf"],
@@ -67,7 +65,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "Osmanlı'da tağşiş hangi kanunla sona erdirilmiş ve ardından hangi para sistemine geçilmiştir?",
-  o: ["1844 Tahsis-i Ayar Kanunu — çift madene dayanan para sistemi", "1840 Kaime Kanunu — tek maden sistemi", "1858 Arazi Kanunu — altın standardı", "1863 Bank-ı Osmani Kanunu — gümüş standardı", "1879 Para Reformu — çift maden sistemi"],
+  o: ["1844 Tahsis-i Ayar — çift maden sistemi", "1840 Kaime Kanunu — tek maden sistemi", "1858 Arazi Kanunu — altın standardı", "1863 Bank-ı Osmani — gümüş standardı", "1879 Para Reformu — çift maden sistemi"],
   a: 0,
   e: "1844 yılında TAHSİS-İ AYAR KANUNU ile tağşiş sona erdirilmiştir. Ardından gümüş sistemi terk edilerek ÇİFT MADENE dayanan para sistemine geçilmiştir. 1879'da ise para reformu ile çift madenden TEK MADEN sistemine geçilmiştir.",
   t: "Osmanlı Parası", d: 3
@@ -102,7 +100,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1838 Balta Limanı (Ticaret) Anlaşması hangi ülke ile imzalanmış ve sonuçları neler olmuştur?",
-  o: ["İngiltere — gümrük vergileri indirilmiş, devletin vergi kaybı olmuş, yerli sanayi korunamamıştır", "Fransa — gümrük vergileri arttırılmış, yerli sanayi korunmuştur", "Almanya — kliring anlaşmaları yapılmıştır", "Rusya — kapitülasyonlar kaldırılmıştır", "İtalya — dış borçlar yeniden yapılandırılmıştır"],
+  o: ["İngiltere — gümrükler indi, yerli sanayi korunamadı", "Fransa — gümrükler arttı, yerli sanayi korundu", "Almanya — kliring anlaşmaları yapılmıştır", "Rusya — kapitülasyonlar kaldırılmıştır", "İtalya — dış borçlar yapılandırılmıştır"],
   a: 0,
   e: "1838 BALTA LİMANI ANLAŞMASI İNGİLTERE ile imzalanmıştır. Yabancı tüccarlara ayrıcalık sağlamak için gümrük vergileri indirilmiş; devlet vergi kaybına uğramış, yerli sanayi dış rekabete karşı korunamamış ve işlenmeyen tarım ürünleri ucuza dışarıya çıkmıştır.",
   t: "Osmanlı Dış Ticareti", d: 2
@@ -116,7 +114,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "Osmanlı'nın ihracat ve ithalat kalemleri hangileridir?",
-  o: ["İhracat: dokuma, tuz, şarap, yün — İthalat: demir-çelik ve işlenmiş ürünler", "İhracat: demir-çelik — İthalat: dokuma ve tuz", "İhracat: petrol ve kömür — İthalat: tarım ürünleri", "İhracat: makine — İthalat: yün ve şarap", "İhracat: şeker ve un — İthalat: tuz ve şarap"],
+  o: ["İhracat: dokuma ve yün — İthalat: demir-çelik", "İhracat: demir-çelik — İthalat: dokuma ve tuz", "İhracat: petrol ve kömür — İthalat: tarım ürünü", "İhracat: makine — İthalat: yün ve şarap", "İhracat: şeker ve un — İthalat: tuz ve şarap"],
   a: 0,
   e: "Osmanlı İHRACAT kalemleri: dokuma, tuz, şarap, yün. İTHALAT kalemleri: demir-çelik ürünleri ve işlenmiş ürünler.",
   t: "Osmanlı Dış Ticareti", d: 3
@@ -130,7 +128,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "Duyun-u Umumiye İdaresinde hangi taraflar yer almıştır?",
-  o: ["İngiltere, Fransa, Hollanda, Avusturya, İtalya, Almanya, Osmanlı alacaklıları ve Galata bankerleri", "Sadece İngiltere ve Fransa", "Sadece Almanya ve Avusturya", "IMF ve Dünya Bankası", "Sadece Galata bankerleri"],
+  o: ["Avrupalı alacaklılar ve Galata bankerleri", "Yalnızca İngiltere ve Fransa devletleri", "Yalnızca Almanya ve Avusturya devletleri", "IMF ve Dünya Bankası kuruluşları", "Yalnızca Galata bankerleri"],
   a: 0,
   e: "Duyun-u Umumiye İdaresinde İngiltere, Fransa, Hollanda, Avusturya, İtalya, Almanya, Osmanlı Alacaklıları ve GALATA BANKERLERİ yer almıştır.",
   t: "Osmanlı Borçları", d: 3
@@ -142,8 +140,6 @@ KPSS.registerBank('trekonomi', [
   e: "İlk dış borç 1854 yılında (Kırım Savaşı'nın finansmanı için İngiltere'den) alınmış ve 1954 yılında bitirilmiştir. Yani tam 100 yıl sürmüştür.",
   t: "Osmanlı Borçları", d: 2
 },
-
-/* ---------- 1923-1929 ---------- */
 {
   q: "İzmir İktisat Kongresi'nin açılış konuşmasını kim yapmıştır?",
   o: ["Atatürk", "İsmet İnönü", "Celal Bayar", "Mahmut Esat Bozkurt", "Kazım Karabekir"],
@@ -167,7 +163,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1923-1929 döneminde ana ekonomik düzen nasıldır?",
-  o: ["Serbest girişimciliğin artması üzerinedir; özel sektör ön planda, devlet ikinci plandadır", "Devletçilik esastır; devlet ön planda, özel sektör ikinci plandadır", "Tamamen kapalı bir ekonomi modeli uygulanmıştır", "Sosyalist planlama uygulanmıştır", "İthal ikameci sanayileşme uygulanmıştır"],
+  o: ["Özel sektör ön planda, devlet ikinci planda", "Devlet ön planda, özel sektör ikinci planda", "Tamamen kapalı bir ekonomi uygulanmıştır", "Sosyalist merkezi planlama uygulanmıştır", "İthal ikameci sanayileşme uygulanmıştır"],
   a: 0,
   e: "1923-1929 yılları arasında ana ekonomik düzen SERBEST GİRİŞİMCİLİĞİN ARTMASI üzerinedir. ÖZEL SEKTÖR ÖN PLANDA, DEVLET İKİNCİ PLANDADIR.",
   t: "1923-1929", d: 2
@@ -188,7 +184,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1927 yılında güncellenen Teşvik-i Sanayi Kanunu kapsamında girişimcilere sağlanan destekler arasında aşağıdakilerden hangisi vardır?",
-  o: ["Girişimciye 10 hektar toprak verilmesi ve kazanç-gümrük vergisi muafiyeti", "Girişimciye 100 hektar toprak verilmesi", "Tüm vergilerden kalıcı muafiyet", "Devlet tarafından tam sermaye desteği", "Yabancı sermayenin tamamen yasaklanması"],
+  o: ["10 hektar toprak ve vergi muafiyeti", "100 hektar toprak ve vergi muafiyeti", "Bütün vergilerden kalıcı muafiyet", "Devletçe tam sermaye desteği verilmesi", "Yabancı sermayenin tümüyle yasaklanması"],
   a: 0,
   e: "1927 Teşvik-i Sanayi Kanunu ile girişimciye 10 HEKTAR TOPRAK verilmiş, kazanç ve gümrük vergisinden muafiyet uygulanmış, haberleşme hizmetleri devletçe sağlanmış, kamu kuruluşlarına yerli mal kullanma zorunluluğu getirilmiş ve demir-deniz yolu taşımacılığı %30 indirimle yapılmıştır.",
   t: "1923-1929", d: 3
@@ -258,20 +254,18 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1929 krizinin etkilerini hafifletmek amacıyla 1931 yılında uygulanan vergi hangisidir ve neyi amaçlamıştır?",
-  o: ["Buhran vergisi — çalışanların maaşlarından kesilen vergi oranlarını yükseltmek", "Muvazene vergisi — gayrimenkullerden vergi almak", "Varlık vergisi — servet vergilendirmek", "Sayım vergisi — hayvanları vergilendirmek", "Hava kuvvetleri vergisi — savunma harcamalarını finanse etmek"],
+  o: ["Buhran vergisi — maaş kesintisi oranı artışı", "Muvazene vergisi — gayrimenkulden vergi", "Varlık vergisi — servetin vergilendirilmesi", "Sayım vergisi — hayvanların vergilendirilmesi", "Hava Kuvvetleri vergisi — savunma finansmanı"],
   a: 0,
   e: "1929 krizinin etkilerini hafifletmek için 1931'de BUHRAN VERGİSİ uygulanmıştır. Bu vergi çalışanların maaşlarından kesilen vergi oranlarını yükseltmeyi amaçlamıştır.",
   t: "1929 Buhranı", d: 2
 },
 {
   q: "1929 krizinde Merkez Bankası olmamasına rağmen TL'nin önemli ölçüde değer kaybetmemesinin nedeni nedir?",
-  o: ["Enflasyonun fiyat politikaları ile kontrol altına alınması", "Altın rezervlerinin çok yüksek olması", "Dış borçların tamamen ödenmiş olması", "Osmanlı Bankası'nın müdahalesi", "Sabit kur sisteminin uygulanması"],
+  o: ["Enflasyonun fiyat politikasıyla kontrolü", "Altın rezervlerinin çok yüksek olması", "Dış borçların tamamen ödenmiş olması", "Osmanlı Bankasının piyasaya müdahalesi", "Sabit kur sisteminin uygulanmış olması"],
   a: 0,
   e: "Merkez Bankası olmamasına rağmen 1929 krizinde TL önemli ölçüde değer kaybetmemiştir. Bunun nedeni ENFLASYONUN FİYAT POLİTİKALARI İLE KONTROL ALTINA ALINMASIDIR.",
   t: "1929 Buhranı", d: 3
 },
-
-/* ---------- 1930-1939 DEVLETÇİLİK ---------- */
 {
   q: "TCMB'nin kuruluş sermayesi kapsamında ilk dış kredi hangi ülkeden alınmıştır?",
   o: ["ABD", "İngiltere", "Sovyetler Birliği", "Almanya", "Fransa"],
@@ -295,21 +289,21 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1933 yılında çıkarılan Ödünç Para Verme İşlemleri kanunu ile hangi amaç güdülmüştür?",
-  o: ["Merkez bankasında bulunan mevduatlara güvence getirilmesi", "Yabancı sermayenin teşvik edilmesi", "Dış borçların yeniden yapılandırılması", "İthalata kota konulması", "Faiz oranlarının serbestleştirilmesi"],
+  o: ["Mevduatlara güvence getirilmesi", "Yabancı sermayenin teşvik edilmesi", "Dış borçların yeniden yapılandırılması", "İthalata kota konulması", "Faiz oranlarının serbestleştirilmesi"],
   a: 0,
   e: "1933'te Ödünç Para Verme İşlemleri kanunu ile Mevduat Koruma Kanunu çıkarılmıştır. Amaç MERKEZ BANKASINDA BULUNAN MEVDUATLARA GÜVENCE GETİRİLMESİDİR.",
   t: "1930-1939", d: 3
 },
 {
   q: "Hoover Moratoryumu nedir ve Türkiye bundan nasıl yararlanmıştır?",
-  o: ["1931'de ülkelerin borç ödemelerinin 1 yıl durdurulması; Türkiye Fransa'ya olan borçların yeniden düzenlenmesini talep etmiştir", "1929'da tüm borçların silinmesi; Türkiye İngiltere'ye olan borçlarını sildirmiştir", "1932'de Paris Anlaşması; Türkiye tüm borçlarını ödemiştir", "1930'da ABD'nin kredi vermesi; Türkiye Merkez Bankası'nı kurmuştur", "1935'te borçların iki katına çıkarılması"],
+  o: ["1931 — borç ödemelerinin 1 yıl durdurulması", "1929 — tüm borçların tamamen silinmesi", "1932 — Paris'te borçların yapılandırılması", "1930 — ABD'nin yeni kredi vermesi", "1935 — borçların iki katına çıkarılması"],
   a: 0,
   e: "HOOVER MORATORYUMU, Hoover'ın teklifiyle 1931'de krize bağlı olarak ülkelerin borç ödemelerinin 1 YIL durdurulmasıdır. Türkiye, FRANSA'ya olan borçların yeniden düzenlenmesini talep ederek bu moratoryumdan yararlanmıştır.",
   t: "1930-1939", d: 3
 },
 {
   q: "1932 yılında Türkiye Osmanlı borçları için nerede ve nasıl bir anlaşma yapmıştır?",
-  o: ["Paris'te — borç miktarı azaltılarak taksitler yeniden düzenlenmiştir", "Londra'da — borçlar tamamen silinmiştir", "Lozan'da — borçlar paylaştırılmıştır", "Cenevre'de — borçlar iki katına çıkarılmıştır", "Roma'da — moratoryum ilan edilmiştir"],
+  o: ["Paris'te — taksitler yeniden düzenlendi", "Londra'da — borçlar tamamen silindi", "Lozan'da — borçlar paylaştırıldı", "Cenevre'de — borçlar iki katına çıktı", "Roma'da — moratoryum ilan edildi"],
   a: 0,
   e: "1929 Buhranı ile Türkiye Osmanlı'dan kalan borçları ödeyemediği için 1932 yılında PARİS'te bir anlaşma yapılmıştır. Anlaşmaya göre borç miktarı azaltılarak taksitler yeniden düzenlenmiştir. Osmanlı borçlarının tamamı 1954'te bitmiştir.",
   t: "1930-1939", d: 3
@@ -330,14 +324,14 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "I. Beş Yıllık Sanayi Planı'nın finansman kaynakları hangileridir?",
-  o: ["İç kaynaklar (devlet bütçesi), Sovyetler Birliği yardımları ve Sümerbank-İş Bankası kredileri", "Sadece IMF kredileri", "Sadece ABD yardımları", "Marshall yardımları ve Dünya Bankası kredileri", "Sadece vergi gelirleri"],
+  o: ["İç kaynaklar, Sovyet yardımı ve banka kredileri", "Yalnızca IMF'den alınan krediler", "Yalnızca ABD'den gelen yardımlar", "Marshall yardımı ve Dünya Bankası kredileri", "Yalnızca toplanan vergi gelirleri"],
   a: 0,
   e: "I. BYSP'nin finansmanı: İÇ KAYNAKLAR (devlet bütçesi), SOVYETLER BİRLİĞİ YARDIMLARI (dokuma sektörü) ve SÜMERBANK-İŞ BANKASI kredileridir.",
   t: "I. BYSP", d: 3
 },
 {
   q: "Karabük Demir-Çelik Fabrikası hangi yıl ve hangi ülkeden alınan kredi ile kurulmuştur?",
-  o: ["1936 — İngiltere (16 milyon İngiliz Sterlini)", "1935 — Sovyetler Birliği", "1939 — ABD", "1937 — Almanya", "1938 — Fransa"],
+  o: ["1936 — İngiltere", "1935 — Sovyetler Birliği", "1939 — Amerika Birleşik Devletleri", "1937 — Almanya", "1938 — Fransa"],
   a: 0,
   e: "1936 yılında İNGİLTERE'den alınan 16 milyon İngiliz Sterlini kredi ile KARABÜK DEMİR-ÇELİK FABRİKASI kurulmuştur.",
   t: "I. BYSP", d: 3
@@ -393,13 +387,11 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1934 yılından itibaren Türkiye'nin ithalat yapısında nasıl bir değişiklik olmuştur?",
-  o: ["Dayanıksız mal ithalatından ara malı ve yatırım malı ithaline geçilmiştir", "Ara malı ithalatından dayanıksız mal ithaline geçilmiştir", "İthalat tamamen durmuştur", "Sadece tarım ürünü ithal edilmeye başlanmıştır", "Değişiklik olmamıştır"],
+  o: ["Dayanıksız maldan ara ve yatırım malına", "Ara maldan dayanıksız tüketim malına", "İthalat tümüyle durma noktasına gelmiştir", "Yalnızca tarım ürünü ithal edilmeye başlanmıştır", "İthalat yapısında bir değişiklik olmamıştır"],
   a: 0,
   e: "Dayanıksız mal ithal eden ülkemiz 1934 yılından itibaren ARA MALI VE YATIRIM MALI İTHALİNE başlamıştır.",
   t: "1930-1939 Sektörler", d: 3
 },
-
-/* ---------- SAVAŞ EKONOMİSİ ---------- */
 {
   q: "1938-1945 döneminde fiyatlar yaklaşık yüzde kaç oranında artmıştır?",
   o: ["%400", "%100", "%200", "%70", "%63"],
@@ -409,7 +401,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1940 Milli Korunma Kanunu'na göre alınan önlemler arasında aşağıdakilerden hangisi vardır?",
-  o: ["Tarım sektöründe ekilecek ürünlerin çeşidi ve miktarının hükümet tarafından belirlenmesi", "Tarım ürünlerinin serbestçe ekilmesi", "Çalışma sürelerinin kısaltılması", "İthal malların çeşit ve miktarının serbest bırakılması", "Tekelci eğilimlerin desteklenmesi"],
+  o: ["Ekilecek ürünün hükümetçe belirlenmesi", "Tarım ürünlerinin serbestçe ekilmesi", "Çalışma sürelerinin kısaltılması", "İthal malların serbest bırakılması", "Tekelci eğilimlerin desteklenmesi"],
   a: 0,
   e: "Milli Korunma Kanunu'na göre tarım sektöründe EKİLECEK ÜRÜNLERİN ÇEŞİDİ VE MİKTARI HÜKÜMET tarafından belirlenecektir. Ayrıca tekelci eğilimlerle suni fiyat artışı yasaklanmış, çalışma süreleri arttırılmış ve ithal malların çeşit-miktarı hükümetçe belirlenmiştir.",
   t: "Savaş Ekonomisi", d: 2
@@ -437,7 +429,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1945 Çiftçiyi Topraklandırma Kanunu'nun önemi nedir?",
-  o: ["Türkiye'de ilk toprak reformu denemesidir ve toprak reformunun temellerini oluşturur", "İlk sanayi planıdır", "İlk devalüasyondur", "İlk kalkınma planıdır", "İlk destekleme alımıdır"],
+  o: ["İlk toprak reformu denemesidir", "İlk sanayi planı niteliğindedir", "İlk devalüasyon uygulamasıdır", "İlk kalkınma planı niteliğindedir", "İlk destekleme alımı uygulamasıdır"],
   a: 0,
   e: "1945 yılında çıkarılan ÇİFTÇİYİ TOPRAKLANDIRMA KANUNU Türkiye'de İLK TOPRAK REFORMU DENEMESİDİR ve toprak reformunun temellerini oluşturur.",
   t: "Savaş Ekonomisi", d: 2
@@ -463,8 +455,6 @@ KPSS.registerBank('trekonomi', [
   e: "Cumhuriyet tarihinin en düşük nüfus artış hızı 1940-1945 dönemidir; oran binde 10 civarındadır. Bu tarihten sonra verilen teşvikler ve sağlık imkanlarının gelişmesiyle nüfus artışı 1955-1960 döneminde REKOR kırmıştır.",
   t: "Nüfus", d: 3
 },
-
-/* ---------- 1946-1960 ---------- */
 {
   q: "1946 devalüasyonu hangi tarihte yapılmış ve TL yaklaşık yüzde kaç devalüe edilmiştir?",
   o: ["7 Eylül 1946 — yaklaşık %54", "1 Ocak 1946 — yaklaşık %68", "7 Eylül 1946 — yaklaşık %33", "24 Ocak 1946 — yaklaşık %54", "1 Mart 1946 — yaklaşık %45"],
@@ -605,8 +595,6 @@ KPSS.registerBank('trekonomi', [
   e: "1953 yılında sanayi sektöründe %19,2 oranındaki artış Cumhuriyet tarihinde bir REKORDUR.",
   t: "Büyüme Performansı", d: 3
 },
-
-/* ---------- 1960-1980 PLANLI DÖNEM ---------- */
 {
   q: "Planlı kalkınma kavramı hangi anayasada yer almaktadır?",
   o: ["1961 Anayasası", "1924 Anayasası", "1937 Anayasa değişikliği", "1982 Anayasası", "1963 Anayasa değişikliği"],
@@ -679,14 +667,14 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1970 İstikrar Programı kapsamında alınan kararlar arasında aşağıdakilerden hangisi vardır?",
-  o: ["Vergilerin yükseltilmesi (Finansman kanunu) ve KİT ürünlerine zam", "Vergilerin düşürülmesi ve KİT ürünlerinde indirim", "Maaş ve ücretlerin arttırılması", "İthalat teminat oranlarının yükseltilmesi", "Sabit kur sisteminin terk edilmesi"],
+  o: ["Vergilerin yükseltilmesi ve KİT zamları", "Vergilerin düşürülmesi ve KİT indirimi", "Maaş ve ücretlerin arttırılması", "İthalat teminatlarının yükseltilmesi", "Sabit kur sisteminin terk edilmesi"],
   a: 0,
   e: "1970 İstikrar Programı kararları: TL devalüe edildi, maaş-ücretler donduruldu (gelirler politikası), VERGİLER YÜKSELTİLDİ (Finansman kanunu) ve KİT ürünlerine ZAM yapıldı, miktar kısıtlamaları ve ithalat teminat oranları AZALTILDI.",
   t: "1970 Krizi", d: 3
 },
 {
   q: "1970 İstikrar Programı sayesinde elde edilen sonuçlar arasında aşağıdakilerden hangisi vardır?",
-  o: ["1973 yılında ödemeler dengesi uzun bir aradan sonra fazla oluşturmuştur", "Sanayi sektöründe büyük canlanma yaşanmıştır", "Enflasyon tek haneye inmiştir", "Dış borçlar tamamen ödenmiştir", "İşsizlik tamamen ortadan kalkmıştır"],
+  o: ["1973'te ödemeler dengesi fazla vermiştir", "Sanayide büyük bir canlanma yaşanmıştır", "Enflasyon tek haneli düzeye inmiştir", "Dış borçlar tamamen ödenmiştir", "İşsizlik tamamen ortadan kalkmıştır"],
   a: 0,
   e: "Program sonuçları: işçi döviz gelirleri ve ihracat gelirleriyle döviz rezervleri yükselmiş, 1973'te ödemeler dengesi uzun aradan sonra FAZLA oluşturmuş, dondurulan ücretler ödenmeye başlanmış; sanayi-imalat durgun seyrederken TURİZM ve İNŞAAT canlanmıştır.",
   t: "1970 Krizi", d: 3
@@ -714,7 +702,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1980 yılına kadar uygulanan kalkınma planlarının ortak özellikleri arasında aşağıdakilerden hangisi vardır?",
-  o: ["İthal ikameci sanayileşme stratejisi benimsenmiştir ve döviz tasarrufu amaçlanmıştır", "İhracata dayalı sanayileşme benimsenmiştir", "Serbest ticaret politikası uygulanmıştır", "Dış rekabete tam açıklık sağlanmıştır", "Ara ve yatırım malı üretiminde istenilen düzeye ulaşılmıştır"],
+  o: ["İthal ikameci strateji benimsenmiştir", "İhracata dayalı strateji benimsenmiştir", "Serbest ticaret politikası uygulanmıştır", "Dış rekabete tam açıklık sağlanmıştır", "Yatırım malı üretiminde hedefe ulaşılmıştır"],
   a: 0,
   e: "1980 öncesi planların ortak özellikleri: İTHAL İKAMECİ sanayileşme stratejisi (döviz tasarrufu amaçlı), dış rekabete karşı iç sanayinin gümrük vergisi ve kotayla korunması. Dayanıksız tüketim mallarında üretim istenilen seviyeye ulaşmış ancak ARA VE YATIRIM MALI üretimi hâlâ istenilen düzeyde DEĞİLDİR.",
   t: "1960-1980 Planlı", d: 2
@@ -749,13 +737,11 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "Cari işlemler açığını kapatmak için yurtdışından kısa vadeli borçlanmanın ilk uygulaması hangisidir, hangi yıl başlamış ve hangi yıl kaldırılmıştır?",
-  o: ["DÇM (Dövize Çevrilebilir Mevduat) — 1967'de başlamış, 1979'da kaldırılmıştır", "DİBS — 1970'te başlamış, 1980'de kaldırılmıştır", "Repo — 1967'de başlamış, 1980'de kaldırılmıştır", "DÇM — 1973'te başlamış, 1980'de kaldırılmıştır", "Eurobond — 1967'de başlamış, 1979'da kaldırılmıştır"],
+  o: ["DÇM — 1967'de başlamış, 1979'da kaldırılmıştır", "DÇM — 1973'te başlamış, 1980'de kaldırılmıştır", "DİBS — 1970'te başlamış, 1980'de kaldırılmıştır", "Repo — 1967'de başlamış, 1980'de kaldırılmıştır", "Eurobond — 1967'de başlamış, 1979'da kaldırılmıştır"],
   a: 0,
   e: "Cari açığı kapatmak için kısa vadeli borçlanmanın ilk uygulaması 1967 yılında başlayan DÇM (DÖVİZE ÇEVRİLEBİLİR MEVDUAT) uygulamasıdır. 1979 yılında kaldırılmıştır.",
   t: "Cari Açık", d: 3
 },
-
-/* ---------- 1980 SONRASI ---------- */
 {
   q: "24 Ocak 1980 Kararları IMF'nin hangi Stand-By anlaşmasını vurgular?",
   o: ["13. Stand-By", "17. Stand-By", "16. Stand-By", "18. Stand-By", "19. Stand-By"],
@@ -807,21 +793,21 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "28 Sayılı Karar (1983) neyi düzenlemiştir?",
-  o: ["Kambiyo rejiminin serbestleştirilmesi; döviz kuru belirlenmesinde ticari bankalara da görev verilmesi", "Sermaye hareketlerinin tam serbestleştirilmesi", "Özelleştirmenin başlatılması", "KDV'nin yürürlüğe girmesi", "Enflasyon hedeflemesine geçilmesi"],
+  o: ["Kambiyo rejiminin serbestleştirilmesi", "Sermaye hareketlerinin tam serbestleşmesi", "Özelleştirmenin başlatılmış olması", "KDV'nin yürürlüğe girmiş olması", "Enflasyon hedeflemesine geçilmesi"],
   a: 0,
   e: "28 SAYILI KARAR (1983) kambiyo rejiminin serbestleştirilmesine yöneliktir. Karara göre döviz kurunun belirlenmesinde TİCARİ BANKALARA DA GÖREV VERİLMİŞTİR. 30 Sayılı Karar (1984) ile döviz alım-satımı serbestleştirilmiştir.",
   t: "1980 Sonrası", d: 3
 },
 {
   q: "1980 Mayıs ayında döviz kurunu belirleme yetkisi kime verilmiştir?",
-  o: ["Merkez Bankası'na (günlük olarak belirlemiştir)", "Bakanlar Kurulu'na", "Hazine Müsteşarlığı'na", "Ticari bankalara", "IMF'ye"],
+  o: ["Merkez Bankası'na", "Bakanlar Kurulu'na", "Hazine Müsteşarlığı'na", "Ticari bankalara", "Uluslararası Para Fonu'na"],
   a: 0,
   e: "24 Ocak kararlarından sonra Mayıs 1980'e kadar döviz kurunu BAKANLAR KURULU belirlemekteydi. 1980 Mayıs'ta MERKEZ BANKASINA döviz kurunu belirleme yetkisi verilmiş ve MB kurları GÜNLÜK olarak belirlemiştir.",
   t: "Döviz Piyasası", d: 3
 },
 {
   q: "1983 yılında MB'nin döviz kuru belirleme yetkisinde nasıl bir değişiklik olmuştur?",
-  o: ["Dolar kuru hariç yetkiye son verilmiş; yetkili bankalara belirlenen kurun %6 üstü ve altı alım-satım fırsatı tanınmıştır", "MB'ye tam yetki verilmiştir", "Bakanlar Kurulu'na yetki devredilmiştir", "Yetkili bankalara %1 marj tanınmıştır", "Döviz kuru tamamen serbest bırakılmıştır"],
+  o: ["Dolar hariç son verilmiş; bankalara %6 marj", "MB'ye her konuda tam yetki verilmiştir", "Yetki Bakanlar Kuruluna devredilmiştir", "Yetkili bankalara yalnızca %1 marj tanınmıştır", "Döviz kuru tamamen serbest bırakılmıştır"],
   a: 0,
   e: "1983'te MB'nin döviz kuru belirleme yetkisine DOLAR KURU HARİÇ son verildi. Yetkili bankalar döviz piyasasını oluşturarak belirlenen kurun %6 ÜSTÜ VE ALTI alım-satım fırsatı buldu. 1986'da bu oran %1 olarak belirlenmiştir.",
   t: "Döviz Piyasası", d: 3
@@ -835,7 +821,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1988 Yılı Krizi'nin ardından alınan kararlar arasında aşağıdakilerden hangisi vardır?",
-  o: ["Zorunlu karşılık oranlarının arttırılması ve mevduat faiz oranlarının arttırılması", "Zorunlu karşılık oranlarının düşürülmesi", "İthalat teminatlarının kaldırılması", "Finansal piyasa araçlarına yeni vergiler konulması", "Faiz oranlarının serbest bırakılması"],
+  o: ["Zorunlu karşılık ve mevduat faizi artışı", "Zorunlu karşılık oranlarının düşürülmesi", "İthalat teminatlarının kaldırılması", "Piyasa araçlarına yeni vergi konulması", "Faiz oranlarının serbest bırakılması"],
   a: 0,
   e: "1988 krizi sonrası alınan kararlar: ZORUNLU KARŞILIK ORANLARI ARTTIRILDI, ithalat teminatları yükseltildi, MEVDUAT FAİZ ORANLARI ARTTIRILDI ve finansal piyasa araçlarından alınan vergiler KALDIRILDI.",
   t: "1988 Krizi", d: 3
@@ -856,13 +842,11 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1980 Kararlarından sonra faaliyete geçirilen piyasalar ve yılları hangileridir?",
-  o: ["Bankalararası para piyasası (1986), açık piyasa işlemleri (1987), döviz piyasası (1988), altın piyasası (1989)", "Döviz piyasası (1986), altın piyasası (1987), APİ (1988), interbank (1989)", "APİ (1986), interbank (1987), döviz piyasası (1988), altın piyasası (1990)", "İnterbank (1985), APİ (1986), döviz piyasası (1987), altın piyasası (1988)", "Altın piyasası (1986), döviz piyasası (1987), APİ (1988), interbank (1989)"],
+  o: ["İnterbank 1986, APİ 1987, döviz 1988, altın 1989", "Döviz 1986, altın 1987, APİ 1988, interbank 1989", "APİ 1986, interbank 1987, döviz 1988, altın 1990", "İnterbank 1985, APİ 1986, döviz 1987, altın 1988", "Altın 1986, döviz 1987, APİ 1988, interbank 1989"],
   a: 0,
   e: "1980 Kararlarından sonra: bankalararası para piyasası (1986), açık piyasa işlemleri (1987), döviz piyasası (1988) ve ALTIN PİYASASI (1989) faaliyete geçirilmiştir.",
   t: "1980 Sonrası", d: 3
 },
-
-/* ---------- 1990-2000 ---------- */
 {
   q: "1990-2000 dönemi hangi adla nitelendirilir?",
   o: ["Kaotik ve koalisyonlu dönem", "Planlı kalkınma dönemi", "Liberal ekonomiye geçiş dönemi", "Devletçilik dönemi", "İhracata dayalı büyüme dönemi"],
@@ -893,7 +877,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1990'lı yıllarda yüksek faizin yol açtığı iki olgu nedir?",
-  o: ["Rantiye ekonomisi ve ödemeler bilançosunda fazlalık", "Deflasyon ve işsizlik", "Devalüasyon ve moratoryum", "Stagflasyon ve dezenflasyon", "Ticaret yaratma ve ticaret saptırma"],
+  o: ["Rantiye ekonomisi ve ödemeler fazlası", "Deflasyon ve yapısal işsizlik", "Devalüasyon ve moratoryum ilanı", "Stagflasyon ve dezenflasyon", "Ticaret yaratma ve saptırma"],
   a: 0,
   e: "Faiz artışı iki olaya neden olur: (1) RANTİYE EKONOMİSİ — faiz artışı tüketimi azaltıp tasarrufları arttırır, talebi kısarak enflasyonu dizginler. (2) ÖDEMELER BİLANÇOSU — faiz artışı sıcak sermaye girişine yol açar ve sermaye hesabı fazla verir.",
   t: "1990-2000", d: 3
@@ -935,14 +919,14 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1994 yılında ihracat ve ithalat nasıl değişmiştir?",
-  o: ["İhracat %18 artmış, ithalat %21 azalmıştır; cari işlemler dengesi fazla vermiştir", "İhracat %21 artmış, ithalat %18 azalmıştır", "İkisi de artmıştır", "İkisi de azalmıştır", "İhracat azalmış, ithalat artmıştır"],
+  o: ["İhracat %18 arttı, ithalat %21 azaldı", "İhracat %21 arttı, ithalat %18 azaldı", "İhracat da ithalat da artmıştır", "İhracat da ithalat da azalmıştır", "İhracat azalmış, ithalat artmıştır"],
   a: 0,
   e: "1994 yılında ihracat %18 oranında ARTMIŞ, ithalat %21 oranında AZALMIŞTIR; dış ticaret açığında azalış görülmüş ve cari işlemler dengesi FAZLA vermiştir.",
   t: "1994 Krizi", d: 3
 },
 {
   q: "Eylül 1995 Kararları ve 1995 Geçiş Programı'nın amaçları arasında aşağıdakilerden hangisi vardır?",
-  o: ["AB ile gümrük birliği uyumunu sağlamak ve kayıt dışı ekonomiyi kontrol altına almak", "Sabit kur sistemine geçmek", "Sermaye hareketlerini kısıtlamak", "İthalatı tamamen serbestleştirmek", "Enflasyonu tek haneye düşürmek"],
+  o: ["AB gümrük birliği uyumu ve kayıt dışıyla mücadele", "Sabit kur sistemine geri dönülmesi", "Sermaye hareketlerinin kısıtlanması", "İthalatın tamamen serbestleştirilmesi", "Enflasyonun tek haneye düşürülmesi"],
   a: 0,
   e: "1995 GEÇİŞ PROGRAMI'nın amaçları: makroekonomiyi istikrarlı kılmak, büyümeyi sürdürülebilir hale getirmek, AB İLE GÜMRÜK BİRLİĞİ UYUMUNU sağlamak, rekabet gücünü arttırmak, küresel-bölgesel bütünleşmeyi sağlamak, özelleştirmeye hız vermek ve KAYIT DIŞI EKONOMİYİ kontrol altına almaktır.",
   t: "1990-2000", d: 3
@@ -989,8 +973,6 @@ KPSS.registerBank('trekonomi', [
   e: "1998 yılında Yeni Vergi Reformu ile 4 MİLYAR DOLAR döviz kayıtlara geçirilmiştir.",
   t: "1997-1998 Krizleri", d: 3
 },
-
-/* ---------- 2000 SONRASI ---------- */
 {
   q: "Enflasyonla Mücadele Programı kaç dönem ve her dönem kaç ay olacak şekilde düzenlenmiştir?",
   o: ["2 dönem, her dönem 18 ay", "3 dönem, her dönem 12 ay", "2 dönem, her dönem 12 ay", "4 dönem, her dönem 6 ay", "1 dönem, 36 ay"],
@@ -1000,7 +982,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "Enflasyonla Mücadele Programı'nın açmazı (çelişkisi) nedir?",
-  o: ["Tam sermaye hareketliliği ve sabit kur sistemi bir arada olunca merkez bankası bağımsızlığı tehdit altına girer", "Sabit kur ile enflasyon hedeflemesi bir arada uygulanamaz", "Faiz dışı fazla ile büyüme çelişir", "Özelleştirme ile kamu geliri çelişir", "Dalgalı kur ile sermaye hareketleri çelişir"],
+  o: ["Tam sermaye hareketliliği ile sabit kurun bir arada olması", "Sabit kur ile enflasyon hedeflemesinin bir arada olması", "Faiz dışı fazla hedefi ile büyümenin çelişmesi", "Özelleştirme ile kamu gelirlerinin çelişmesi", "Dalgalı kur ile sermaye hareketlerinin çelişmesi"],
   a: 0,
   e: "Programın açmazı: tam sermaye hareketliliği VE sabit kur sistemi birlikte varsa MERKEZ BANKASI BAĞIMSIZLIĞI TEHDİT ALTINDADIR; çünkü merkez bankası yerine para kurulu döviz miktarı cinsinden piyasadaki yerli para tedavülünü düzenler.",
   t: "2000-2002 EMP", d: 3
@@ -1091,7 +1073,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "IX. Beş Yıllık Kalkınma Planı hangi yılları kapsar ve kaç yıllıktır?",
-  o: ["2007-2013 — AB takvimi dikkate alınarak 7 yıllık", "2007-2011 — 5 yıllık", "2006-2010 — 5 yıllık", "2007-2013 — 6 yıllık", "2008-2013 — 6 yıllık"],
+  o: ["2007-2013 — 7 yıllık", "2007-2011 — 5 yıllık", "2006-2010 — 5 yıllık", "2007-2013 — 6 yıllık", "2008-2013 — 6 yıllık"],
   a: 0,
   e: "IX. BYKP 2007-2013 dönemini kapsar. AB TAKVİMİ dikkate alınarak plan 7 YILLIK olarak belirlenmiştir; ortalama büyüme hızının %7 civarında olması beklenmiştir.",
   t: "IX. BYKP", d: 3
@@ -1140,7 +1122,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "2017 yılında enflasyon hangi durumla karşılaşmıştır?",
-  o: ["6 yıl aradan sonra ilk kez çift haneleri görmüştür", "İlk kez tek haneye inmiştir", "İlk kez üç haneyi görmüştür", "Değişmemiştir", "Sıfıra inmiştir"],
+  o: ["6 yıl sonra ilk kez çift haneyi görmüştür", "İlk kez tek haneli düzeye inmiştir", "İlk kez üç haneli düzeyi görmüştür", "Önceki yıla göre değişmemiştir", "Sıfır düzeyine kadar inmiştir"],
   a: 0,
   e: "2017 yılında 6 YIL ARADAN SONRA ilk kez enflasyon ÇİFT HANELERİ görmüştür (%11,9). Artışta ULAŞTIRMA ve GIDA'nın büyük payı vardır.",
   t: "Enflasyon", d: 3
@@ -1159,8 +1141,6 @@ KPSS.registerBank('trekonomi', [
   e: "Türkiye ekonomisinin uzun dönemde büyüme hızı %5 düzeyindedir.",
   t: "Büyüme Performansı", d: 2
 },
-
-/* ---------- 2008 KRİZİ ---------- */
 {
   q: "2008-2009 Mortgage Krizi'nin başlangıcı hangi olayla olmuştur?",
   o: ["Lehman Brothers'ın iflası", "Enron skandalı", "Tayland'ın devalüasyonu", "Rusya'nın moratoryum ilanı", "Kara Perşembe"],
@@ -1184,13 +1164,11 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "2008 Krizi'ne karşı alınan tedbirler arasında aşağıdakilerden hangisi vardır?",
-  o: ["Yabancı para üzerinden alınan zorunlu karşılık oranının azaltılması", "Yabancı para zorunlu karşılık oranının arttırılması", "Faiz oranlarının arttırılması", "KDV oranlarının arttırılması", "Vergi alacaklarının tek seferde tahsili"],
+  o: ["Yabancı para zorunlu karşılığının azaltılması", "Yabancı para zorunlu karşılığının arttırılması", "Politika faiz oranlarının arttırılması", "KDV oranlarının yükseltilmesi", "Vergi alacaklarının tek seferde tahsili"],
   a: 0,
   e: "Alınan tedbirler: KOBİ'lere faizsiz kredi, YABANCI PARA ZORUNLU KARŞILIK ORANININ AZALTILMASI, faiz oranlarının azaltılması, bazı sektörlerde 3 ay ÖTV indirimi, yeni konut satışında KDV indirimi, vergi alacaklarının TAKSİTLENDİRİLMESİ.",
   t: "2008 Krizi", d: 2
 },
-
-/* ---------- YAPISAL VERİLER ---------- */
 {
   q: "Türkiye birincil enerji talebinin yüzde kaçını yurtdışından karşılamaktadır?",
   o: ["%74", "%50", "%85", "%60", "%90"],
@@ -1228,7 +1206,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "Adrese Dayalı Nüfus Kayıt Sistemi (ADNKS) hangi kanunla getirilmiş ve ilk nüfus sayımı hangi yıl yapılmıştır?",
-  o: ["25 Nisan 2006 tarihli 5490 sayılı Nüfus Hizmetleri Kanunu — 2007", "2005 tarihli 5490 sayılı kanun — 2006", "2006 tarihli 5510 sayılı kanun — 2008", "2007 tarihli 5490 sayılı kanun — 2008", "2004 tarihli 5490 sayılı kanun — 2005"],
+  o: ["2006 tarihli 5490 sayılı Kanun — 2007", "2005 tarihli 5490 sayılı Kanun — 2006", "2006 tarihli 5510 sayılı Kanun — 2008", "2007 tarihli 5490 sayılı Kanun — 2008", "2004 tarihli 5490 sayılı Kanun — 2005"],
   a: 0,
   e: "25 Nisan 2006 tarihinde 5490 SAYILI NÜFUS HİZMETLERİ KANUNU çıkarılmıştır. Bu yasa ile adrese dayalı nüfus kayıt sistemine geçilmiş; ADNKS açısından ilk nüfus sayımı 2007 yılında yapılmıştır.",
   t: "Nüfus", d: 3
@@ -1242,7 +1220,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "1927 ve 2017 yıllarında okur-yazar oranları nasıldır?",
-  o: ["1927'de %10'lara yakın, 2017'de %97'ler düzeyinde", "1927'de %25, 2017'de %90", "1927'de %5, 2017'de %99", "1927'de %10, 2017'de %85", "1927'de %20, 2017'de %97"],
+  o: ["1927'de %10 civarı, 2017'de %97", "1927'de %25 civarı, 2017'de %90", "1927'de %5 civarı, 2017'de %99", "1927'de %10 civarı, 2017'de %85", "1927'de %20 civarı, 2017'de %97"],
   a: 0,
   e: "1927 yılında %10'lara yakın okur-yazar oranı mevcuttur; 2017 yılında ise %97'ler düzeyindedir. Ancak kadın nüfusun %4,9'u okur-yazar değildir. Nüfusun %13'ü yüksekokul ve üstü eğitim düzeyine sahiptir.",
   t: "Nüfus", d: 3
@@ -1319,14 +1297,14 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "Cumhuriyet rejimi ilk dış borçlanmasını hangi amaçla ve hangi ülkenin şirketinden yapmıştır?",
-  o: ["Demiryolları yapımı ve Haydarpaşa limanının kamulaştırılması için — Amerikan şirketi (kibrit tekeli karşılığında, 1930, 10 milyon dolar)", "Merkez Bankası kurulması için — İngiliz şirketi", "Karabük Demir-Çelik için — Alman şirketi", "Dokuma sanayisi için — Sovyet şirketi", "Şeker fabrikaları için — Fransız şirketi"],
+  o: ["Demiryolu ve liman için — Amerikan şirketi", "Merkez Bankası kurulması için — İngiliz şirketi", "Karabük Demir-Çelik için — Alman şirketi", "Dokuma sanayisi için — Sovyet şirketi", "Şeker fabrikaları için — Fransız şirketi"],
   a: 0,
   e: "Cumhuriyet rejimi ilk dış borçlanmasını DEMİRYOLLARININ YAPIMI ve HAYDARPAŞA LİMANININ KAMULAŞTIRILMASI için yapmıştır. Bir AMERİKAN ŞİRKETİ kibrit tekeli karşılığında 1930 yılında 10 MİLYON DOLAR borç vermiştir.",
   t: "Dış Borçlar", d: 3
 },
 {
   q: "Cumhuriyetin erken dönemindeki dış krediler ve kullanım alanları eşleştirmesinde hangisi doğrudur?",
-  o: ["ABD 10 milyon dolar — MB kurulması; SSCB 10,5 milyon lira — dokuma sanayisi; İngiltere 16 milyon sterlin — Karabük Demir-Çelik", "ABD 16 milyon dolar — Karabük; SSCB 10 milyon lira — MB; İngiltere 10,5 milyon sterlin — dokuma", "ABD 10 milyon dolar — dokuma; SSCB 16 milyon lira — Karabük; İngiltere 10,5 milyon sterlin — MB", "Tüm krediler ABD'den alınmıştır", "Tüm krediler İngiltere'den alınmıştır"],
+  o: ["ABD-MB, SSCB-dokuma, İngiltere-Karabük", "ABD-Karabük, SSCB-MB, İngiltere-dokuma", "ABD-dokuma, SSCB-Karabük, İngiltere-MB", "Kredilerin tamamı ABD'den alınmıştır", "Kredilerin tamamı İngiltere'den alınmıştır"],
   a: 0,
   e: "Savaş yıllarına kadar: ABD'den 10 milyon dolar (MB kurulmasında), Sovyetler Birliği'nden 10,5 milyon lira (dokuma sanayisinde), İngiltere'den 16 milyon İngiliz Sterlini (Karabük Demir Çelik Fabrikası kurulumunda) kredi alınmıştır.",
   t: "Dış Borçlar", d: 3
@@ -1361,7 +1339,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "Türkiye'de 2004 yılına kadar ve sonrasında tasarruf dengesi nasıl seyretmiştir?",
-  o: ["2004'e kadar kamu tasarruf açığı özel sektör fazlasıyla karşılanmış; 2004'ten sonra özel kesim açık vermeye başlamış ve kamu açığı azalmıştır", "2004'e kadar özel kesim açık vermiş, sonra kamu açık vermiştir", "Her zaman kamu fazla vermiştir", "Her zaman özel kesim açık vermiştir", "Tasarruf dengesi hiç değişmemiştir"],
+  o: ["2004'e kadar kamu, sonrasında özel kesim açık verdi", "2004'e kadar özel kesim, sonrasında kamu açık verdi", "Bütün dönem boyunca kamu kesimi fazla vermiştir", "Bütün dönem boyunca özel kesim açık vermiştir", "Tasarruf dengesi dönem boyunca değişmemiştir"],
   a: 0,
   e: "Türkiye'de 2004 yılına kadar kamu kesimi tasarruf açığı özel sektör tasarruf fazlasıyla karşılanmıştır. 2004 yılından sonra ÖZEL KESİM AÇIK VERMEYE BAŞLAMIŞ olup KAMU KESİMİ FON AÇIĞI AZALMIŞTIR.",
   t: "Tasarruf", d: 3
@@ -1375,7 +1353,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "DPT'nin isim değişiklikleri nasıl olmuştur?",
-  o: ["2011'de Kalkınma Bakanlığı, Cumhurbaşkanlığı sistemiyle Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı", "2005'te TÜİK, sonra Kalkınma Bakanlığı", "2011'de Strateji Başkanlığı, sonra Kalkınma Bakanlığı", "2001'de Kalkınma Bakanlığı, 2011'de DPT", "Hiç değişmemiştir"],
+  o: ["2011'de Kalkınma Bakanlığı, sonra SBB", "2005'te TÜİK, sonra Kalkınma Bakanlığı", "2011'de Strateji Başkanlığı, sonra Bakanlık", "2001'de Kalkınma Bakanlığı, 2011'de DPT", "Herhangi bir isim değişikliği olmamıştır"],
   a: 0,
   e: "DPT 2011 yılında KALKINMA BAKANLIĞINA dönüştürülmüştür. Cumhurbaşkanlığı sistemiyle ismi CUMHURBAŞKANLIĞI STRATEJİ VE BÜTÇE BAŞKANLIĞI olarak değiştirilmiştir.",
   t: "Kurumlar", d: 2
@@ -1389,7 +1367,7 @@ KPSS.registerBank('trekonomi', [
 },
 {
   q: "2019/2020 verilerine göre işsizlik oranı en yüksek ve en düşük bölgeler hangileridir?",
-  o: ["En yüksek TRC3 (Mardin, Batman, Şırnak, Siirt), en düşük TR82 (Kastamonu, Çankırı, Sinop)", "En yüksek TR82, en düşük TRC3", "En yüksek TR21 (Tekirdağ, Edirne, Kırklareli), en düşük TRC3", "En yüksek TRC2 (Urfa, Diyarbakır), en düşük TR21", "En yüksek TR82, en düşük TR21"],
+  o: ["En yüksek TRC3, en düşük TR82", "En yüksek TR82, en düşük TRC3", "En yüksek TR21, en düşük TRC3", "En yüksek TRC2, en düşük TR21", "En yüksek TR82, en düşük TR21"],
   a: 0,
   e: "İşsizlik oranı en yüksek bölge TRC3 (Mardin, Batman, Şırnak, Siirt); en düşük bölge TR82 (Kastamonu, Çankırı, Sinop)'dur. İstihdam ve İKO en yüksek bölge TR21 (Tekirdağ, Edirne, Kırklareli)'dir.",
   t: "Bölgesel Kalkınma", d: 3
@@ -1463,6 +1441,5 @@ KPSS.registerBank('trekonomi', [
   a: 0,
   e: "2018 Kırılganlık Endeksi'ne göre kırılganlığı en az olan ülke 17 puan ile FİNLANDİYA, en fazla kırılgan ülke 113 puan ile GÜNEY SUDAN'dır. En yüksek puan 120'dir (alarm veren). Türkiye 178 ülke arasında 58. sırada olup skoru 82'dir (uyarı veren grup).",
   t: "Uluslararası Endeksler", d: 3
-}
-
+},
 ]);

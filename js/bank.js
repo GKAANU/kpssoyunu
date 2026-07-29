@@ -115,7 +115,9 @@ KPSS.SECTIONS = [
   { id: 'xKamu',      name: 'ÇIKMIŞ — Kamu Hukuku',      tag: 'Çıkmış Soru', emoji: '🎯', color: '#22c55e', boss: 'Sınav Kurdu',    bossEmoji: '🎯', src: '4T Hukuk Çıkmış 1. Cilt' },
   { id: 'xOzelHukuk', name: 'ÇIKMIŞ — Özel Hukuk',       tag: 'Çıkmış Soru', emoji: '🎯', color: '#14b8a6', boss: 'İçtihat Avcısı', bossEmoji: '🎯', src: '4T TÜYO Hukuk Çıkmış 2. Cilt' },
   { id: 'xMakroPara', name: 'ÇIKMIŞ — Makro İktisat ve Para', tag: 'Çıkmış Soru', emoji: '🎯', color: '#f59e0b', boss: 'Enflasyon Devi', bossEmoji: '🎯', src: 'Makro İktisat ve Para Çıkmış 2025' },
-  { id: 'xMikro',     name: 'ÇIKMIŞ — Mikro İktisat',      tag: 'Çıkmış Soru', emoji: '🎯', color: '#8b5cf6', boss: 'Marjinal Fayda',  bossEmoji: '🎯', src: 'Mikro İktisat Çıkmış 2025' }
+  { id: 'xMikro',     name: 'ÇIKMIŞ — Mikro İktisat',      tag: 'Çıkmış Soru', emoji: '🎯', color: '#8b5cf6', boss: 'Marjinal Fayda',  bossEmoji: '🎯', src: 'Mikro İktisat Çıkmış 2025' },
+  { id: 'xSon4',      name: 'ÇIKMIŞ — Son 4\'lü İktisat',  tag: 'Çıkmış Soru', emoji: '🎯', color: '#ec4899', boss: 'Dörtlü Sınav',    bossEmoji: '🎯', src: 'Son 4\'lü İktisat Çıkmış' },
+  { id: 'xMaliye',    name: 'ÇIKMIŞ — Maliye',           tag: 'Çıkmış Soru', emoji: '🎯', color: '#06b6d4', boss: 'Bütçe Bekçisi',  bossEmoji: '🎯', src: 'Maliye Çıkmışlar 2025' }
 ];
 
 /* soru bankaları buraya dolar: KPSS.BANKS[sectionId] = [ {...}, ... ] */

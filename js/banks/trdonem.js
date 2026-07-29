@@ -1,7 +1,5 @@
 /* Türkiye Ekonomisi — Dönemler Özeti — kaynak: "Tr ekonomisi not .pdf" */
 KPSS.registerBank('trdonem', [
-
-/* ---------- 1923-1929 KURULUŞ DÖNEMİ ---------- */
 {
   q: "1923-1929 Kuruluş Dönemi'ne damgasını vuran iki temel gelişme hangileridir?",
   o: ["İzmir İktisat Kongresi ve Lozan Barış Anlaşması", "Teşvik-i Sanayi Kanunu ve Kabotaj Kanunu", "Aşar Vergisinin kaldırılması ve Merkez Bankası'nın kurulması", "I. Beş Yıllık Sanayi Planı ve Sanayi Kongresi", "Varlık Vergisi ve Toprak Mahsulleri Vergisi"],
@@ -25,14 +23,14 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "İzmir İktisat Kongresi'nde alınan kararlar arasında aşağıdakilerden hangisi YER ALMAZ?",
-  o: ["Yabancı sermayenin ülkeye girişinin tamamen yasaklanması", "Aşar vergisinin kaldırılması", "Demiryollarının millileştirilmesi", "Merkez Bankası'nın kurulması fikri", "Yerli malı kullanımının teşvik edilmesi"],
+  o: ["Yabancı sermaye girişinin yasaklanması", "Aşar vergisinin kaldırılması", "Demiryollarının millileştirilmesi", "Merkez Bankası kurulması fikri", "Yerli malı kullanımının teşviki"],
   a: 0,
   e: "İzmir İktisat Kongresi'nde yabancı sermayeye DAVETKAR bir tutum izlenmiştir (ulusal bağımsızlığı tehdit etmemek koşuluyla); yasaklama söz konusu değildir.",
   t: "1923-1929 Kuruluş", d: 2
 },
 {
   q: "İzmir İktisat Kongresi'nde işçilerle ilgili alınan kararlar arasında aşağıdakilerden hangisi vardır?",
-  o: ["1 Mayıs'ın işçi bayramı olarak tatil ilan edilmesi ve çalışma saatlerinin 8 saate düşürülmesi", "Sendikaların tamamen yasaklanması", "Çalışma saatlerinin 10 saate çıkarılması", "İşçi ücretlerinin dondurulması", "Grev hakkının kaldırılması"],
+  o: ["1 Mayıs'ın tatil ve çalışmanın 8 saate inmesi", "Sendikaların tamamen yasaklanması", "Çalışma saatlerinin 10 saate çıkarılması", "İşçi ücretlerinin dondurulması", "Grev hakkının tümüyle kaldırılması"],
   a: 0,
   e: "Kongrede 1 MAYIS'IN İŞÇİ BAYRAMI olarak tatil ilan edilmesi, ÇALIŞMA SAATLERİNİN 8 SAATE düşürülmesi ve işçilere 'amele' denmemesi kararlaştırılmıştır. Ayrıca Cuma günlerinin tatil ilan edilmesi de kararlar arasındadır.",
   t: "1923-1929 Kuruluş", d: 3
@@ -81,7 +79,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "Aşar Vergisi hangi yıl kaldırılmış ve bu durum bütçe üzerinde nasıl bir etki yaratmıştır?",
-  o: ["1925 — Cumhuriyet döneminin ilk bütçe açığı oluşmuştur", "1924 — bütçe fazlası oluşmuştur", "1926 — bütçe dengesi korunmuştur", "1927 — ilk bütçe açığı oluşmuştur", "1929 — bütçe açığı oluşmuştur"],
+  o: ["1925 — ilk bütçe açığı oluşmuştur", "1924 — bütçe fazlası oluşmuştur", "1926 — bütçe dengesi korunmuştur", "1927 — ilk bütçe açığı oluşmuştur", "1929 — ilk bütçe açığı oluşmuştur"],
   a: 0,
   e: "Aşar Vergisi 1925'te kaldırılmış ve aynı yıl CUMHURİYET DÖNEMİNİN İLK BÜTÇE AÇIĞI oluşmuştur. Denk bütçe anlayışının hakim olduğu bu dönemde sadece 1925'te bütçe açık vermiştir.",
   t: "1923-1929 Kuruluş", d: 2
@@ -95,7 +93,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "1926 yılında gerçekleşen gelişmeler hangileridir?",
-  o: ["Kabotaj Kanunu, Emlak ve Eytam Bankası, Kayseri Tomtaş uçak fabrikası", "Teşvik-i Sanayi Kanunu ve ilk nüfus sayımı", "İktisat Bakanlığı'nın kurulması", "Aşar Vergisi'nin kaldırılması", "Merkez Bankası'nın kurulması"],
+  o: ["Kabotaj Kanunu ve Emlak Eytam Bankası", "Teşvik-i Sanayi Kanunu ve nüfus sayımı", "İktisat Bakanlığının kurulması", "Aşar Vergisinin kaldırılması", "Merkez Bankasının kurulması"],
   a: 0,
   e: "1926'da KABOTAJ KANUNU çıkarılmış, EMLAK VE EYTAM BANKASI kurulmuş ve Kayseri'de TOMTAŞ uçak ve motor fabrikası açılmıştır.",
   t: "1923-1929 Kuruluş", d: 3
@@ -137,7 +135,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "1923-1929 döneminde Merkez Bankası kurulmadığı için merkez bankacılığı görevleri hangi kurum tarafından yürütülmüştür?",
-  o: ["Osmanlı Bankası (İngiliz-Fransız sermayeli)", "İş Bankası", "Ziraat Bankası", "Sanayi ve Maadin Bankası", "Emlak ve Eytam Bankası"],
+  o: ["Osmanlı Bankası", "İş Bankası", "Ziraat Bankası", "Sanayi ve Maadin Bankası", "Emlak ve Eytam Bankası"],
   a: 0,
   e: "Bu dönemde Merkez Bankası kurulmadığından merkez bankacılığı görevleri İNGİLİZ-FRANSIZ sermayeli OSMANLI BANKASI tarafından yürütülmüştür.",
   t: "1923-1929 Kuruluş", d: 2
@@ -149,8 +147,6 @@ KPSS.registerBank('trdonem', [
   e: "1927'de tarım ve iklim koşullarından kaynaklanan NEGATİF BÜYÜME olmuştur. Bunun dışında dönemde pozitif büyüme söz konusudur.",
   t: "1923-1929 Kuruluş", d: 3
 },
-
-/* ---------- 1930-1939 DEVLETÇİLİK ---------- */
 {
   q: "1930-1939 Planlı Devletçilik Dönemi'nde devletçiliğe yönelmenin nedenleri arasında aşağıdakilerden hangisi YER ALMAZ?",
   o: ["Özel kesim sermayesinin aşırı güçlü olması", "SSCB ile yakın ilişkiler", "1929 Ekonomik Buhranının etkileri", "Özel kesim sermayesinin yetersizliği", "Keynesyen iktisadi görüşün etkileri"],
@@ -174,21 +170,21 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "I. Beş Yıllık Sanayi Planı hangi yılları kapsar, kim tarafından hazırlanmış ve uygulamak için hangi kurum kurulmuştur?",
-  o: ["1934-1938 — Sovyet iktisatçı Prof. Dr. Orlov — Sümerbank", "1934-1938 — Tinbergen — Etibank", "1933-1937 — Orlov — İller Bankası", "1934-1938 — Süleyman Vaner — Sümerbank", "1939-1943 — Orlov — Sümerbank"],
+  o: ["1934-1938 — Orlov — Sümerbank", "1934-1938 — Tinbergen — Etibank", "1933-1937 — Orlov — İller Bankası", "1934-1938 — Vaner — Sümerbank", "1939-1943 — Orlov — Sümerbank"],
   a: 0,
   e: "I. Beş Yıllık Sanayi Planı (1934-1938) Sovyet iktisatçı Prof. Dr. ORLOV tarafından hazırlanmış, planı uygulamak amacıyla SÜMERBANK kurulmuştur.",
   t: "I. BYSP", d: 2
 },
 {
   q: "I. Beş Yıllık Sanayi Planı'nın temel amacı nedir?",
-  o: ["Temel tüketim mallarının yurtiçi üretiminin gerçekleştirilmesi (ithal ikameci strateji)", "İhracata dayalı sanayileşmenin sağlanması", "Ara malı ve yatırım malı üretiminin arttırılması", "Tarım ve sanayi dengesinin kurulması", "Özelleştirmenin hızlandırılması"],
+  o: ["Temel tüketim mallarının yurtiçi üretimi", "İhracata dayalı sanayileşmenin sağlanması", "Ara ve yatırım malı üretiminin arttırılması", "Tarım ve sanayi dengesinin kurulması", "Özelleştirmenin hızlandırılması"],
   a: 0,
   e: "I. BYSP'nin temel amacı TEMEL TÜKETİM MALLARININ YURTİÇİ ÜRETİMİNİN gerçekleştirilmesidir (ithal ikameci strateji). Devlet öncülüğünde planlı sanayileşmenin ilk örneğidir.",
   t: "I. BYSP", d: 2
 },
 {
   q: "I. Beş Yıllık Sanayi Planı'nın niteliği ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Mikro bir plandır, makro nitelik taşımaz ve çerçevesinde 19 fabrika kurulmuştur", "Makro bir plandır ve tüm sektörleri kapsar", "Mikro bir plandır ve 30 fabrika kurulmuştur", "Makro bir plandır ve 19 fabrika kurulmuştur", "Hem mikro hem makro niteliktedir"],
+  o: ["Mikro plandır; 19 fabrika kurulmuştur", "Mikro plandır; 30 fabrika kurulmuştur", "Makro plandır; 19 fabrika kurulmuştur", "Makro plandır; tüm sektörleri kapsar", "Hem mikro hem makro niteliktedir"],
   a: 0,
   e: "I. BYSP özel sektörü destekleyici MİKRO bir plandır, MAKRO nitelik taşımaz. Plan çerçevesinde 19 FABRİKA kurulmuş ve sanayinin bir kısmı desteklenmiştir.",
   t: "I. BYSP", d: 3
@@ -209,7 +205,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "1930-1939 döneminde TCMB'nin zorunlu karşılık politikası nasıl seyretmiştir?",
-  o: ["I. BYSP öncesi (1930-1933) yüksek, I. BYSP sonrası (1934-1938) düşük tutulmuştur", "I. BYSP öncesi düşük, sonrası yüksek tutulmuştur", "Dönem boyunca sabit tutulmuştur", "Dönem boyunca sürekli yükseltilmiştir", "Zorunlu karşılık politikası bu dönemde uygulanmamıştır"],
+  o: ["1930-1933 yüksek, 1934-1938 düşük", "1930-1933 düşük, 1934-1938 yüksek", "Dönem boyunca sabit tutulmuştur", "Dönem boyunca sürekli yükseltilmiştir", "Bu dönemde hiç uygulanmamıştır"],
   a: 0,
   e: "I. BYSP ÖNCESİ (1930-1933) para arzını sınırlandırmak amacıyla zorunlu karşılık oranları YÜKSEK; I. BYSP SONRASI (1934-1938) planı finanse etmek amacıyla DÜŞÜK tutulmuştur.",
   t: "1930-1939 Devletçilik", d: 3
@@ -235,11 +231,9 @@ KPSS.registerBank('trdonem', [
   e: "1930-1939 döneminde 1938 YILI HARİÇ dönemin tamamında DIŞ TİCARET FAZLASI verilmiştir.",
   t: "1930-1939 Devletçilik", d: 3
 },
-
-/* ---------- II. DÜNYA SAVAŞI ---------- */
 {
   q: "II. Dünya Savaşı Dönemi'nde (1939-1945) ekonomi politikaları nasıl değişmiştir?",
-  o: ["Sıkı para politikası ve denk bütçe ilkesinden taviz verilmiş, bütçe açık vermiştir", "Sıkı para politikası ve denk bütçe ilkesi tavizsiz sürdürülmüştür", "Fiyat istikrarı tam olarak sağlanmıştır", "Dış ticaret fazlası artmıştır", "Tarımsal üretim büyük artış göstermiştir"],
+  o: ["Denk bütçe ilkesinden taviz verilmiştir", "Denk bütçe ilkesi tavizsiz sürdürülmüştür", "Fiyat istikrarı tam olarak sağlanmıştır", "Dış ticaret fazlası önemli ölçüde artmıştır", "Tarımsal üretim büyük artış göstermiştir"],
   a: 0,
   e: "II. Dünya Savaşı döneminde sıkı para politikası ve denk bütçe ilkesinden TAVİZ VERİLMİŞTİR. Fiyat istikrarı sağlanamamış, savunma harcamaları nedeniyle devlet bütçesi AÇIK vermiştir.",
   t: "II. Dünya Savaşı", d: 2
@@ -260,21 +254,21 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "Varlık Vergisi hangi yıl çıkarılmış, kimlerden toplanmış ve ne zaman kaldırılmıştır?",
-  o: ["1942 — ticaret burjuvazisinden özellikle gayrimüslimlerden — 1944", "1944 — büyük toprak sahiplerinden — 1946", "1940 — memurlardan — 1942", "1942 — çiftçilerden — 1945", "1945 — sanayicilerden — 1950"],
+  o: ["1942 — gayrimüslim tüccarlardan — 1944", "1944 — büyük toprak sahiplerinden — 1946", "1940 — devlet memurlarından — 1942", "1942 — çiftçilerden — 1945", "1945 — sanayicilerden — 1950"],
   a: 0,
   e: "VARLIK VERGİSİ 1942'de çıkarılan bir tür SERVET VERGİSİDİR. Savaş dönemi haksız kazançlarını vergilendirmek amacıyla ticaret burjuvazisinden özellikle GAYRİMÜSLİMLERDEN toplanmıştır. Matrahı ve oranı belli değildi; dünya kamuoyunun tepkileri nedeniyle 1944'te kaldırılmıştır.",
   t: "II. Dünya Savaşı", d: 2
 },
 {
   q: "Toprak Mahsulleri Vergisi ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["1944'te çıkarılmış, Aşar Vergisi'nden sonra topraktan alınan ilk dolaysız vergidir ve 1946'da kaldırılmıştır", "1942'de çıkarılmış ve 1944'te kaldırılmıştır", "Gayrimüslimlerden toplanmış bir servet vergisidir", "Sadece nakit olarak tahsil edilmiştir", "1945'te çıkarılmış ilk toprak reformudur"],
+  o: ["1944'te çıktı; topraktan alınan ilk dolaysız vergi", "1942'de çıktı ve 1944'te kaldırıldı", "Gayrimüslimlerden toplanan bir servet vergisidir", "Yalnızca nakit olarak tahsil edilmiştir", "1945'te çıkarılan ilk toprak reformudur"],
   a: 0,
   e: "TOPRAK MAHSULLERİ VERGİSİ 1944'te çıkarılmıştır; Aşar Vergisi'nden sonra topraktan alınan İLK DOLAYSIZ VERGİDİR. Büyük toprak sahiplerinden ürün veya nakit olarak tahsil edilmiş, 1946'da kaldırılmıştır.",
   t: "II. Dünya Savaşı", d: 2
 },
 {
   q: "1945 Topraklandırma Kanunu'nun siyasi sonucu ne olmuştur?",
-  o: ["CHP içinde bölünmeye yol açmış; Adnan Menderes ve Celal Bayar istifa ederek Demokrat Parti'yi kurmuşlardır", "Demokrat Parti'nin kapatılmasına yol açmıştır", "Askeri darbeye yol açmıştır", "CHP'nin oy oranını arttırmıştır", "Hiçbir siyasi sonucu olmamıştır"],
+  o: ["CHP bölünmüş, Demokrat Parti kurulmuştur", "Demokrat Partinin kapatılmasına yol açmıştır", "Bir askeri darbeye yol açmıştır", "CHP'nin oy oranını arttırmıştır", "Herhangi bir siyasi sonucu olmamıştır"],
   a: 0,
   e: "1945 Topraklandırma Kanunu Türkiye'de İLK TOPRAK REFORMUDUR. Devlet hem kendi hem özel kesim arazilerini halka ücretsiz dağıtmıştır. Bu konu CHP içinde bölünmeye neden olmuş; Adnan Menderes ve Celal Bayar istifa ederek DEMOKRAT PARTİ'yi kurmuşlardır.",
   t: "II. Dünya Savaşı", d: 2
@@ -286,8 +280,6 @@ KPSS.registerBank('trdonem', [
   e: "İlk ÇİFT HANELİ enflasyon 1941, ilk ÜÇ HANELİ enflasyon 1980 (%108) yılında görülmüştür. EN YÜKSEK enflasyon ise 1994 yılındadır.",
   t: "Enflasyon Tarihi", d: 2
 },
-
-/* ---------- 1946-1960 ---------- */
 {
   q: "Türkiye'de son kez dış ticaret fazlasının verildiği yıl hangisidir?",
   o: ["1946", "1938", "1950", "1958", "1960"],
@@ -311,7 +303,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "Türkiye'de hazırlanan ilk kalkınma planı hangisidir ve kime aittir?",
-  o: ["Türkiye İktisadi Kalkınma Planı (Vaner Planı) — Süleyman Vaner", "İvedili Sanayi Planı — Orlov", "I. Beş Yıllık Kalkınma Planı — Tinbergen", "I. Beş Yıllık Sanayi Planı — Orlov", "Enflasyonla Mücadele Programı — Kemal Derviş"],
+  o: ["Vaner Planı — Süleyman Vaner", "İvedili Sanayi Planı — Orlov", "I. Beş Yıllık Kalkınma Planı — Tinbergen", "I. Beş Yıllık Sanayi Planı — Orlov", "Enflasyonla Mücadele — Kemal Derviş"],
   a: 0,
   e: "Hazırlanan İLK KALKINMA PLANI 1947 tarihli TÜRKİYE İKTİSADİ KALKINMA PLANI (VANER PLANI)'dır ve SÜLEYMAN VANER'e aittir.",
   t: "1946-1960", d: 2
@@ -325,7 +317,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "Truman Doktrini nedir?",
-  o: ["ABD Başkanı H. Truman tarafından SSCB tehdidi altındaki ülkelere yapılan askeri yardım paketi", "ABD Dışişleri Bakanı tarafından yapılan ekonomik yardım paketi", "IMF'nin kurulmasını öngören anlaşma", "NATO'nun kuruluş belgesi", "Gümrük tarifelerini düzenleyen uluslararası anlaşma"],
+  o: ["SSCB tehdidi altındaki ülkelere askeri yardım", "Avrupa'ya yönelik ekonomik yardım paketi", "IMF'nin kurulmasını öngören anlaşma", "NATO'nun kuruluşuna ilişkin belge", "Gümrük tarifelerini düzenleyen anlaşma"],
   a: 0,
   e: "TRUMAN DOKTRİNİ (1947), ABD Başkanı H. Truman tarafından SSCB tehdidi altında kalan ülkelere yapılan ASKERİ yardım paketidir (araç, gereç, silah, top, tüfek vb.). O dönemde SSCB Kars ve Ardahan'ı istiyordu.",
   t: "1946-1960", d: 2
@@ -339,7 +331,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "Marshall yardımları çerçevesinde Türkiye'ye gönderilen ürünler arasında aşağıdakilerden hangisi vardır?",
-  o: ["Traktör, pulluk, biçerdöver, gıda malzemesi ve ilaç", "Silah, top ve tüfek", "Fabrika ve makine teçhizatı", "Petrol ve kömür", "Otomobil ve uçak"],
+  o: ["Traktör, biçerdöver, gıda ve ilaç", "Silah, top ve tüfek", "Fabrika ve makine teçhizatı", "Petrol ve taş kömürü", "Otomobil ve uçak"],
   a: 0,
   e: "Marshall yardımları çerçevesinde Türkiye'ye TRAKTÖR, PULLUK, BİÇERDÖVER, GIDA MALZEMESİ ve İLAÇ gönderilmiştir. Türkiye'nin yararlanma nedeni Avrupa'nın yeniden inşasına katkı sağlayabileceği görüşüdür.",
   t: "1946-1960", d: 2
@@ -409,7 +401,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "1950-1960 döneminde özelleştirme konusunda ne olmuştur?",
-  o: ["Hiçbir kurum özelleştirilmemiş, aksine yeni KİT'ler kurulmuştur", "Tüm KİT'ler özelleştirilmiştir", "KİT'lerin yarısı özelleştirilmiştir", "İlk özelleştirme bu dönemde gerçekleşmiştir", "Özelleştirme yasası bu dönemde çıkarılmıştır"],
+  o: ["Özelleştirme olmamış, yeni KİT kurulmuştur", "Bütün KİT'ler özelleştirilmiştir", "KİT'lerin yarısı özelleştirilmiştir", "İlk özelleştirme bu dönemde yapılmıştır", "Özelleştirme yasası bu dönemde çıkmıştır"],
   a: 0,
   e: "Demokrat Parti özelleştirmeyi titizlikle uygulama sözü vermesine rağmen bu dönemde HİÇBİR KURUM ÖZELLEŞTİRİLMEMİŞ, aksine YENİ KİT'LER KURULMUŞTUR (Et ve Balık Kurumu, TPAO, SEKA, Türkiye Kömür İşletmeleri vb.).",
   t: "1950-1960 DP", d: 2
@@ -442,8 +434,6 @@ KPSS.registerBank('trdonem', [
   e: "İlk Stand-By 1961, son Stand-By 2005'tir ve TOPLAM 19 TANE Stand-By anlaşması yapılmıştır. IMF'ye olan borcun son taksiti 2013'te ödenmiştir.",
   t: "IMF İlişkileri", d: 2
 },
-
-/* ---------- 1960-1980 PLANLI DÖNEM ---------- */
 {
   q: "Devlet Planlama Teşkilatı hangi yıl kurulmuş ve hangi yıl faaliyete başlamıştır?",
   o: ["1960'ta kurulmuş, 1961'de faaliyete başlamıştır", "1961'de kurulmuş, 1963'te faaliyete başlamıştır", "1962'de kurulmuş, 1963'te faaliyete başlamıştır", "1963'te kurulmuş, 1964'te faaliyete başlamıştır", "1958'de kurulmuş, 1960'ta faaliyete başlamıştır"],
@@ -481,7 +471,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "II. Beş Yıllık Kalkınma Planı'nda (1968-1972) kamu ve özel kesime ayrılan üretim alanları hangileridir?",
-  o: ["Kamu kesimi ara malı ve yatırım malı, özel kesim dayanıklı tüketim malı", "Kamu kesimi dayanıklı tüketim malı, özel kesim ara malı", "Her ikisi de ara malı üretecektir", "Kamu kesimi tarım, özel kesim sanayi", "Kamu kesimi ihracat, özel kesim ithalat"],
+  o: ["Kamu ara-yatırım, özel dayanıklı tüketim", "Kamu dayanıklı tüketim, özel ara malı", "Her ikisi de ara malı üretecektir", "Kamu tarım, özel kesim sanayi", "Kamu ihracat, özel kesim ithalat"],
   a: 0,
   e: "II. BYKP'de KAMU KESİMİ ara malı ve yatırım malı, ÖZEL KESİM dayanıklı tüketim malı üretecekti. Plan ÇOK KESİMLİ bir plandır ve büyüme hızı %6,3 gerçekleşmiştir.",
   t: "II. BYKP", d: 3
@@ -521,18 +511,16 @@ KPSS.registerBank('trdonem', [
   e: "IV. BYKP'de büyüme hızı %8,2 hedeflenmiş ancak %1,8 gerçekleşmiştir. II. Petrol Krizi nedeniyle ithalata bağımlılık artmış; 24 Ocak 1980 Kararları ve 12 Eylül 1980 darbesi nedeniyle plan tam uygulanamamıştır.",
   t: "IV. BYKP", d: 3
 },
-
-/* ---------- 24 OCAK 1980 ---------- */
 {
   q: "24 Ocak 1980 Kararlarının teorik temelleri hangi yaklaşımlara dayanır?",
-  o: ["Friedman'ın Monetarist yaklaşımı ve Hayek'in Arz Yanlı İktisadı (Neo-Liberal)", "Keynesyen talep yönetimi", "Marksist planlama yaklaşımı", "Merkantilist korumacılık", "Klasik emek-değer teorisi"],
+  o: ["Monetarizm ve Arz Yanlı İktisat", "Keynesyen talep yönetimi yaklaşımı", "Marksist merkezi planlama yaklaşımı", "Merkantilist korumacılık yaklaşımı", "Klasik emek-değer teorisi"],
   a: 0,
   e: "24 Ocak Kararlarının teorik temelleri FRIEDMAN'ın öncülüğünü yaptığı MONETARİST yaklaşım ve HAYEK'in öncülüğünü yaptığı ARZ YANLI İKTİSAT gibi NEO-LİBERAL yaklaşımlardır.",
   t: "24 Ocak 1980", d: 2
 },
 {
   q: "24 Ocak 1980 Kararlarının en temel stratejik değişikliği nedir?",
-  o: ["İthal ikameci sanayileşme stratejisi yerine ihracata yönelik sanayileşme stratejisinin benimsenmesi", "İhracata yönelik strateji yerine ithal ikameci stratejinin benimsenmesi", "Karma ekonomiden devletçiliğe geçilmesi", "Serbest piyasa yerine planlı ekonomiye geçilmesi", "Sabit kurdan altın standardına dönülmesi"],
+  o: ["İhracata yönelik sanayileşmeye geçiş", "İthal ikameci sanayileşmeye geçiş", "Karma ekonomiden devletçiliğe geçiş", "Planlı ekonomiye geri dönülmesi", "Altın standardına geri dönülmesi"],
   a: 0,
   e: "24 Ocak tedbirlerinin temel amacı, karma ekonomik yapı yerine SERBEST PİYASA ekonomisini savunmak ve İTHAL İKAMECİ sanayileşme stratejisi yerine İHRACATA YÖNELİK sanayileşme stratejisini benimsemektir.",
   t: "24 Ocak 1980", d: 2
@@ -553,7 +541,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "24 Ocak Kararları sonrası 1982 yılında yaşanan finansal krizin sonuçları arasında aşağıdakilerden hangisi vardır?",
-  o: ["Sermaye Piyasası Kurulu kurularak bankerlik faaliyetleri tamamen yasaklanmıştır", "Tüm bankalar kamulaştırılmıştır", "Faiz oranları tamamen serbest bırakılmıştır", "Döviz piyasası kapatılmıştır", "Özelleştirme yasası çıkarılmıştır"],
+  o: ["SPK kurulup bankerlik yasaklanmıştır", "Bütün bankalar kamulaştırılmıştır", "Faiz oranları tamamen serbest bırakılmıştır", "Döviz piyasası tümüyle kapatılmıştır", "Özelleştirme yasası çıkarılmıştır"],
   a: 0,
   e: "Faiz artışı bankalarla bankerler arasındaki rekabeti arttırmış, 1982'de yaşanan finansal krizle pek çok banka ve banker iflas etmiştir. Hükümet iflasın eşiğindeki firmalara kamu bankalarından finansman sağlamış ve SERMAYE PİYASASI KURULU kurularak BANKERLİK FAALİYETLERİ TAMAMEN YASAKLANMIŞTIR.",
   t: "24 Ocak 1980", d: 3
@@ -565,8 +553,6 @@ KPSS.registerBank('trdonem', [
   e: "1980-1983 döneminde GSMH büyüme oranları DÜŞÜK düzeyde kalmış ve İŞSİZLİK ARTMIŞTIR. Ayrıca para piyasası dengesizlikleri sürmüş, devletin ekonomideki yeri daraltılamamış ve sosyal dengesizlikler büyümüştür.",
   t: "24 Ocak 1980", d: 2
 },
-
-/* ---------- 1980-1990 DÜZENLEMELER ---------- */
 {
   q: "Sabit kur uygulaması terk edilerek günlük kur uygulamasına (esnek kura ilk adım) hangi yıl geçilmiştir?",
   o: ["1981", "1980", "1982", "1984", "1989"],
@@ -625,7 +611,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "32 Sayılı Karar hangi yıl çıkarılmış ve en önemli sonucu ne olmuştur?",
-  o: ["1989 — sermaye hareketleri serbestleştirilmiş ve Türk Lirası konvertibl hale gelmiştir", "1980 — mal hareketleri serbestleştirilmiştir", "1984 — özelleştirme başlatılmıştır", "1990 — çıpa uygulaması başlatılmıştır", "1987 — açık piyasa işlemleri başlatılmıştır"],
+  o: ["1989 — TL konvertibl hale gelmiştir", "1980 — mal hareketleri serbestleşmiştir", "1984 — özelleştirme başlatılmıştır", "1990 — kur çıpası uygulanmıştır", "1987 — açık piyasa işlemleri başlamıştır"],
   a: 0,
   e: "32 SAYILI KARAR 1989'da çıkarılmıştır: sermaye hareketleri serbestleştirilmiş, döviz ithali serbest bırakılmış, kıymetli maden ithalat-ihracatı serbestleştirilmiş ve TÜRK LİRASI KONVERTİBL hale gelmiştir. IMF bunu 1990'da onaylamıştır.",
   t: "1980-1990 Düzenlemeler", d: 2
@@ -644,8 +630,6 @@ KPSS.registerBank('trdonem', [
   e: "Türkiye'de çıpa uygulamaları: 1990 → TCMB BİLANÇOSU, 1994 → MAAŞ VE ÜCRETLER, 2001 → DÖVİZ KURU. İlk kez çıpa uygulaması 1990'da başlamıştır.",
   t: "1980-1990 Düzenlemeler", d: 3
 },
-
-/* ---------- 1990'LAR VE 1994 KRİZİ ---------- */
 {
   q: "1988-1989 yıllarında hükümetin açıklarını kapatmak için emisyona başvurması ve büyüme oranlarının düşmesi sonucu ortaya çıkan durum nedir?",
   o: ["Stagflasyon", "Deflasyon", "Dezenflasyon", "Hiperenflasyon", "Slumpflasyon"],
@@ -697,7 +681,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "5 Nisan 1994 Kararlarının başarı düzeyi nasıl değerlendirilir?",
-  o: ["Kısa vadede başarılıdır, enflasyon düşürülmüştür; uzun vadede başarılı değildir", "Hem kısa hem uzun vadede tamamen başarılıdır", "Hem kısa hem uzun vadede başarısızdır", "Sadece uzun vadede başarılıdır", "Enflasyonu tek haneye düşürmüştür"],
+  o: ["Kısa vadede başarılı, uzun vadede değil", "Hem kısa hem uzun vadede başarılıdır", "Hem kısa hem uzun vadede başarısızdır", "Yalnızca uzun vadede başarılı olmuştur", "Enflasyonu tek haneye düşürmüştür"],
   a: 0,
   e: "1994 Kararları KISA VADEDE BAŞARILIDIR, enflasyon düşürülmüştür; ancak UZUN VADEDE BAŞARILI DEĞİLDİR. Enflasyon, işsizlik ve bütçe açıkları gibi konularda kalıcı başarı sağlanmamıştır.",
   t: "1994 Krizi", d: 2
@@ -711,16 +695,14 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "17. Stand-By anlaşması hangi yıl imzalanmış ve koşulu neydi?",
-  o: ["1999 — dezenflasyon (enflasyonla mücadele) programının hazırlanması", "1994 — bütçe açıklarının kapatılması", "2001 — bankacılık reformunun yapılması", "2005 — özelleştirmenin hızlandırılması", "1998 — kur çıpasının uygulanması"],
+  o: ["1999 — dezenflasyon programı hazırlanması", "1994 — bütçe açıklarının kapatılması", "2001 — bankacılık reformunun yapılması", "2005 — özelleştirmenin hızlandırılması", "1998 — kur çıpasının uygulanması"],
   a: 0,
   e: "1997 Güneydoğu Asya Krizi, 1998 Rusya Krizi ve 1999 Marmara Depremi etkileriyle 1999'da IMF ile 17. STAND-BY (yakın izleme anlaşması) imzalanmıştır. Koşulu DEZENFLASYON programının hazırlanmasıdır; 22 Aralık 1999'da yürürlüğe girmiştir.",
   t: "1990'lar", d: 3
 },
-
-/* ---------- 2000-2002 EMP ---------- */
 {
   q: "2000-2002 Enflasyonla Mücadele Programı'nın temel amacı nedir ve başarılı olmuş mudur?",
-  o: ["Enflasyonu 2002 sonuna kadar tek haneye düşürmek — başarılı olamamıştır", "Bütçe açıklarını kapatmak — başarılı olmuştur", "Bankacılık sistemini düzenlemek — başarılı olmuştur", "Kamu borçlarıyla mücadele — başarılı olmuştur", "İşsizliği azaltmak — başarılı olamamıştır"],
+  o: ["Enflasyonu tek haneye düşürmek — başarısız", "Bütçe açıklarını kapatmak — başarılı", "Bankacılığı düzenlemek — başarılı", "Kamu borçlarıyla mücadele — başarılı", "İşsizliği azaltmak — başarısız olmuştur"],
   a: 0,
   e: "2000-2002 Enflasyonla Mücadele Programı'nın temel amacı IMF'nin isteğiyle enflasyonun 2002 sonuna kadar TEK HANEYE düşürülmesiydi; BAŞARILI OLAMAMIŞTIR.",
   t: "2000-2002 EMP", d: 2
@@ -774,11 +756,9 @@ KPSS.registerBank('trdonem', [
   e: "25 Nisan 2001'de TCMB Kanunu'nda yapılan değişiklikle temel amaç FİYAT İSTİKRARINI SAĞLAMAK olarak belirlenmiş ve TCMB'nin kamu kesimine kredi açamayacağı kesinleşmiştir (Hazine ile ilişkilerin kesilmesi).",
   t: "2001 Krizi", d: 2
 },
-
-/* ---------- GEGP VE 2002 SONRASI ---------- */
 {
   q: "Güçlü Ekonomiye Geçiş Programı kim tarafından hazırlanmış ve ana hedefi nedir?",
-  o: ["Kemal Derviş — sürdürülemez boyutlara ulaşmış kamu borçlarıyla mücadele", "Bülent Ecevit — enflasyonun tek haneye düşürülmesi", "Kemal Derviş — enflasyonun tek haneye düşürülmesi", "Süleyman Vaner — kamu borçlarıyla mücadele", "Tinbergen — büyümenin arttırılması"],
+  o: ["Kemal Derviş — kamu borçlarıyla mücadele", "Kemal Derviş — enflasyonu tek haneye indirme", "Bülent Ecevit — enflasyonu tek haneye indirme", "Süleyman Vaner — kamu borçlarıyla mücadele", "Tinbergen — büyümenin arttırılması"],
   a: 0,
   e: "GÜÇLÜ EKONOMİYE GEÇİŞ PROGRAMI (2002-2004) KEMAL DERVİŞ tarafından 2001'de hazırlanmıştır. ANA HEDEFİ sürdürülemez boyutlara ulaşmış KAMU BORÇLARIYLA MÜCADELEDİR.",
   t: "GEGP", d: 2
@@ -792,7 +772,7 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "Güçlü Ekonomiye Geçiş Programı'nda iç denge ve dış denge hangi araçlarla sağlanmaya çalışılmıştır?",
-  o: ["İç denge faiz dışı fazla ile (maliye politikası), dış denge dalgalı kur rejimi ile (para politikası)", "İç denge dalgalı kur ile, dış denge faiz dışı fazla ile", "Her ikisi de sabit kur ile", "Her ikisi de faiz dışı fazla ile", "İç denge kur çıpası ile, dış denge özelleştirme ile"],
+  o: ["İç denge faiz dışı fazla, dış denge dalgalı kur", "İç denge dalgalı kur, dış denge faiz dışı fazla", "Her ikisi de sabit kur rejimi ile", "Her ikisi de faiz dışı fazla ile", "İç denge kur çıpası, dış denge özelleştirme"],
   a: 0,
   e: "GEGP'de İÇ DENGE için kamu açığının azaltılması ve FAİZ DIŞI FAZLA yaratılması (maliye politikası); DIŞ DENGE için DALGALI KUR REJİMİ (para politikası) benimsenmiştir.",
   t: "GEGP", d: 3
@@ -827,14 +807,14 @@ KPSS.registerBank('trdonem', [
 },
 {
   q: "Örtük ve açık enflasyon hedeflemesi arasındaki temel fark nedir?",
-  o: ["Örtük hedeflemede enflasyon hedefi belirlenir ama kamuoyuna duyurulmaz; açık hedeflemede kamuoyuna açıklama yapılır ve hesap verilir", "Örtük hedeflemede kamuoyuna açıklama yapılır, açık hedeflemede yapılmaz", "Örtük hedeflemede sabit kur, açık hedeflemede dalgalı kur uygulanır", "İkisi arasında hiçbir fark yoktur", "Örtük hedeflemede faiz, açık hedeflemede para arzı kullanılır"],
+  o: ["Örtükte hedef duyurulmaz, açıkta duyurulur", "Örtükte hedef duyurulur, açıkta duyurulmaz", "Örtükte sabit kur, açıkta dalgalı kur vardır", "Örtükte faiz, açıkta para arzı kullanılır", "İkisi arasında hiçbir fark bulunmaz"],
   a: 0,
   e: "ÖRTÜK enflasyon hedeflemesinde (2002-2005) hedef belirlenir ancak KAMUOYUNA DUYURULMAZ; parasal tabanı kontrol ederek enflasyon düşürülür. AÇIK hedeflemede (2006 sonrası) halka hesap verilir ve kamuoyuna açıklama yapılır.",
   t: "2002 Sonrası", d: 2
 },
 {
   q: "TCMB 2006 yılı enflasyon hedeflemesi rejiminde temel politika enstrümanı olarak neyi kullanmıştır?",
-  o: ["1 hafta vadeli repo ihale faizini (depo işlemi)", "Gecelik borç alma faizini", "Reeskont oranını", "Zorunlu karşılık oranını", "Döviz kuru sepetini"],
+  o: ["1 hafta vadeli repo ihale faizi", "Gecelik borç alma faizi", "Reeskont oranı", "Zorunlu karşılık oranı", "Döviz kuru sepeti"],
   a: 0,
   e: "TCMB 2006 yılı enflasyon hedeflemesi rejiminde temel politika enstrümanı olarak 1 HAFTA VADELİ REPO İHALE FAİZİNİ (depo işlemi) kullanmıştır.",
   t: "2002 Sonrası", d: 3
@@ -860,25 +840,23 @@ KPSS.registerBank('trdonem', [
   e: "2010 yılında ilk defa kişi başı gelir 10.000 doları aşmıştır.",
   t: "2002 Sonrası", d: 3
 },
-
-/* ---------- 2008 KÜRESEL KRİZ ---------- */
 {
   q: "2008 Küresel Krizi'nin Türkiye ekonomisine etkileri nasıl olmuştur?",
-  o: ["Büyüme −%4,7'ye düşmüş, sanayi üretim endeksi gerilemiş, işsizlik %14'e ulaşmıştır", "Büyüme −%9,5'e düşmüş, 19 banka batmıştır", "Büyüme artmış, işsizlik azalmıştır", "Sadece enflasyon artmıştır", "Türkiye krizden hiç etkilenmemiştir"],
+  o: ["Büyüme −%4,7'ye düşmüş, işsizlik %14'e ulaşmıştır", "Büyüme −%9,5'e düşmüş, 19 banka batmıştır", "Büyüme artmış ve işsizlik azalmıştır", "Yalnızca enflasyon oranı yükselmiştir", "Türkiye bu krizden hiç etkilenmemiştir"],
   a: 0,
   e: "2008 Küresel Krizi Amerikan finansal piyasalarında çıkmıştır. Türkiye'de büyüme oranları düşmüş (−%4,7), sanayi üretim endeksi gerilemiş ve işsizlik %14 gibi çok yüksek seviyeye ulaşmıştır. 2009'da negatif büyüme −%4,78'dir.",
   t: "2008 Krizi", d: 2
 },
 {
   q: "2008 Küresel Kriz koşullarını 2001 Bankacılık Krizi koşullarından ayıran özellikler hangileridir?",
-  o: ["2008'de Türkiye'de batan banka olmamıştır ve özel kesim dış borcu kamu kesiminden fazladır", "2008'de daha fazla banka batmıştır", "2008'de kamu kesimi dış borcu daha fazladır", "2001'de batan banka olmamıştır", "İki kriz tamamen aynı özellikleri taşır"],
+  o: ["Batan banka olmamış, özel kesim borcu fazladır", "2008'de daha fazla banka batmıştır", "2008'de kamu kesimi dış borcu daha fazladır", "2001'de hiç banka batmamıştır", "İki kriz tamamen aynı özellikleri taşır"],
   a: 0,
   e: "2001'de bankacılık krizi sonucu çok sayıda banka batmışken 2008 Küresel Krizi'nde Türkiye'de BATAN BANKA OLMAMIŞTIR. Ayrıca 2001'de yüksek KAMU kesimi dış borcu varken, 2008 ile birlikte ÖZEL KESİM dış borcu daha fazladır.",
   t: "2008 Krizi", d: 2
 },
 {
   q: "2008 Küresel Krizi'ne karşı Türkiye'de alınan tedbirler arasında aşağıdakilerden hangisi vardır?",
-  o: ["KDV'nin 3 ay boyunca %18'den %8'e düşürülmesi ve otomotivde ÖTV'nin indirilmesi", "KDV'nin %18'den %20'ye çıkarılması", "Tüm bankaların kamulaştırılması", "Döviz alım satımının yasaklanması", "Zorunlu karşılıkların kaldırılması"],
+  o: ["KDV'nin %18'den %8'e düşürülmesi", "KDV'nin %18'den %20'ye çıkarılması", "Bütün bankaların kamulaştırılması", "Döviz alım satımının yasaklanması", "Zorunlu karşılıkların kaldırılması"],
   a: 0,
   e: "Alınan tedbirler arasında KDV'nin 3 ay boyunca %18'den %8'e düşürülmesi, otomotivde ÖTV'nin 3 ay indirilmesi, ithalden alınan KDV'nin %1'e indirilmesi, KOBİ'lere düşük faizli kredi desteği ve vergi borçlarına taksitlendirme yer alır.",
   t: "2008 Krizi", d: 3
@@ -903,6 +881,5 @@ KPSS.registerBank('trdonem', [
   a: 0,
   e: "Notta sayılan devlet kalkınma bankaları: EXIMBANK, İLBANK, TÜRKİYE KALKINMA VE YATIRIM BANKASI ve TAKASBANK. Ziraat Bankası bir ticari/tarım bankasıdır.",
   t: "2002 Sonrası", d: 3
-}
-
+},
 ]);

@@ -1,7 +1,5 @@
 /* Para Teorisi ve Politikası — kaynak: "J-PARATEOPOLDERSNOTU.pdf" (Dr. Ahmet Emrah Tayyar) */
 KPSS.registerBank('para', [
-
-/* ---------- PARANIN TANIMI VE FONKSİYONLARI ---------- */
 {
   q: "Parayı 'ekonominin üzerini örten tülden ibarettir' şeklinde değerlendiren iktisatçı kimdir?",
   o: ["A. Smith", "M. Friedman", "J. M. Keynes", "I. Fisher", "J. Tobin"],
@@ -53,13 +51,11 @@ KPSS.registerBank('para', [
 },
 {
   q: "Klasik iktisat ekolüne göre paranın ekonomi üzerindeki etkisi ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Para sadece işlem amaçlıdır, dikotomi geçerlidir ve paranın ekonomi üzerinde etkisi yoktur", "Para ekonominin seviyesini belirleyen temel unsurdur", "Para talebinin faiz esnekliği sonsuzdur", "Para lüks maldır, gelir esnekliği birden büyüktür", "Paranın dolaşım hızı istikrarsızdır"],
+  o: ["Para sadece işlem amaçlıdır; dikotomi geçerlidir", "Para ekonominin seviyesini belirleyen unsurdur", "Para talebinin faiz esnekliği sonsuz düzeydedir", "Para lüks maldır, gelir esnekliği birden büyüktür", "Paranın dolaşım hızı istikrarsız niteliktedir"],
   a: 0,
   e: "Klasiklere göre para sadece işlem amaçlıdır, DİKOTOMİ özelliği vardır ve paranın ekonomi üzerinde etkisi yoktur. Keynesyen devrimle birlikte paranın ekonominin seviyesini etkilediği dile getirilmiştir.",
   t: "Paranın Fonksiyonları", d: 2
 },
-
-/* ---------- PARA SİSTEMLERİ ---------- */
 {
   q: "Hem kullanım değeri hem de değişim değeri olan, nominal değeri ile reel değeri arasında fark bulunmayan para türü hangisidir?",
   o: ["Mal-para", "Temsili para", "İtibari (fiat) para", "Kaydi para", "Para benzeri"],
@@ -137,8 +133,6 @@ KPSS.registerBank('para', [
   e: "PARA BENZERİ, likiditesi yüksek olmayan ve genel olarak kabul görmeyen varlıklardır: tahvil, çek, bono, senet vb.",
   t: "Para Sistemleri", d: 2
 },
-
-/* ---------- PARA ARZI ---------- */
 {
   q: "M2 para arzı tanımı aşağıdakilerden hangisidir?",
   o: ["M1 + Vadeli Mevduat + Mevduat Sertifikası", "M1 + Döviz Tevdiat Hesabı", "M1 + Resmi Mevduat", "M1 + Repo İşlemlerinin Fonları", "Dolaşımdaki Para + Vadesiz Mevduat"],
@@ -169,7 +163,7 @@ KPSS.registerBank('para', [
 },
 {
   q: "Aralık 2010'dan itibaren geçerli olan M3 para arzı tanımı hangisidir?",
-  o: ["M2 + Repo + Para piyasası fonları + İhraç edilen menkul kıymet", "M2 + Resmi mevduat", "M2 + Döviz tevdiat hesabı", "M1 + Vadeli mevduat", "Parasal taban × Para çarpanı"],
+  o: ["M2 + Repo + Fon + Menkul kıymet", "M2 + Resmi mevduat", "M2 + Döviz tevdiat hesabı", "M1 + Vadeli mevduat", "Parasal taban × Para çarpanı"],
   a: 0,
   e: "Aralık 2010'dan itibaren M3 = M2 + Repo + Para piyasası fonları + İhraç edilen Menkul Kıymet. Bankalarca yurtiçine TL üzerinden ihraç edilen, vadeleri 2 yıla kadar olan bono ve tahviller eklenmiştir.",
   t: "Para Arzı", d: 3
@@ -223,8 +217,6 @@ KPSS.registerBank('para', [
   e: "MUTLAK REZERV BANKACILIĞI'nda banka yükümlülüklerine eşit rezerv ayırır; risk ve kazanç düşüktür, banka net sermayesi kadar kredi verebilir. KISMİ REZERV BANKACILIĞI'nda daha az rezerv ayrılır, risk ve kazanç yüksektir.",
   t: "Bankacılık", d: 2
 },
-
-/* ---------- KAYDİ PARA ---------- */
 {
   q: "Kaydi para miktarı hangi formülle hesaplanır? (rDD: zorunlu rezerv oranı)",
   o: ["(1 / rDD) × Vadesiz Mevduat", "(1 − rDD) / rDD × Vadesiz Mevduat", "rDD × Vadesiz Mevduat", "(1 / (1 − rDD)) × Vadesiz Mevduat", "Vadesiz Mevduat / (1 + rDD)"],
@@ -295,8 +287,6 @@ KPSS.registerBank('para', [
   e: "Notta belirtildiği üzere BASİT kaydi para çarpanı, geniş kaydi para çarpanından DAHA FAZLA etki yaratır. Çünkü geniş çarpanda serbest rezerv, nakit tercihi ve vadeli mevduat gibi sızıntılar da paydaya eklenir.",
   t: "Kaydi Para", d: 3
 },
-
-/* ---------- PARA TALEBİ ---------- */
 {
   q: "Klasik para talebi kuramına göre para talebinin faiz ve gelir esnekliği nasıldır?",
   o: ["Faiz esnekliği sıfır, gelir esnekliği 1'e eşittir", "Faiz esnekliği sonsuz, gelir esnekliği sıfırdır", "Faiz esnekliği 1, gelir esnekliği sıfırdır", "Her ikisi de sonsuzdur", "Faiz esnekliği yüksek, gelir esnekliği 1'den büyüktür"],
@@ -313,7 +303,7 @@ KPSS.registerBank('para', [
 },
 {
   q: "Paranın dolaşım hızı (V) neyi ifade eder?",
-  o: ["1 TL'nin üretilen mal ve hizmetleri ortalama olarak kaç kez satın aldığını", "Toplam para arzının milli gelire oranını", "Bankaların kredi verme hızını", "Enflasyonun aylık artış oranını", "Paranın nominal değeriyle reel değeri arasındaki farkı"],
+  o: ["1 TL'nin ortalama kaç kez satın alma yaptığını", "Toplam para arzının milli gelire oranını", "Bankaların kredi verme hızını", "Enflasyonun aylık artış oranını", "Nominal ve reel değer arasındaki farkı"],
   a: 0,
   e: "V dolaşım hızıdır; 1 TL'nin üretilen mal ve hizmetleri ortalama kaç kez satın aldığını, yani 1 TL'nin el değiştirme hızını gösterir.",
   t: "Para Talebi", d: 2
@@ -362,14 +352,14 @@ KPSS.registerBank('para', [
 },
 {
   q: "Keynes'e göre faiz oranındaki artışın elde para tutma üzerindeki etkisi nedir?",
-  o: ["Para tutmanın fırsat maliyetini arttırır, bu da dolaşım hızının artması anlamına gelir", "Para tutmanın fırsat maliyetini azaltır, dolaşım hızı düşer", "Para talebini arttırır", "Dolaşım hızını sabit tutar", "Tahvil fiyatlarını yükseltir"],
+  o: ["Fırsat maliyetini arttırır, dolaşım hızı artar", "Fırsat maliyetini azaltır, dolaşım hızı düşer", "Para talebini arttırıcı yönde etki eder", "Dolaşım hızını değişmeksizin sabit tutar", "Tahvil fiyatlarını yükseltici etki yapar"],
   a: 0,
   e: "Keynes'e göre faiz oranındaki artış elde para tutmanın FIRSAT MALİYETİNİ ARTTIRIR; bu durum dolaşım hızının artması anlamına gelir.",
   t: "Para Talebi", d: 3
 },
 {
   q: "Friedman'ın Modern Miktar Teorisi'ne göre paranın gelir esnekliği ve para talebinin faiz esnekliği nasıldır?",
-  o: ["Para lüks maldır, gelir esnekliği 1'den büyüktür; faiz esnekliği düşüktür ve LM dike yakındır", "Para zorunlu maldır, gelir esnekliği 1'den küçüktür; faiz esnekliği yüksektir", "Gelir esnekliği 1'e eşittir, faiz esnekliği sıfırdır", "Gelir esnekliği sıfırdır, faiz esnekliği sonsuzdur", "Her ikisi de 1'e eşittir"],
+  o: ["Gelir esnekliği 1'den büyük, faiz esnekliği düşük", "Gelir esnekliği 1'den küçük, faiz esnekliği yüksek", "Gelir esnekliği 1'e eşit, faiz esnekliği sıfırdır", "Gelir esnekliği sıfır, faiz esnekliği sonsuzdur", "Her ikisi de tam olarak 1'e eşittir"],
   a: 0,
   e: "Friedman'a göre PARA LÜKS MALDIR ve gelir esnekliği BİRDEN BÜYÜKTÜR. Para talebinin faiz esnekliği DÜŞÜKTÜR, dolayısıyla LM eğrisi dike yakındır.",
   t: "Modern Miktar Teorisi", d: 2
@@ -383,7 +373,7 @@ KPSS.registerBank('para', [
 },
 {
   q: "Modern miktar teorisinde beklenen enflasyon ve gerçekleşen enflasyonun para talebi üzerindeki etkisi nasıldır?",
-  o: ["Gerçekleşen enflasyon arttıkça para talebi artar, beklenen enflasyon arttıkça para talebi azalır", "İkisi de para talebini arttırır", "İkisi de para talebini azaltır", "Gerçekleşen enflasyon para talebini azaltır, beklenen enflasyon arttırır", "İkisinin de etkisi yoktur"],
+  o: ["Gerçekleşen arttırır, beklenen azaltır", "Gerçekleşen azaltır, beklenen arttırır", "Her ikisi de para talebini arttırır", "Her ikisi de para talebini azaltır", "Her ikisinin de bir etkisi yoktur"],
   a: 0,
   e: "Modern miktar teorisinde GERÇEKLEŞEN enflasyon arttıkça para talebi ARTAR; BEKLENEN enflasyon arttıkça para talebi AZALIR.",
   t: "Modern Miktar Teorisi", d: 3
@@ -395,8 +385,6 @@ KPSS.registerBank('para', [
   e: "Friedman para talebine alternatif olarak DÖVİZ TALEBİNİ SAYMAMIŞTIR. Keynes'in aksine faizlerdeki değişmeler para talebi üzerinde çok az etkilidir, bu nedenle dolaşım hızı İSTİKRARLIDIR. Para talebi SÜREKLİ gelire bağlıdır.",
   t: "Modern Miktar Teorisi", d: 3
 },
-
-/* ---------- NEOKEYNESYEN PARA TALEBİ ---------- */
 {
   q: "Portföy Dengesi Yaklaşımı hangi iktisatçıya aittir ve temel önerisi nedir?",
   o: ["Tobin — yatırımcı riski azaltmak için portföyünü çeşitlendirir", "Baumol — işlem amaçlı para talebi faizden de etkilenir", "Brunner-Meltzer — para talebi servete ve nispi faizlere bağlıdır", "Friedman — para lüks maldır", "Fisher — dolaşım hızı sabittir"],
@@ -448,7 +436,7 @@ KPSS.registerBank('para', [
 },
 {
   q: "Baumol-Tobin modelinde para talebinin gelir esnekliği ve bunun sonucu nedir?",
-  o: ["Gelir esnekliği 1'den küçüktür; yüksek gelirli kişiler daha az para talep eder (para talebinde ölçek ekonomisi)", "Gelir esnekliği 1'den büyüktür; yüksek gelirli kişiler daha fazla para talep eder", "Gelir esnekliği tam 1'dir", "Gelir esnekliği sıfırdır", "Gelir esnekliği negatiftir"],
+  o: ["Gelir esnekliği 1'den küçüktür (ölçek ekonomisi)", "Gelir esnekliği 1'den büyüktür (ölçek yoktur)", "Gelir esnekliği tam olarak 1'e eşittir", "Gelir esnekliği sıfır düzeyindedir", "Gelir esnekliği negatif değer alır"],
   a: 0,
   e: "Baumol-Tobin para talebinin gelir esnekliği 1'DEN KÜÇÜKTÜR. Daha yüksek gelir seviyesindeki kişiler daha az para talep eder; buna PARA TALEBİNDE ÖLÇEK EKONOMİSİ denir.",
   t: "Baumol-Tobin", d: 3
@@ -462,13 +450,11 @@ KPSS.registerBank('para', [
 },
 {
   q: "Ardışık Kuşaklar Modeli'nde para hangi gerekçeyle talep edilir?",
-  o: ["Kuşaklar arası değişim aracı olması ve serveti nesilden nesile aktarması nedeniyle", "Sadece işlem amaçlı olması nedeniyle", "En riskli varlık olması nedeniyle", "Spekülasyon amaçlı olması nedeniyle", "Enflasyondan korunma aracı olması nedeniyle"],
+  o: ["Kuşaklar arası değişim aracı olması", "Yalnızca işlem amaçlı olması nedeniyle", "En riskli varlık olması nedeniyle", "Spekülasyon amaçlı olması nedeniyle", "Enflasyondan koruma sağlaması nedeniyle"],
   a: 0,
   e: "ARDIŞIK KUŞAKLAR MODELİ'nde para kuşaklar arası değişim aracı olması nedeniyle talep edilir; serveti muhafaza edip nesilden nesile aktarır. Para talebi ile faiz oranı arasında negatif ilişki vardır.",
   t: "Ardışık Kuşaklar", d: 3
 },
-
-/* ---------- FAİZ TEORİLERİ ---------- */
 {
   q: "Ödünç verilebilir fon teorisi temelinde oluşan klasik faiz teorisi kime aittir?",
   o: ["Wicksell", "Keynes", "Fisher", "Tobin", "Friedman"],
@@ -485,13 +471,11 @@ KPSS.registerBank('para', [
 },
 {
   q: "Keynesyen faiz teorisine göre para arzı ve para talebinin faiz esnekliği nasıldır?",
-  o: ["Para arzı dışsaldır ve sadece MB tarafından belirlenir; para talebinin faiz esnekliği oldukça yüksektir", "Para arzı içseldir; para talebinin faiz esnekliği sıfırdır", "Para arzı dışsaldır; para talebinin faiz esnekliği sıfırdır", "Para arzı içseldir; para talebinin faiz esnekliği düşüktür", "Her ikisi de sonsuzdur"],
+  o: ["Para arzı dışsaldır; faiz esnekliği yüksektir", "Para arzı içseldir; faiz esnekliği sıfırdır", "Para arzı dışsaldır; faiz esnekliği sıfırdır", "Para arzı içseldir; faiz esnekliği düşüktür", "Her ikisi de sonsuz düzeydedir"],
   a: 0,
   e: "Keynesyen yaklaşımda para arzı DIŞSALDIR (sadece MB belirler) ve para talebinin FAİZ ESNEKLİĞİ OLDUKÇA YÜKSEKTİR. Para talebinin üç amacı işlem, ihtiyat ve spekülasyondur.",
   t: "Faiz Teorileri", d: 2
 },
-
-/* ---------- PARA ARZI ARTIŞININ ETKİLERİ ---------- */
 {
   q: "Para arzı artışıyla likit olmayan varlıkların kolaylıkla paraya çevrilebilmesi sonucu faiz oranlarının azalmasına ne ad verilir?",
   o: ["Likidite etkisi", "Gelir etkisi", "Fiyat etkisi", "Fisher etkisi", "Tobin etkisi"],
@@ -501,14 +485,14 @@ KPSS.registerBank('para', [
 },
 {
   q: "Enflasyon beklentisi varsa fon sahiplerinin tasarrufları için ek prim talep etmesi hangi etki ile ifade edilir?",
-  o: ["Fisher etkisi (beklenen enflasyon etkisi)", "Likidite etkisi", "Gelir etkisi", "Fiyat etkisi", "Olivera-Tanzi etkisi"],
+  o: ["Fisher etkisi", "Likidite etkisi", "Gelir etkisi", "Fiyat etkisi", "Olivera-Tanzi etkisi"],
   a: 0,
   e: "Beklenen enflasyon etkisi FISHER ETKİSİ olarak adlandırılır: enflasyon beklentisi varsa fon sahipleri tasarrufları için ek prim talep eder.",
   t: "Para Arzı Artışı", d: 2
 },
 {
   q: "Klasik anlayışta parasal aktarım mekanizmasının bulunmama nedeni nedir?",
-  o: ["Tam istihdam olduğu için para arzı artarsa doğrudan fiyatlar yükselir", "Para talebinin faiz esnekliği sonsuz olduğu için", "Para arzı içsel olduğu için", "Bankacılık sistemi kaydi para yaratmadığı için", "Faiz oranları sabit olduğu için"],
+  o: ["Tam istihdamda para artışı fiyatları yükseltir", "Para talebinin faiz esnekliği sonsuz olduğu için", "Para arzının içsel olarak belirlenmesi nedeniyle", "Bankaların kaydi para yaratmaması nedeniyle", "Faiz oranlarının sabit kalması nedeniyle"],
   a: 0,
   e: "Paranın işe yarayıp yaramayacağı istihdamın seviyesine bağlıdır. Tam istihdamın olduğu Klasik anlayışta aktarma mekanizması YOKTUR, çünkü para arzı artarsa DOĞRUDAN fiyatlar yükselir.",
   t: "Parasal Aktarım", d: 3
@@ -520,8 +504,6 @@ KPSS.registerBank('para', [
   e: "TOBIN KANALI: Ms ↑ → Hisse fiyatı ↑ → q ↑ → I ↑ → Y ↑. Yatırım harcamaları kanalları arasında faiz kanalı, kredi kanalı ve Tobin kanalı yer alır.",
   t: "Parasal Aktarım", d: 3
 },
-
-/* ---------- SENYORAJ VE ENFLASYON ---------- */
 {
   q: "Paranın üzerindeki yazılı değerle üretim maliyeti arasındaki farktan elde edilen gelire ne ad verilir?",
   o: ["Senyoraj", "Emisyon", "Enflasyon vergisi", "Sterilizasyon", "Reeskont"],
@@ -538,7 +520,7 @@ KPSS.registerBank('para', [
 },
 {
   q: "Senyoraj eğrisinin ters U şeklinde olmasının nedeni nedir?",
-  o: ["Basılan paranın enflasyon yaratarak bir noktadan sonra senyorajı azaltması", "Para talebinin faiz esnekliğinin sıfır olması", "Kaydi para çarpanının sabit olması", "Merkez bankasının bağımsız olması", "Dolaşım hızının sabit olması"],
+  o: ["Enflasyonun bir noktadan sonra senyorajı azaltması", "Para talebinin faiz esnekliğinin sıfır olması", "Kaydi para çarpanının sabit kalması", "Merkez bankasının bağımsız olması", "Paranın dolaşım hızının sabit olması"],
   a: 0,
   e: "Devlet para basarak sonsuza kadar gelir elde edemez; basılan paranın enflasyonist sonuçları vardır ve basılan para enflasyon yaratarak bir noktadan sonra senyorajı AZALTIR. Bu nedenle senyoraj eğrisi TERS U şeklindedir.",
   t: "Senyoraj", d: 3
@@ -564,8 +546,6 @@ KPSS.registerBank('para', [
   e: "Beklenmeyen enflasyonda UZUN dönemli kararlardan VAZGEÇİLEREK KISA dönemli kararlar alınır. Ayrıca gelir dağılımı bozulur, faaliyet hacmi daralır ve para spekülatif alanlara kayar.",
   t: "Enflasyonun Maliyeti", d: 2
 },
-
-/* ---------- TAHVİL PİYASASI VE FAİZ YAPISI ---------- */
 {
   q: "Tahvil piyasasında tahvil arzı ve talebinin eğimleri nasıldır?",
   o: ["Tahvil arzı negatif eğimli, tahvil talebi pozitif eğimlidir", "Tahvil arzı pozitif eğimli, tahvil talebi negatif eğimlidir", "İkisi de pozitif eğimlidir", "İkisi de negatif eğimlidir", "İkisi de yataydır"],
@@ -589,7 +569,7 @@ KPSS.registerBank('para', [
 },
 {
   q: "Negatif eğimli getiri eğrisi hangi durumu ifade eder?",
-  o: ["Vade uzadıkça faizin azalması; kısa dönemli faizin uzun dönemli faizden yüksek olması", "Vade uzadıkça faizin artması", "Vade uzadıkça faizin değişmemesi", "Vade arttıkça faizin önce artıp sonra azalması", "Faiz oranlarının sıfır olması"],
+  o: ["Kısa dönem faizinin uzun dönemden yüksek olması", "Uzun dönem faizinin kısa dönemden yüksek olması", "Vade boyunca faizin hiç değişmemesi", "Faizin önce artıp sonra azalması", "Faiz oranlarının sıfır düzeyinde olması"],
   a: 0,
   e: "NEGATİF EĞİMLİ getiri eğrisinde vade uzadıkça faiz AZALIR; kısa dönemli faiz uzun dönemli faizden YÜKSEKTİR. (Notta bu durum 'kısa dönemli faizin uzun dönemli faizden düşük olduğu durum' şeklinde yazılmışsa da eğrinin tanımı gereği kısa vade faizi daha yüksektir.)",
   t: "Faiz Yapısı", d: 3
@@ -629,8 +609,6 @@ KPSS.registerBank('para', [
   e: "ETKİN PİYASA HİPOTEZİ EUGENE FAMA tarafından ortaya atılmıştır ve rasyonel beklentilerin finansal piyasaya uyarlanmış halidir. Buna göre mevcut bilgilerle ekstra para kazanmak mümkün değildir.",
   t: "Etkin Piyasa", d: 2
 },
-
-/* ---------- PARA POLİTİKASI ARAÇLARI ---------- */
 {
   q: "Para politikasının genel araçları arasında aşağıdakilerden hangisi YER ALMAZ?",
   o: ["Disponibilite", "Açık piyasa işlemleri", "Zorunlu rezerv politikası", "Reeskont politikası", "Bunların hiçbiri genel araç değildir"],
@@ -668,7 +646,7 @@ KPSS.registerBank('para', [
 },
 {
   q: "Zorunlu rezerv (munzam karşılık) politikası ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Esnek bir araç değildir; zorunlu karşılık oranı artarsa piyasaya verilen para miktarı azalır", "En esnek para politikası aracıdır", "Zorunlu karşılık oranı artarsa piyasadaki para miktarı artar", "Ticari bankalar tarafından belirlenir", "2005 yılında kaldırılmıştır"],
+  o: ["Esnek değildir; oran artarsa para miktarı azalır", "En esnek para politikası aracı niteliğindedir", "Oran artarsa piyasadaki para miktarı artar", "Ticari bankalar tarafından belirlenmektedir", "2005 yılında tümüyle kaldırılmıştır"],
   a: 0,
   e: "Zorunlu rezerv politikası kaydi para yaratmada en önemli etmenlerden biridir ancak ESNEK BİR ARAÇ DEĞİLDİR. Zorunlu karşılık oranı artarsa piyasaya verilen para miktarı AZALIR. (2005'te kaldırılan DİSPONİBİLİTE'dir.)",
   t: "Para Politikası Araçları", d: 2
@@ -701,8 +679,6 @@ KPSS.registerBank('para', [
   e: "SELEKTİF KREDİ DENETİMLERİ, bazı ekonomik faaliyetleri desteklemek için uzun vadeli ve daha düşük maliyetli kredi sağlanmasıdır. KREDİ TAVANI ise kredi miktarının sınırlandırılmasıdır.",
   t: "Para Politikası Araçları", d: 2
 },
-
-/* ---------- GELENEKSEL OLMAYAN ARAÇLAR ---------- */
 {
   q: "TCMB'nin gecelik borç verme ve borç alma faizi arasında kalan aralığa ne ad verilir?",
   o: ["Faiz koridoru", "Geç likidite penceresi", "Rezerv opsiyon mekanizması", "Gösterge faiz", "Politika faizi"],
@@ -738,8 +714,6 @@ KPSS.registerBank('para', [
   e: "Günümüzde merkez bankası politika faiz oranını kullanır ve politika faiz oranı 1 HAFTALIK VADELİ REPO FAİZ ORANIDIR.",
   t: "Geleneksel Olmayan Araçlar", d: 2
 },
-
-/* ---------- MERKEZ BANKACILIĞI ---------- */
 {
   q: "Dünyada ilk merkez bankası hangisidir ve hangi yıl kurulmuştur?",
   o: ["İsveç merkez bankası Riksbank — 1668", "İngiltere merkez bankası — 1668", "Fransa merkez bankası — 1700", "Hollanda merkez bankası — 1609", "ABD Federal Reserve — 1913"],
@@ -756,7 +730,7 @@ KPSS.registerBank('para', [
 },
 {
   q: "TCMB'nin mülkiyet yapısı 14 Ocak 1970 değişikliğinden sonra nasıl olmuştur?",
-  o: ["%51'i devlete, %49'u özel kesime ait (karma mülkiyet)", "%100'ü devlete ait", "%100'ü özel kesime ait", "%49'u devlete, %51'i özel kesime ait", "%75'i devlete, %25'i özel kesime ait"],
+  o: ["%51 devlet, %49 özel kesim", "%49 devlet, %51 özel kesim", "%100 devlete ait", "%100 özel kesime ait", "%75 devlet, %25 özel kesim"],
   a: 0,
   e: "TCMB kurulduğunda sermayesinin %100'ü devlete aitti. 14 Ocak 1970 değişikliğiyle %51'i devlete, %49'u özel kesime ait olmuştur; yani şu an TCMB KARMA MÜLKİYETE sahiptir.",
   t: "Merkez Bankacılığı", d: 3
@@ -796,8 +770,6 @@ KPSS.registerBank('para', [
   e: "MB'nin fonksiyonları: yerli paranın iç ve dış değerinde istikrar sağlamak, bankaların bankası olmak, likiditenin son kaynağı olmak ve devletin bankacılığını yapmak. Kar maksimizasyonu MB'nin fonksiyonu değildir.",
   t: "Merkez Bankacılığı", d: 1
 },
-
-/* ---------- HEDEFLEME STRATEJİLERİ ---------- */
 {
   q: "Bir para politikasındaki amaç sayısı kadar politika aracı kullanılması gerektiğini belirten kural hangisidir?",
   o: ["Tinbergen Kuralı", "Taylor Kuralı", "Say Yasası", "Walras Yasası", "Gresham Kanunu"],
@@ -868,8 +840,6 @@ KPSS.registerBank('para', [
   e: "Enflasyon hedeflemesinin ön şartları: MB bağımsızlığı, şeffaflık, kurala bağlılık, mali disiplin ve gelişmiş finansal sistem. Sabit döviz kuru rejimi bir ön şart DEĞİLDİR (parasal hedefleme için de serbest kur rejimi gerekir).",
   t: "Hedefleme Stratejileri", d: 2
 },
-
-/* ---------- FİNANSAL PİYASALAR ---------- */
 {
   q: "Vadesi 1 yıldan az olan menkul kıymetlerin alınıp satıldığı piyasa hangisidir?",
   o: ["Para piyasası", "Sermaye piyasası", "Vadeli piyasa", "Birincil piyasa", "Tezgahüstü piyasa"],
@@ -911,6 +881,5 @@ KPSS.registerBank('para', [
   a: 0,
   e: "Bankalar arası para piyasası 1986 yılında kurulmuştur. Rezerv piyasasında işlemler gecelik faiz oranı üzerinden yürütülür; 2006 yılıyla birlikte DEPO ALIM İHALELERİNE başlanmıştır. (APİ ise 1987'de başlamıştır.)",
   t: "Finansal Piyasalar", d: 3
-}
-
+},
 ]);

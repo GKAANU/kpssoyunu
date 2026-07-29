@@ -1,7 +1,5 @@
 /* Uluslararası İktisat — kaynak: "Uluslararası iktisat not .pdf" */
 KPSS.registerBank('uluslararasi', [
-
-/* ---------- GİRİŞ VE TEORİ SINIFLANDIRMASI ---------- */
 {
   q: "Hükümetlerin dış ticarete müdahalelerini (gümrük tarifeleri, kotalar vb.) inceleyen alt dal hangisidir?",
   o: ["Uluslararası ticaret politikası", "Uluslararası ticaret teorisi", "Uluslararası finans", "Uluslararası parasal ilişkiler", "Ödemeler bilançosu analizi"],
@@ -44,8 +42,6 @@ KPSS.registerBank('uluslararasi', [
   e: "EMEK-DEĞER TEORİSİ'ne göre bir malın maliyeti üretimi için harcanan emek miktarı ile ölçülür ve emek homojendir. Fazla emek kullanılmışsa maliyet yüksek, az emek kullanılmışsa maliyet düşüktür.",
   t: "Klasik Teori", d: 2
 },
-
-/* ---------- MUTLAK VE KARŞILAŞTIRMALI ÜSTÜNLÜK ---------- */
 {
   q: "Mutlak üstünlükler teorisini en iyi açıklayan ifade aşağıdakilerden hangisidir?",
   o: ["Bir malın üretiminde mutlak üstünlüğe sahip ülke, o malı diğer ülkeye göre daha az kaynak kullanarak üretir", "Bütün malların üretiminde mutlak üstünlüğe sahip ülke ticaretten en fazla kazanç sağlayan taraftır", "Mutlak üstünlüğe sahip ülke o malı diğer ülkeden daha az miktarda üretir", "Mutlak üstünlüklerin varlığı ülkelerin kendi kendilerine yetmesine yardımcı olur", "Mutlak üstünlüklere dayanan ticarette üstünlüklerin derecesi önemlidir"],
@@ -55,21 +51,21 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Adam Smith'in Mutlak Üstünlükler Teorisi'nin en önemli sınırlılığı nedir?",
-  o: ["Gelişmiş ülkelerin kendi aralarındaki ticareti açıklamakta yetersiz kalması", "Talep koşullarını fazla ağırlıklandırması", "Artan maliyetlere dayanması", "Faktör donatımını esas alması", "Endüstri içi ticareti açıklaması"],
+  o: ["Gelişmiş ülkeler arası ticareti açıklayamaması", "Talep koşullarını fazla ağırlıklandırması", "Artan maliyetler varsayımına dayanması", "Faktör donatımını temel alması", "Endüstri içi ticareti açıklaması"],
   a: 0,
   e: "Mutlak üstünlükler teorisi gelişmiş-az gelişmiş ülke ticareti gibi uluslararası ticaretin ancak bir bölümünü açıklayabilir; GELİŞMİŞ ÜLKELERİN KENDİ ARALARINDAKİ ticareti açıklamakta yetersiz kalır.",
   t: "Mutlak Üstünlük", d: 2
 },
 {
   q: "İki ülkeli tek faktörlü bir modelde bir birim üretim için gerekli işgücü şöyledir: S ülkesi kahve 4 / elma 10; M ülkesi kahve 5 / elma 12. Adam Smith'e göre nasıl bir dış ticaret ortaya çıkar?",
-  o: ["Potansiyel olarak karşılıklı yarar sağlayacak ticaret imkanı yoktur", "S ülkesi kahve, M ülkesi elma ihraç eder", "S ülkesi elma, M ülkesi kahve ihraç eder", "S ülkesi hem kahve hem elma ihraç eder", "M ülkesi hem kahve hem elma ihraç eder"],
+  o: ["Karşılıklı yarar sağlayacak ticaret imkânı yoktur", "S ülkesi kahve, M ülkesi elma ihraç eder", "S ülkesi elma, M ülkesi kahve ihraç eder", "S ülkesi hem kahve hem elma ihraç eder", "M ülkesi hem kahve hem elma ihraç eder"],
   a: 0,
   e: "S ülkesi HER İKİ malı da daha az işgücüyle üretir (4<5 ve 10<12); yani her ikisinde mutlak üstündür. Mutlak üstünlükler teorisine göre bu durumda karşılıklı yarar sağlayacak ticaret imkanı YOKTUR. (Ricardo'ya göre ise hâlâ karlı ticaret mümkündür.)",
   t: "Mutlak Üstünlük", d: 3
 },
 {
   q: "Karşılaştırmalı üstünlükler teorisine göre ülkeler arasında karlı dış ticaret için gerekli koşul nedir?",
-  o: ["Ülkelerde yurtiçi üretim maliyetlerinin (nispi fiyatların) birbirinden farklı olması", "Ülkelerin faktör donatımlarının aynı olması", "Her iki ülkenin de aynı malda mutlak üstün olması", "Taşıma maliyetlerinin yüksek olması", "Ülkelerin gelir düzeylerinin eşit olması"],
+  o: ["Yurtiçi nispi fiyatların birbirinden farklı olması", "Ülkelerin faktör donatımlarının aynı olması", "Her iki ülkenin aynı malda mutlak üstün olması", "Taşıma maliyetlerinin yüksek düzeyde olması", "Ülkelerin gelir düzeylerinin birbirine eşit olması"],
   a: 0,
   e: "Ricardo'ya göre karlı dış ticaret için gerekli koşul, ülkelerde YURTİÇİ ÜRETİM MALİYETLERİNİN BİRBİRİNDEN FARKLI olmasıdır. Ricardo'ya göre önemli olan üstünlüklerin DERECESİDİR.",
   t: "Karşılaştırmalı Üstünlük", d: 2
@@ -97,7 +93,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Uzmanlaşmaya yönelen ve buna göre ticaret yapan bir ülke ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Ülkenin üretimi üretim olanakları eğrisinin üzerinde, tüketimi ise üst yanında gerçekleşir", "Üretimi ve tüketimi üretim olanaklarının altında gerçekleşir", "Üretimi ve tüketimi üretim olanakları eğrisinin üst yanında gerçekleşir", "Tüketimi eğri üzerinde, üretimi üst yanında gerçekleşir", "Üretimi ve tüketimi eğrinin tam üzerinde gerçekleşir"],
+  o: ["Üretim eğri üzerinde, tüketim üst yanındadır", "Üretim ve tüketim eğrinin altında gerçekleşir", "Üretim ve tüketim eğrinin üst yanındadır", "Tüketim eğri üzerinde, üretim üst yanındadır", "Üretim ve tüketim tam eğri üzerindedir"],
   a: 0,
   e: "Dış ticaret sayesinde ülke ÜRETİMİNİ üretim olanakları eğrisi ÜZERİNDE yapar, ancak TÜKETİMİNİ eğrinin ÜST YANINDA (dışında) gerçekleştirebilir. Dış ticaret kazancı budur.",
   t: "Karşılaştırmalı Üstünlük", d: 3
@@ -109,8 +105,6 @@ KPSS.registerBank('uluslararasi', [
   e: "Y ülkesinde A malı 1 saat, B malı 2 saat gerektirir; yani Y ülkesi A malından DAHA ÇOK üretebilir (B'den değil). Y her iki malda mutlak üstündür; karşılaştırmalı olarak Y A'da (1/2 < 4/3), X ise B'de üstündür.",
   t: "Karşılaştırmalı Üstünlük", d: 3
 },
-
-/* ---------- NEO-KLASİK: FIRSAT MALİYETİ ---------- */
 {
   q: "Emek maliyeti yerine tüm üretim faktörlerini kapsayan fırsat maliyeti kavramını dış ticaret teorisine ilk kez kim ve hangi yılda getirmiştir?",
   o: ["G. Haberler — 1930", "A. Marshall — 1930", "J. Viner — 1947", "J.S. Mill — 1848", "B. Ohlin — 1933"],
@@ -139,8 +133,6 @@ KPSS.registerBank('uluslararasi', [
   e: "İç fiyat doğrusu hangi eksene YAKINSA ülke o maldan karşılaştırmalı üstünlüğe sahiptir.",
   t: "Fırsat Maliyeti", d: 3
 },
-
-/* ---------- KARŞILIKLI TALEP VE TEKLİF EĞRİLERİ ---------- */
 {
   q: "Dış ticarette talep koşullarına ilk kez yer veren iktisatçı kimdir?",
   o: ["J.S. Mill", "D. Ricardo", "G. Haberler", "A. Marshall", "B. Ohlin"],
@@ -157,7 +149,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Teklif eğrisinin iç fiyat doğrusundan uzaklaşarak kavisli hale gelmesinin nedeni nedir?",
-  o: ["Üretimde azalan verimler, tüketimde azalan marjinal fayda yasalarının işlemesi", "Taşıma maliyetlerinin artması", "Gümrük tarifelerinin yükselmesi", "Faktör donatımının değişmesi", "Ölçek ekonomilerinin ortaya çıkması"],
+  o: ["Azalan verimler ve azalan marjinal fayda", "Taşıma maliyetlerinin sürekli artması", "Gümrük tarifelerinin yükseltilmesi", "Faktör donatımının zamanla değişmesi", "Ölçek ekonomilerinin ortaya çıkması"],
   a: 0,
   e: "Teklif eğrisi orijinden çıkar, bir süre yurtiçi maliyet doğrusuyla birlikte uzanır, sonra ondan ayrılıp kavisli hale gelir. Bunun nedeni ÜRETİMDE AZALAN VERİMLER ve TÜKETİMDE AZALAN MARJİNAL FAYDA yasalarının işlemesidir.",
   t: "Teklif Eğrileri", d: 3
@@ -171,14 +163,14 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "İki ülkeli standart bir modelde dış ticaret haddi neye eşittir?",
-  o: ["Teklif eğrisi üzerindeki bir noktayı orijinle birleştiren doğrunun eğimine", "Dönüşüm eğrisinin eğimine", "Toplumsal kayıtsızlık eğrisinin eğimine", "İthalat miktarının ihracat miktarına oranına", "Gümrük tarifesi oranına"],
+  o: ["Teklif eğrisi noktasını orijinle birleştiren eğim", "Dönüşüm eğrisinin bir noktadaki eğimine", "Toplumsal kayıtsızlık eğrisinin eğimine", "İthalat miktarının ihracat miktarına oranı", "Uygulanan gümrük tarifesinin oranına"],
   a: 0,
   e: "Teklif eğrilerinin kesiştiği noktada uluslararası ticaret dengesi sağlanır; DIŞ TİCARET HADDİ, teklif eğrisi üzerindeki bir noktayı orijinle birleştiren doğrunun EĞİMİNE eşittir.",
   t: "Teklif Eğrileri", d: 3
 },
 {
   q: "Ticaret ortaklarından birinin çok küçük diğerinin çok büyük olması durumunda dış ticaret kazançlarının önemli bir payının küçük ülkeye gitmesine ne ad verilir?",
-  o: ["Önemsiz olmanın önemi (küçük ülke avantajı)", "Metzler paradoksu", "Massetme yaklaşımı", "Kutuplaşma teorisi", "Leontief paradoksu"],
+  o: ["Önemsiz olmanın önemi", "Metzler paradoksu", "Massetme yaklaşımı", "Kutuplaşma teorisi", "Leontief paradoksu"],
   a: 0,
   e: "ÖNEMSİZ OLMANIN ÖNEMİ (küçük ülke avantajı): ticaret büyük ülkenin iç fiyat oranına çok yakın bir fiyattan yapılır, dolayısıyla dış ticaret kazançlarının önemli bir payı küçük ülkeye gider.",
   t: "Teklif Eğrileri", d: 2
@@ -199,16 +191,14 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Kapalı ekonomide denge hangi noktada sağlanır?",
-  o: ["Toplumsal kayıtsızlık eğrisinin üretim olanakları eğrisine teğet olduğu noktada", "Teklif eğrilerinin kesiştiği noktada", "İç fiyat doğrusunun orijinden geçtiği noktada", "Dönüşüm eğrisinin eksenleri kestiği noktada", "Marjinal dönüşüm oranının sıfır olduğu noktada"],
+  o: ["Kayıtsızlık eğrisinin üretim eğrisine teğet olduğu", "Teklif eğrilerinin birbirini kestiği noktada", "İç fiyat doğrusunun orijinden geçtiği noktada", "Dönüşüm eğrisinin eksenleri kestiği noktada", "Marjinal dönüşüm oranının sıfır olduğu nokta"],
   a: 0,
   e: "KAPALI EKONOMİ dengesi, toplumsal kayıtsızlık eğrisinin ÜRETİM OLANAKLARI EĞRİSİNE TEĞET olduğu noktada sağlanır.",
   t: "Toplumsal Kayıtsızlık", d: 3
 },
-
-/* ---------- DIŞ TİCARET HADLERİ ---------- */
 {
   q: "Net değişim ticaret haddi (dış ticaret haddi) hangi formülle hesaplanır?",
-  o: ["Px / Pm (İhraç malları fiyat endeksi / İthal malları fiyat endeksi)", "Qx / Qm", "Px · Qx / Pm", "Px · Vx / Pm", "Px · Vx / (Pm · Vm)"],
+  o: ["Px / Pm", "Qx / Qm", "Px · Qx / Pm", "Px · Vx / Pm", "Px · Vx / (Pm · Vm)"],
   a: 0,
   e: "Net Değişim Ticaret Haddi N = Px / Pm'dir. Oranın ARTMASI dış ticaret hadlerinin ülke LEHİNE, AZALMASI ülke ALEYHİNE değiştiği anlamına gelir.",
   t: "Dış Ticaret Hadleri", d: 2
@@ -229,7 +219,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Dış ticaret hadleri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
-  o: ["Ticarete konu olan malların, ticarette diğer mallarla hangi oranda değiştirilebileceğini gösterir", "Uluslararası ticaret yasalarının maddeleri ile ilgili bir kavramdır", "Bir ülkenin marjinal dönüşüm oranıdır", "Gümrük Tarifeleri ve Ticaret Genel Anlaşması tarafından tespit edilmiştir", "Dünya Ticaret Örgütü tarafından tespit edilmiştir"],
+  o: ["Malların hangi oranda değiştirilebileceğini gösterir", "Uluslararası ticaret yasalarının maddeleridir", "Bir ülkenin marjinal dönüşüm oranıdır", "GATT tarafından tespit edilmektedir", "Dünya Ticaret Örgütü tarafından tespit edilir"],
   a: 0,
   e: "Dış ticaret haddi, ticarete konu olan malların diğer mallarla hangi oranda değiştirilebileceğini gösterir; yani ihraç ve ithal malları arasındaki değişim oranıdır.",
   t: "Dış Ticaret Hadleri", d: 2
@@ -248,8 +238,6 @@ KPSS.registerBank('uluslararasi', [
   e: "Px/Pm oranının düşmesi ticaret hadlerinin bozulmasıdır. İthal fiyatları ihraç fiyatlarından DAHA HIZLI yükseliyorsa payda daha hızlı büyür ve oran düşer.",
   t: "Dış Ticaret Hadleri", d: 3
 },
-
-/* ---------- FAKTÖR DONATIM TEORİSİ ---------- */
 {
   q: "Ülkelerarası dış ticareti, ülkelerin farklı faktör yoğunluklarına sahip olmaları ile açıklayan teori kime aittir?",
   o: ["Heckscher-Ohlin", "Mill", "Smith", "Ricardo", "Keynes"],
@@ -273,7 +261,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Faktör donatım teorisinden çıkarılan teoremler hangileridir?",
-  o: ["Uluslararası Faktör Fiyatları Eşitliği, Stolper-Samuelson ve Rybczynski teoremleri", "Kutuplaşma Teorisi, Rybczynski ve Tercihlerde Benzerlik", "Leontief Paradoksu, Metzler Paradoksu ve Hollanda Hastalığı", "Karşılıklı Talep Kanunu ve Teklif Eğrileri", "Monopolcü Rekabet ve Ölçek Ekonomileri"],
+  o: ["Faktör Fiyatları Eşitliği ve Stolper-Samuelson", "Kutuplaşma Teorisi ve Rybczynski teoremi", "Leontief ve Metzler paradoksları", "Karşılıklı Talep Kanunu ve teklif eğrileri", "Monopolcü rekabet ve ölçek ekonomileri"],
   a: 0,
   e: "Faktör Donatım Teorisi'nden çıkarılan üç teorem: ULUSLARARASI FAKTÖR FİYATLARI EŞİTLİĞİ, STOLPER-SAMUELSON Gelir Dağılımı ve RYBCZYNSKI teoremleri.",
   t: "Faktör Donatımı", d: 2
@@ -315,7 +303,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Faktör donatım teorisinin ilk uygulamalı testi hangi yıl, hangi ülke üzerinde yapılmış ve nasıl bir sonuç vermiştir?",
-  o: ["1947 — ABD — sermaye zengini ABD'nin emek yoğun mal ihraç edip sermaye yoğun mal ithal ettiği görülmüştür", "1930 — İngiltere — teori tam olarak doğrulanmıştır", "1961 — Almanya — teori kısmen doğrulanmıştır", "1966 — Japonya — teori reddedilmiştir", "1957 — Fransa — sonuç belirsiz kalmıştır"],
+  o: ["1947 — ABD — teori doğrulanmamıştır", "1930 — İngiltere — teori doğrulanmıştır", "1961 — Almanya — teori kısmen doğrulanmıştır", "1966 — Japonya — teori reddedilmiştir", "1957 — Fransa — sonuç belirsiz kalmıştır"],
   a: 0,
   e: "Teoremin ilk uygulamalı testi 1947'de ABD üzerinde yapılmıştır. Dünyanın en zengin sermaye stokuna sahip ABD'nin sanılanın aksine emek yoğun mal ihraç edip sermaye yoğun mal ithal ettiği görülmüştür: LEONTIEF PARADOKSU.",
   t: "Leontief Paradoksu", d: 2
@@ -327,8 +315,6 @@ KPSS.registerBank('uluslararasi', [
   e: "Faktör yoğunluğunun tersine dönmesi LEONTIEF PARADOKSU olarak bilinir. Teste ilişkin verilerin 2. Dünya Savaşı'na denk gelmesi bu çelişkinin en çok kabul gören açıklamalarından biridir.",
   t: "Leontief Paradoksu", d: 2
 },
-
-/* ---------- HOLLANDA HASTALIĞI ---------- */
 {
   q: "Doğal kaynakların dünya fiyatının artmasının, bu kaynakları üreten ülkelerde geleneksel sanayi üretiminin azalmasına neden olmasına ne ad verilir?",
   o: ["Hollanda Hastalığı", "Linder Hipotezi", "Aşamalı Gelişme Teorisi", "Lokomotif Teorisi", "Metzler Paradoksu"],
@@ -343,8 +329,6 @@ KPSS.registerBank('uluslararasi', [
   e: "Döviz bolluğu ülke parasını AŞIRI DEĞERLENDİRİR (değersizleştirmez). Bu nedenle ülke malları pahalanır, İHRACAT AZALIR, ithal mallar ucuzladığı için ithalat artar.",
   t: "Hollanda Hastalığı", d: 2
 },
-
-/* ---------- YENİ DIŞ TİCARET TEORİLERİ ---------- */
 {
   q: "Dış ticareti ülkeler arasındaki nitelikli işgücü farklılıkları ile açıklayan Nitelikli İş Gücü Hipotezi kimlere aittir?",
   o: ["Keesing-Kenen", "Posner", "Vernon", "Linder", "Kravis"],
@@ -450,8 +434,6 @@ KPSS.registerBank('uluslararasi', [
   e: "DİNAMİK KARŞILAŞTIRMALI ÜSTÜNLÜKLER TEORİSİ KRUGMAN'a aittir ve yeni dış ticaret teorileri arasında yer alır.",
   t: "Yeni Teoriler", d: 3
 },
-
-/* ---------- DIŞ TİCARET POLİTİKASI ---------- */
 {
   q: "Dış ticaret politikasının amaçları arasında aşağıdakilerden hangisi YER ALMAZ?",
   o: ["Ülke parasının aşırı değerlenmesini sağlamak", "Dış ödemeler dengesizliklerinin giderilmesi", "Dış rekabetten korunma", "Hazineye gelir sağlamak", "Kendi kendine yeterlilik (otarşi)"],
@@ -501,8 +483,6 @@ KPSS.registerBank('uluslararasi', [
   e: "KORUYUCU ve ENGELLEYİCİ tarifeler yurt içi üretime koruma sağlar. HASILAT TARİFESİ yurt içinde üretilmeyen mallardan alındığı için koruma sağlamaz; amacı hazineye gelir sağlamaktır.",
   t: "Gümrük Tarifeleri", d: 3
 },
-
-/* ---------- TARİFE ETKİLERİ ---------- */
 {
   q: "Gümrük tarifesi uygulaması sonucu malın yurtiçi fiyatının artmasıyla yurtiçi arzının artmasına ne ad verilir?",
   o: ["Üretim etkisi", "Tüketim etkisi", "Gelir etkisi", "Bölüşüm etkisi", "Dış ticaret etkisi"],
@@ -554,7 +534,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Spesifik ve advalorem vergilerin karşılaştırılması ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Enflasyonist ortamda advalorem vergiler spesifik vergilere göre daha etkin dış koruma sağlar", "Enflasyonist ortamda spesifik vergiler advalorem vergilerden daha etkindir", "Spesifik vergiler değer üzerinden yüzde olarak alınır", "Advalorem vergiler malların fiziki birimleri üzerinden alınır", "Türkiye spesifik vergi esasını benimsemiştir"],
+  o: ["Enflasyonda advalorem daha etkin koruma sağlar", "Enflasyonda spesifik vergiler daha etkindir", "Spesifik vergiler değer üzerinden alınır", "Advalorem vergiler fiziki birimden alınır", "Türkiye spesifik vergi esasını benimsemiştir"],
   a: 0,
   e: "SPESİFİK vergiler fiziki birim (ağırlık, hacim) üzerinden alınır; enflasyonda etkinliğini yitirir. ADVALOREM vergiler değer üzerinden yüzde olarak alındığı için artan fiyatlara aynı oranda uygulanır ve enflasyonist ortamda DAHA ETKİN koruma sağlar.",
   t: "Gümrük Tarifeleri", d: 2
@@ -573,8 +553,6 @@ KPSS.registerBank('uluslararasi', [
   e: "ABD ve Kanada SPESİFİK; Avrupa Birliği ve Türkiye ADVALOREM vergi esasını benimsemiştir.",
   t: "Gümrük Tarifeleri", d: 3
 },
-
-/* ---------- TARİFE DIŞI ARAÇLAR ---------- */
 {
   q: "Hükümetin sadece ithal mal hacmini belirlediği, hangi ülkeden veya kimin ithalat yapacağına karışmadığı kota türü hangisidir?",
   o: ["Global kota", "Seçici kota", "Tahsisli ithal kotası", "Gümrük tarife kotası", "Açık kota"],
@@ -640,13 +618,11 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Aşağıdakilerden hangisi dış ticarete müdahale araçlarından biri DEĞİLDİR?",
-  o: ["Hepsi dış ticarete müdahale aracıdır: tarifeler, ithalat kotaları, kambiyo denetimi, gönüllü ihracat kısıtlamaları", "Yalnızca tarifeler ve ithalat kotaları müdahale aracıdır", "Yalnızca tarifeler müdahale aracıdır", "Kambiyo denetimi müdahale aracı değildir", "Gönüllü ihracat kısıtlamaları müdahale aracı değildir"],
+  o: ["Karşılaştırmalı üstünlükler ilkesi", "Gümrük tarifeleri", "İthalat kotaları", "Kambiyo denetimi", "Gönüllü ihracat kısıtlamaları"],
   a: 0,
   e: "Tarifeler, ithalat kotaları, kambiyo denetimi ve gönüllü ihracat kısıtlamalarının TAMAMI dış ticarete müdahale araçlarıdır.",
   t: "Tarife Dışı Araçlar", d: 1
 },
-
-/* ---------- BAĞLI TİCARET ---------- */
 {
   q: "Satılan malın karşılığında döviz kullanmadan satıcının da alıcıdan mal ithal etmesi gereken ticaret şekli hangisidir?",
   o: ["Bağlı ticaret", "Damping", "Aktarma ticareti", "Endüstri içi ticaret", "Spot ticaret"],
@@ -656,7 +632,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Takas ile kliring arasındaki temel fark nedir?",
-  o: ["Kliringde ithalatçı ile ihracatçı arasındaki doğrudan ilişki ortadan kalkar, ödemeler kliring ofisleri veya merkez bankaları aracılığıyla milli paralarla yapılır", "Takasta döviz kullanılır, kliringde kullanılmaz", "Kliring en eski ticaret yöntemidir", "Takasta ödemeler merkez bankaları aracılığıyla yapılır", "Aralarında hiçbir fark yoktur"],
+  o: ["Kliringde doğrudan ilişki ortadan kalkar", "Takasta döviz kullanılır, kliringde kullanılmaz", "Kliring en eski ticaret yöntemi niteliğindedir", "Takasta ödemeler merkez bankası aracılığıyladır", "Aralarında herhangi bir fark bulunmamaktadır"],
   a: 0,
   e: "TAKAS'ta malın mal ile değişimi esastır ve taraflar doğrudan ilişkilidir. KLİRİNG daha esnektir: ödemeler kliring ofisleri veya merkez bankaları aracılığıyla milli paralarla yapılır ve ithalatçı-ihracatçı arasındaki DOĞRUDAN İLİŞKİ ORTADAN KALKAR.",
   t: "Bağlı Ticaret", d: 3
@@ -670,7 +646,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Özel bir firmanın yabancı bir devlete mal satması ve belirli bir süre sonra o ülkeden mal satın alması işlemine ne ad verilir?",
-  o: ["Karşı satın alma (paralel takas)", "Geri satın alma", "Offset", "Fason", "Switch"],
+  o: ["Karşı satın alma", "Geri satın alma", "Offset", "Fason üretim", "Switch işlemi"],
   a: 0,
   e: "KARŞI SATIN ALMA (paralel takas): özel bir firma yabancı devlete mal satar ve belirli süre sonra o ülkeden mal satın alır. GERİ SATIN ALMA'da ise firma sattığı fabrika/makinede üretilecek malların bir bölümünü satın almayı kabul eder.",
   t: "Bağlı Ticaret", d: 3
@@ -696,8 +672,6 @@ KPSS.registerBank('uluslararasi', [
   e: "Bağlı ticaret türleri: takas, kliring, switch, karşı satın alma, geri satın alma, offset, fason ve uluslararası ödeme anlaşmaları. 'Fark giderici ticaret' böyle bir tür değildir.",
   t: "Bağlı Ticaret", d: 2
 },
-
-/* ---------- DAMPİNG ---------- */
 {
   q: "Bir malın dış piyasada kendi iç piyasasından daha ucuza satılmasına ne ad verilir?",
   o: ["Damping", "Negatif tarife", "Sübvansiyon", "Kıtlık rantı", "Arbitraj"],
@@ -733,8 +707,6 @@ KPSS.registerBank('uluslararasi', [
   e: "Damping türleri: ARIZİ (arada bir yapılan), YIKICI ve SÜREKLİ damping. 'Yapıcı damping' diye bir tür yoktur.",
   t: "Damping", d: 2
 },
-
-/* ---------- İKTİSADİ BİRLEŞME ---------- */
 {
   q: "En dar kapsamlı iktisadi işbirliği türü hangisidir?",
   o: ["Tercihli Ticaret Anlaşmaları", "Serbest Ticaret Bölgesi", "Gümrük Birliği", "Ortak Pazar", "İktisadi Birlik"],
@@ -786,7 +758,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Ticaret saptırma etkisine sahip bir gümrük birliğinin net refah etkisi nasıl belirlenir?",
-  o: ["Ticaret yaratma etkisi ticaret saptırma etkisinden büyükse pozitif, küçükse negatif olur", "Her zaman negatiftir", "Her zaman pozitiftir", "Sadece dinamik etkilere bakılarak belirlenir", "Üye sayısına göre belirlenir"],
+  o: ["Ticaret yaratma saptırmadan büyükse pozitif olur", "Her zaman ve her hâlde negatif olmaktadır", "Her zaman ve her hâlde pozitif olmaktadır", "Yalnızca dinamik etkilere bakılarak belirlenir", "Birliğin üye sayısına göre belirlenmektedir"],
   a: 0,
   e: "Ticaret saptırma etkisinin varlığında da bir ticaret yaratma etkisi ortaya çıkar. Net refah etkisi için ikisi karşılaştırılır: ticaret yaratma > ticaret saptırma ise net etki POZİTİF, küçükse NEGATİF olur.",
   t: "İktisadi Birleşme", d: 3
@@ -805,8 +777,6 @@ KPSS.registerBank('uluslararasi', [
   e: "'GENÇ ENDÜSTRİLER' (bebek endüstriler) tezini ortaya atan iktisatçı F. LIST'tir.",
   t: "İktisadi Birleşme", d: 3
 },
-
-/* ---------- DÖVİZ PİYASALARI ---------- */
 {
   q: "Nakit yabancı paralara ne ad verilir?",
   o: ["Efektif", "Döviz", "Parite", "Spread", "SDR"],
@@ -844,7 +814,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "1 doları New York'tan 13,15 TL'den alıp İstanbul'da 13,20 TL'ye satmak hangi işlemdir?",
-  o: ["Yer arbitrajı (iki uçlu arbitraj)", "Üç uçlu arbitraj", "Spekülasyon", "Forward işlem", "Sterilizasyon"],
+  o: ["Yer arbitrajı", "Üç uçlu arbitraj", "Spekülasyon", "Forward işlem", "Sterilizasyon"],
   a: 0,
   e: "Farklı yerlerdeki fiyat farkından yararlanmak YER ARBİTRAJI (iki uçlu arbitraj)'dır. ÜÇ UÇLU ARBİTRAJ ise aynı piyasada çeşitli ulusal paraların çapraz kurları ile düz kurları arasındaki farklardan kaynaklanır.",
   t: "Döviz Piyasaları", d: 2
@@ -870,8 +840,6 @@ KPSS.registerBank('uluslararasi', [
   e: "SPOT DÖVİZ KURU işlem anındaki kurdur (süre 2 gün). FORWARD (VADELİ) DÖVİZ KURU gelecekteki bir tarih için bugünden öngörülen kurdur (süre 3 ay) ve riskten korunmak amacıyla yapılır.",
   t: "Döviz Piyasaları", d: 2
 },
-
-/* ---------- DÖVİZ KURU SİSTEMLERİ ---------- */
 {
   q: "Sabit kur sisteminin dezavantajları arasında aşağıdakilerden hangisi YER ALMAZ?",
   o: ["Kur riski ve belirsizliğin artması", "Ülkenin dış şoklara açık hale gelmesi", "Bağımsız para politikası izlenememesi", "Güvenilirliğin azalması", "Yeterli döviz rezervi gerektirmesi"],
@@ -909,7 +877,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Döviz kurlarının piyasada belirlendiği ancak aşırı dalgalanmalarda merkez bankasının müdahale ettiği sisteme ne ad verilir?",
-  o: ["Yönetimli dalgalanma (kirli esnek kur sistemi)", "Bant sistemi", "Sürünen pariteler sistemi", "Tam esnek kur sistemi", "Para kurulu"],
+  o: ["Yönetimli dalgalanma", "Bant sistemi", "Sürünen pariteler", "Tam esnek kur sistemi", "Para kurulu"],
   a: 0,
   e: "YÖNETİMLİ DALGALANMA (kirli esnek kur sistemi): kurlar piyasada belirlenir ama MB'nin gözetimi altındadır; aşırı dalgalanmada MB alıcı-satıcı olarak piyasaya girer.",
   t: "Döviz Kuru Sistemleri", d: 2
@@ -942,8 +910,6 @@ KPSS.registerBank('uluslararasi', [
   e: "İKİ KUTUP HİPOTEZİ S. FISCHER'e aittir: sermaye hareketlerini serbestleştiren gelişmekte olan ülkeler ara (karma) kur sistemlerinden vazgeçip ya tam sabit ya da tam esnek kur sistemini seçmelidir.",
   t: "Döviz Kuru Sistemleri", d: 3
 },
-
-/* ---------- ÖDEMELER BİLANÇOSU ---------- */
 {
   q: "Ödemeler bilançosu kayıtları hangi kurum tarafından tutulur ve hangi kılavuz kullanılır?",
   o: ["TCMB — IMF'nin 6. El Kitabı (2014)", "TÜİK — IMF'nin 5. El Kitabı", "Hazine — OECD kılavuzu", "TCMB — Dünya Bankası kılavuzu", "TÜİK — 6. El Kitabı"],
@@ -953,7 +919,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Ödemeler bilançosu açısından 'yerleşik' kavramı nasıl tanımlanır?",
-  o: ["Bir ekonomide bir yıldan fazla süre ile devamlı olarak ikamet eden gerçek ve tüzel kişiler", "Bir ekonomide altı aydan fazla ikamet edenler", "Yalnızca o ülkenin vatandaşları", "Yalnızca o ülkede vergi mükellefi olanlar", "Bir ekonomide iki yıldan fazla ikamet edenler"],
+  o: ["Bir yıldan fazla ikamet eden gerçek ve tüzel kişiler", "Altı aydan fazla ikamet eden gerçek kişiler", "Yalnızca o ülkenin vatandaşı olan kişiler", "Yalnızca o ülkede vergi mükellefi olanlar", "İki yıldan fazla ikamet eden gerçek kişiler"],
   a: 0,
   e: "YERLEŞİK, bir ekonomide BİR YILDAN FAZLA süre ile devamlı olarak ikamet eden gerçek ve tüzel kişileri ifade eder.",
   t: "Ödemeler Bilançosu", d: 2
@@ -967,7 +933,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Ödemeler bilançosu istatistiklerinde ana ilke nedir?",
-  o: ["Çift kayıt muhasebe sistemi (giren alacaklı, çıkan borçlu)", "Tek kayıt muhasebe sistemi", "Nakit esaslı muhasebe", "Tahakkuk esaslı tek taraflı kayıt", "Dönemsellik ilkesi"],
+  o: ["Çift kayıt muhasebe sistemi", "Tek kayıt muhasebe sistemi", "Nakit esaslı muhasebe sistemi", "Tahakkuk esaslı tek taraflı kayıt", "Dönemsellik ilkesi"],
   a: 0,
   e: "Ödemeler bilançosunda ana ilke ÇİFT KAYIT MUHASEBE SİSTEMİDİR (Giren → Alacaklı, Çıkan → Borçlu). Alacak ve borç kayıtları mülkiyet değişimi gerçekleştiğinde yapılır (mülkiyet prensibi).",
   t: "Ödemeler Bilançosu", d: 2
@@ -1002,7 +968,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Kayıt hataları, atlamalar, unutmalar ve kaynağı belirsiz döviz giriş-çıkışları hangi hesapta incelenir?",
-  o: ["Net hata ve noksan hesabı (istatistiki farklar hesabı)", "Cari işlemler hesabı", "Sermaye hesabı", "Finans hesabı", "Rezerv varlıklar"],
+  o: ["Net hata ve noksan hesabı", "Cari işlemler hesabı", "Sermaye hesabı", "Finans hesabı", "Rezerv varlıklar hesabı"],
   a: 0,
   e: "NET HATA VE NOKSAN HESABI (istatistiki farklar hesabı): kayıt hataları, atlamalar, unutmalar ve kaynağı belirsiz döviz giriş-çıkışları bu hesapta incelenir.",
   t: "Ödemeler Bilançosu", d: 2
@@ -1030,7 +996,7 @@ KPSS.registerBank('uluslararasi', [
 },
 {
   q: "Ödemeler bilançosunun son hesabı hangisidir ve neyi gösterir?",
-  o: ["Rezerv varlıklar — ülkenin IMF nezdindeki pozisyonunu ve resmi rezervleri", "Net hata ve noksan — istatistiki farkları", "Finans hesabı — doğrudan ve portföy yatırımlarını", "Sermaye hesabı — sermaye transferlerini", "Cari işlemler hesabı — mal ve hizmet ticaretini"],
+  o: ["Rezerv varlıklar — resmi rezervler", "Net hata ve noksan — istatistiki farklar", "Finans hesabı — portföy yatırımları", "Sermaye hesabı — sermaye transferleri", "Cari işlemler — mal ve hizmet ticareti"],
   a: 0,
   e: "REZERV VARLIKLAR ödemeler bilançosunun SON hesabıdır; ülkenin IMF nezdindeki pozisyonunu gösterir ve resmi rezervlerden (döviz + menkul kıymetler) oluşur.",
   t: "Ödemeler Bilançosu", d: 2
@@ -1055,6 +1021,5 @@ KPSS.registerBank('uluslararasi', [
   a: 0,
   e: "X > M ise DIŞ TİCARET FAZLASI, X = M ise DIŞ TİCARET DENGESİ, X < M ise DIŞ TİCARET AÇIĞI vardır.",
   t: "Ödemeler Bilançosu", d: 1
-}
-
+},
 ]);

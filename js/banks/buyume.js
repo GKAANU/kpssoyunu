@@ -1,7 +1,5 @@
 /* İktisadi Büyüme ve Kalkınma — kaynak: "Büyüme ve Kalkınma.pdf" */
 KPSS.registerBank('buyume', [
-
-/* ---------- TEMEL KAVRAMLAR ---------- */
 {
   q: "Reel GSYİH'daki artış oranına ne ad verilir?",
   o: ["Brüt büyüme oranı", "Net büyüme oranı", "Potansiyel büyüme", "Doğal büyüme hızı", "Garantili büyüme hızı"],
@@ -65,11 +63,9 @@ KPSS.registerBank('buyume', [
   e: "GELECEKSİZ BÜYÜME, büyümenin yenilenemeyen doğal kaynakların tüketilmesi pahasına gerçekleşmesidir.",
   t: "Büyüme Çeşitleri", d: 2
 },
-
-/* ---------- KLASİK BÜYÜME ---------- */
 {
   q: "Adam Smith'in büyüme görüşleri ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Toplumların zenginleşmesinin kökeninde iş bölümü ve uzmanlaşma sayesinde artan verimlilik ile sermaye birikimi yatar", "Ekonomiler durgunluğa ve yoksulluğa mahkumdur", "Gıda aritmetik, nüfus geometrik dizi şeklinde artar", "Yatırımların tek kaynağı kapitalist sınıfın karıdır", "Kapitalist sistem emek sömürüsüne dayanır"],
+  o: ["İş bölümü, uzmanlaşma ve sermaye birikimi", "Ekonomiler durgunluğa ve yoksulluğa mahkumdur", "Gıda aritmetik, nüfus geometrik artar", "Yatırımın tek kaynağı kapitalist kârıdır", "Kapitalist sistem emek sömürüsüne dayanır"],
   a: 0,
   e: "Smith'e göre zenginleşmenin kökeninde iş bölümü ve uzmanlaşmayla artan verimlilik ve sermaye birikimi yatar; bunun için pazarın yeterince büyük olması gerekir. Smith İYİMSER klasikler arasındadır.",
   t: "Klasik Büyüme", d: 2
@@ -130,18 +126,16 @@ KPSS.registerBank('buyume', [
   e: "Dinamik girişimcilik kavramı Schumpeter'e aittir. Schumpeter yaratıcı yıkım modeliyle, devrime gerek kalmadan kapitalizmin evrimle sosyalist sisteme geçeceğini savunur.",
   t: "Klasik Büyüme", d: 2
 },
-
-/* ---------- HARROD-DOMAR ---------- */
 {
   q: "Harrod-Domar büyüme modeli ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Yatırımların hem kapasite arttırıcı hem gelir arttırıcı etkisini inceleyen uzun dönemli ve dinamik bir modeldir", "Yatırımların yalnızca gelir arttırıcı etkisini inceler", "Yatırımların yalnızca kapasite arttırıcı etkisini inceler", "Cobb-Douglas tipi üretim fonksiyonu kullanır", "Girdiler arasında tam ikame vardır"],
+  o: ["Kapasite ve gelir arttırıcı etkiyi birlikte inceler", "Yalnızca gelir arttırıcı etkiyi incelemektedir", "Yalnızca kapasite arttırıcı etkiyi incelemektedir", "Cobb-Douglas tipi üretim fonksiyonu kullanır", "Girdiler arasında tam ikame varsayımı yapar"],
   a: 0,
   e: "Klasikler yatırımların sadece kapasite arttırıcı, Keynes ise sadece gelir arttırıcı etkisini incelemiştir. Harrod-Domar iki etkiyi birlikte ele alan UZUN DÖNEMLİ ve DİNAMİK bir modeldir.",
   t: "Harrod-Domar", d: 2
 },
 {
   q: "Harrod-Domar modelinde kullanılan üretim fonksiyonu ve girdi ilişkisi nasıldır?",
-  o: ["Leontief tipi üretim fonksiyonu; girdiler arasında ikame yoktur, tam tamamlayıcılık vardır", "Cobb-Douglas tipi üretim fonksiyonu; girdiler birbirinin ikamesidir", "Leontief tipi üretim fonksiyonu; girdiler birbirinin tam ikamesidir", "CES tipi üretim fonksiyonu; kısmi ikame vardır", "Doğrusal olmayan fonksiyon; ikame esnekliği sonsuzdur"],
+  o: ["Leontief tipi; girdiler tam tamamlayıcıdır", "Leontief tipi; girdiler tam ikamedir", "Cobb-Douglas tipi; girdiler ikame edilebilir", "CES tipi; girdiler arasında kısmi ikame vardır", "Doğrusal olmayan; ikame esnekliği sonsuzdur"],
   a: 0,
   e: "Harrod-Domar modelinde LEONTIEF tipi üretim fonksiyonu kullanılır: girdiler arasında ikame yoktur, tam tamamlayıcılık söz konusudur ve K/L oranı sabittir. Cobb-Douglas ise SOLOW modelinin varsayımıdır.",
   t: "Harrod-Domar", d: 3
@@ -176,14 +170,14 @@ KPSS.registerBank('buyume', [
 },
 {
   q: "Harrod-Domar modelinde 'bıçak sırtı denge' hangi durumu ifade eder?",
-  o: ["Gerçekleşen büyüme hızının gerekli büyüme hızına eşit olduğu, kolayca bozulabilen dengeyi", "Doğal büyüme hızının maksimum olduğu durumu", "Kişi başı büyümenin sıfır olduğu durağan durumu", "Tasarruf oranının altın kurala eşit olduğu durumu", "Yakınsamanın tamamlandığı durumu"],
+  o: ["Gerçekleşen ile gerekli büyümenin eşit olduğu denge", "Doğal büyüme hızının maksimum olduğu durum", "Kişi başı büyümenin sıfır olduğu durağan durum", "Tasarruf oranının altın kurala eşit olduğu durum", "Yakınsama sürecinin tamamlandığı durum"],
   a: 0,
   e: "Yatırımların kapasite ve gelir arttırıcı etkilerinin gerçek hayatta birbirine eşit olması güç olduğu için Ga = Gw dengesi BIÇAK SIRTI DENGE olarak adlandırılır. Bu iki etki eşit değilse ekonomi hızla dengeden uzaklaşır.",
   t: "Harrod-Domar", d: 2
 },
 {
   q: "Harrod-Domar modelinde doğal büyüme hızı (GN) nasıl hesaplanır?",
-  o: ["Nüfus artış hızı + teknolojik gelişme hızı + sermaye yıpranma oranı", "Nüfus artış hızı − teknolojik gelişme hızı", "Tasarruf oranı / sermaye hasıla katsayısı", "Nüfus artış hızı + tasarruf oranı", "Teknolojik gelişme hızı − amortisman oranı"],
+  o: ["Nüfus artışı + teknolojik gelişme + yıpranma", "Nüfus artış hızı − teknolojik gelişme hızı", "Tasarruf oranı / sermaye hasıla katsayısı", "Nüfus artış hızı + tasarruf oranı", "Teknolojik gelişme hızı − amortisman oranı"],
   a: 0,
   e: "Doğal büyüme hızı GN = n + t + d şeklindedir (nüfus artış hızı + teknolojik gelişme hızı + sermaye yıpranma oranı). Üretim faktörlerinin sonuna kadar kullanılmasıyla oluşur; maksimum büyüme oranı ya da tam istihdam tavanı da denir.",
   t: "Harrod-Domar", d: 2
@@ -195,8 +189,6 @@ KPSS.registerBank('buyume', [
   e: "Harrod-Domar modelinde teknolojik gelişme YOKTUR; ayrıca amortisman, dışsallık ve kamu harcamaları da yoktur, ekonomi dışa kapalıdır, tek mal üretilir ve APS = MPS'dir.",
   t: "Harrod-Domar", d: 3
 },
-
-/* ---------- SOLOW ---------- */
 {
   q: "Solow (Neo-Klasik) büyüme modelinin varsayımları ile ilgili aşağıdakilerden hangisi YANLIŞTIR?",
   o: ["Girdiler arasında ikame yoktur, tam tamamlayıcılık vardır", "Cobb-Douglas tipi üretim fonksiyonu kullanılır", "Azalan verimler yasası geçerlidir", "Ölçeğe göre sabit getiri vardır (α + β = 1)", "Tam rekabet ve tam istihdam koşulları geçerlidir"],
@@ -227,7 +219,7 @@ KPSS.registerBank('buyume', [
 },
 {
   q: "Solow paradoksu (Solow sürprizi) aşağıdakilerden hangisini ifade eder?",
-  o: ["Durağan durumda çıktı, sermaye ve işgücü artmasına rağmen işçi başına çıktı ve sermayenin artmamasını", "Tasarruf oranının uzun dönemde işçi başına hasılayı sürekli arttırmasını", "Az gelişmiş ülkelerin gelişmiş ülkeleri yakalayamamasını", "Teknolojik ilerlemenin hasılayı azaltmasını", "Nüfus artışının kişi başı geliri arttırmasını"],
+  o: ["İşçi başına çıktı ve sermayenin artmaması", "Tasarrufun kişi başı hasılayı sürekli arttırması", "Az gelişmişlerin gelişmişleri yakalayamaması", "Teknolojik ilerlemenin hasılayı azaltması", "Nüfus artışının kişi başı geliri arttırması"],
   a: 0,
   e: "Solow paradoksu, durağan durumun büyümenin olmadığı değil İŞÇİ BAŞINA büyümenin olmadığı bir durum olduğunu ifade eder. Tasarruf oranı kısa dönemde işçi başına hasıla ve sermayeyi arttırır, ancak uzun dönemde bu değişkenler üzerinde büyüme etkisi yaratmaz.",
   t: "Solow Modeli", d: 3
@@ -246,8 +238,6 @@ KPSS.registerBank('buyume', [
   e: "YAKINSAMA HİPOTEZİ Solow büyüme modelinden çıkarılan bir sonuçtur. Önemli ayrım: yakınsama hipotezi Solow modelinde GEÇERLİ, içsel büyüme modellerinde GEÇERSİZDİR.",
   t: "Solow Modeli", d: 2
 },
-
-/* ---------- İÇSEL BÜYÜME ---------- */
 {
   q: "İçsel büyüme modellerinin özellikleri ile ilgili aşağıdakilerden hangisi YANLIŞTIR?",
   o: ["Yakınsama hipotezi geçerlidir", "Eksik rekabet koşulları söz konusudur", "Ölçeğe göre artan getiri vardır", "Teknolojik gelişme içsel kabul edilmiştir", "Optimal büyüme için devlet müdahalesi gereklidir"],
@@ -304,8 +294,6 @@ KPSS.registerBank('buyume', [
   e: "AGHION-HOWITT modelinde büyümenin kaynağı AR-GE sektöründeki DİKEY teknolojik yeniliklerdir; böylece yaratıcı yıkım işlemektedir. Grossman-Helpman modelinde ise içsel büyüme malların niteliğinin iyileştirilmesi ve ürün çeşidinin artmasıyla olur.",
   t: "İçsel Büyüme", d: 3
 },
-
-/* ---------- KALKINMA ---------- */
 {
   q: "Washington Konsensüsü olarak adlandırılan neo-liberal politikalar arasında aşağıdakilerden hangisi YER ALMAZ?",
   o: ["Kamu harcamalarının arttırılması", "Dış ticaretin serbestleştirilmesi", "Özelleştirme", "Faiz oranlarının serbestleştirilmesi", "Deregülasyon (piyasaya giriş engellerinin kaldırılması)"],
@@ -336,7 +324,7 @@ KPSS.registerBank('buyume', [
 },
 {
   q: "Kalkınmışlığın ölçülmesinde kullanılan en yaygın ölçüt olan İnsani Gelişme Endeksi (İGE) hangi kuruluş tarafından yayınlanır?",
-  o: ["Birleşmiş Milletler Kalkınma Örgütü (UNDP)", "Dünya Bankası", "IMF", "OECD", "Dünya Ticaret Örgütü"],
+  o: ["Birleşmiş Milletler Kalkınma Örgütü", "Dünya Bankası", "Uluslararası Para Fonu", "OECD", "Dünya Ticaret Örgütü"],
   a: 0,
   e: "İnsani Gelişme Endeksi her yıl UNDP (Birleşmiş Milletler Kalkınma Örgütü) tarafından yayınlanır. Endeks ülkelerin gelir, eğitim ve sağlık verilerini içerir.",
   t: "Az Gelişmişlik", d: 1
@@ -348,8 +336,6 @@ KPSS.registerBank('buyume', [
   e: "ORTA GELİR TUZAĞI, kişi başına GSYİH'nın orta gelir seviyesinde sıkışıp kalmasıdır. Bu sınır, ABD'deki kişi başına GSYİH'nın %20'si olarak kabul edilmektedir.",
   t: "Az Gelişmişlik", d: 2
 },
-
-/* ---------- GELİR DAĞILIMI ---------- */
 {
   q: "Üretim faktörlerinin üretime katılmaları sonucu milli gelirden aldıkları payları gösteren gelir dağılımı türü hangisidir?",
   o: ["Fonksiyonel gelir dağılımı", "Kişisel gelir dağılımı", "Bölgesel gelir dağılımı", "Sektörel gelir dağılımı", "İkincil gelir dağılımı"],
@@ -373,14 +359,14 @@ KPSS.registerBank('buyume', [
 },
 {
   q: "Gini katsayısı ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Gini katsayısı bire eşitse gelir dağılımı tam eşitsizdir, sıfıra eşitse mutlak adalet vardır", "Gini katsayısı sıfıra eşitse gelir dağılımı tam eşitsizdir", "Gini katsayısı bir ile iki arasında değer alır", "Gelişmiş ülkelerde gini katsayısı bire yakındır", "Adaletsizlik arttıkça gini katsayısı küçülür"],
+  o: ["Bir ise tam eşitsiz, sıfır ise mutlak adalet", "Sıfır ise tam eşitsiz, bir ise mutlak adalet", "Katsayı bir ile iki arasında değer alır", "Gelişmiş ülkelerde katsayı bire yakındır", "Adaletsizlik arttıkça katsayı küçülür"],
   a: 0,
   e: "Gini katsayısı 0 ile 1 arasındadır. 1'e eşitse tam eşitsizlik, 0'a eşitse mutlak adalet vardır. Adaletsizlik arttıkça gini büyür. Gelişmiş ülkelerde sıfıra, az gelişmiş ülkelerde bire yakındır. Gini = A / (A+B)'dir.",
   t: "Gelir Dağılımı", d: 2
 },
 {
   q: "P80/P20 katsayısı neyi gösterir?",
-  o: ["En yüksek gelirli %20'lik kesim ile en düşük gelirli %20'lik kesim arasında kaç kat gelir farkı olduğunu", "Nüfusun %80'inin gelirin %20'sini aldığını", "Yoksul kişi sayısının toplam nüfusa oranını", "Gelir dağılımının Lorenz eğrisine uzaklığını", "Toplumun eşitsizliğe verdiği değeri"],
+  o: ["En zengin %20 ile en yoksul %20 arası gelir farkı", "Nüfusun %80'inin gelirin %20'sini aldığını", "Yoksul kişi sayısının toplam nüfusa oranını", "Gelir dağılımının Lorenz eğrisine uzaklığını", "Toplumun eşitsizliğe verdiği ağırlığı"],
   a: 0,
   e: "Yüzde Paylar Analizi'nde haneler %20'lik 5 gruba ayrılır. P80/P20 katsayısı en yüksek gelirli %20 ile en düşük gelirli %20 arasındaki gelir farkının kaç kat olduğunu gösterir.",
   t: "Gelir Dağılımı", d: 2
@@ -399,8 +385,6 @@ KPSS.registerBank('buyume', [
   e: "PARETO KATSAYISI gelir dağılım adaletsizliğini GÖSTERMEZ; bireylerin gelir seviyesi yükseldikçe üst gelir grubuna yükselme ihtimalinin nasıl arttığını gösterir.",
   t: "Gelir Dağılımı", d: 3
 },
-
-/* ---------- YOKSULLUK ---------- */
 {
   q: "Bir kişinin yaşamını devam ettirebilmesi için gerekli asgari geliri elde edememesi durumu hangi yoksulluk türüdür?",
   o: ["Mutlak yoksulluk", "Nispi yoksulluk", "Subjektif yoksulluk", "İnsani yoksulluk", "Göreli yoksulluk"],
@@ -464,8 +448,6 @@ KPSS.registerBank('buyume', [
   e: "P ÖLÇÜTÜ Foster, Greer ve Thorbecke tarafından geliştirilmiştir; farklı bölgelerdeki yoksul grupların ağırlıklı ortalamasını dikkate alarak bölgesel yoksulluk yoğunluğunu ölçer.",
   t: "Yoksulluk", d: 3
 },
-
-/* ---------- AZ GELİŞMİŞLİK YAKLAŞIMLARI ---------- */
 {
   q: "'Fakir ülkeler fakir oldukları için fakirdirler' görüşüyle yoksulluğun kısır döngüsünü açıklayan iktisatçı kimdir?",
   o: ["Nurkse", "Myrdal", "Boeke", "Gerschenkron", "Lewis"],
@@ -557,8 +539,6 @@ KPSS.registerBank('buyume', [
   e: "FAKİRLEŞTİREN (YOKSULLAŞTIRAN) BÜYÜME J. BHAGWATI'ye aittir. Ülke daha fazla üretmesine rağmen fiyatların düşmesine bağlı gelir kaybı yaşar ve refahı azalır.",
   t: "Az Gelişmişlik Kuramları", d: 3
 },
-
-/* ---------- KALKINMA STRATEJİLERİ ---------- */
 {
   q: "Bir ekonomideki tüm sektörlerin aynı anda eş zamanlı olarak kalkındırılması gerektiğini ilk kez ortaya atan iktisatçı kimdir?",
   o: ["F. List", "R. Nurkse", "Rosenstein-Rodan", "A. Lewis", "O. Hirschman"],
@@ -589,7 +569,7 @@ KPSS.registerBank('buyume', [
 },
 {
   q: "Dengesiz kalkınma stratejisinin en önemli temsilcisi kimdir ve bu yaklaşıma göre hangi sektöre öncelik verilmelidir?",
-  o: ["Hirschman — toplam sektörler arası bağlılık katsayısı en yüksek sektöre", "Nurkse — stratejik olarak belirlenen sektörlere", "List — tarım, imalat ve ticaretin tamamına", "Perroux — hizmet sektörüne", "Chenery — sosyal karı en yüksek sektöre"],
+  o: ["Hirschman — bağlılık katsayısı en yüksek sektöre", "Nurkse — stratejik belirlenen sektörlere", "List — tarım, imalat ve ticaretin tamamına", "Perroux — hizmet sektörünün tamamına", "Chenery — sosyal kârı en yüksek sektöre"],
   a: 0,
   e: "Dengesiz kalkınmanın en önemli temsilcisi O. HIRSCHMAN'dır. Hirschman'a göre 'toplam sektörler arası bağlılık' katsayısı en yüksek sektöre öncelik verilmelidir (örneğin demir-çelik gibi ara mallar üretimi).",
   t: "Kalkınma Stratejileri", d: 3
@@ -615,11 +595,9 @@ KPSS.registerBank('buyume', [
   e: "Bu sınıflandırma FISCHER'a aittir. C. CLARK ise üretim aşamalarını 'Üç Sektör Teorisi' ile açıklamıştır. İkisi birlikte Öncü Sektörler Teorisi'ni oluşturur.",
   t: "Kalkınma Stratejileri", d: 3
 },
-
-/* ---------- SANAYİLEŞME POLİTİKALARI ---------- */
 {
   q: "İthal ikameci (içe dönük) sanayileşme politikası ile ilgili aşağıdakilerden hangisi doğrudur?",
-  o: ["Daha önce ithal edilen malların koruyucu ve özendirici önlemlerle yurt içinde üretilmesini öngörür ve karşılaştırmalı üstünlüklerden yararlanılmaz", "Karşılaştırmalı üstünlükleri ön plana çıkarır", "Dış ticarette liberalizmi esas alır", "İhracatı özendirmeyi temel amaç edinir", "Serbest piyasayı temel alan bir yapı oluşturmayı hedefler"],
+  o: ["İthal malların yurt içinde üretilmesini öngörür", "Karşılaştırmalı üstünlükleri ön plana çıkarır", "Dış ticarette liberalizmi esas almaktadır", "İhracatı özendirmeyi temel amaç edinir", "Serbest piyasayı temel alan yapı hedefler"],
   a: 0,
   e: "İthal ikameci sanayileşme, ithal edilen malların koruyucu-özendirici önlemlerle yurt içinde üretilmesidir ve bu yöntemde KARŞILAŞTIRMALI ÜSTÜNLÜKLERDEN YARARLANILMAZ. Diğer seçenekler ihracata dayalı (dışa dönük) stratejinin özellikleridir.",
   t: "Sanayileşme Politikaları", d: 2
@@ -638,8 +616,6 @@ KPSS.registerBank('buyume', [
   e: "İthal ikameye yönelmenin nedenleri arasında DÖVİZ DARBOĞAZLARI vardır; döviz fazlası değil. Diğer nedenler: savaşlar, sermaye birikiminin yetersizliği, global ticaret krizleri, yerli-milli ekonomi politikalarının benimsenmek istenmesi, dış ticaret açıkları.",
   t: "Sanayileşme Politikaları", d: 2
 },
-
-/* ---------- NÜFUS ---------- */
 {
   q: "Nüfus artış oranı nasıl hesaplanır?",
   o: ["Doğum oranı − Ölüm oranı + Net göç oranı", "Doğum oranı − Ölüm oranı", "Doğum oranı + Ölüm oranı − Net göç oranı", "Doğum oranı + Net göç oranı", "Ölüm oranı − Doğum oranı + Net göç oranı"],
@@ -705,10 +681,9 @@ KPSS.registerBank('buyume', [
 },
 {
   q: "Açlık sınırı yaklaşımının en önemli sakıncası nedir?",
-  o: ["Alınması gereken kalori ihtiyacı açısından toplumdaki tüm bireyleri aynı görmesi", "Barınma ve giyim ihtiyaçlarını fazla ağırlıklandırması", "Anketlere dayanması nedeniyle sübjektif olması", "Medyan geliri esas alması", "Bölgesel farklılıkları aşırı vurgulaması"],
+  o: ["Toplumdaki tüm bireyleri aynı görmesi", "Barınma ve giyimi fazla ağırlıklandırması", "Anketlere dayandığı için sübjektif olması", "Medyan geliri esas alarak hesaplanması", "Bölgesel farklılıkları aşırı vurgulaması"],
   a: 0,
   e: "Açlık sınırı (minimum kalori) yaklaşımının en önemli sakıncası, alınması gereken kalori ihtiyacı açısından toplumdaki TÜM BİREYLERİ AYNI GÖRMESİDİR.",
   t: "Yoksulluk", d: 3
-}
-
+},
 ]);

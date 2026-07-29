@@ -94,7 +94,20 @@ KPSS.SECTIONS = [
     boss: 'Solow Devi',
     bossEmoji: '🗿',
     src: 'Büyüme ve Kalkınma.pdf'
-  }
+  },
+
+  /* ---- Sınav tarzı soru bankası bölümleri (3Y Özgün Hukuk Soruları) ----
+     Bu bölümlerdeki sorular, şıklar ve çözümler kitabın kendi metnidir.
+     Notlardan türetilen bölümlerden ayrı tutulur ki hangisini çalıştığı belli olsun. */
+  { id: 'cAnayasa',   name: 'Anayasa Hukuku',       tag: 'Sınav Sorusu', emoji: '📕', color: '#e0245e', boss: 'Kurucu İktidar',   bossEmoji: '📕', src: '3Y Özgün Hukuk Soruları' },
+  { id: 'cIdare',     name: 'İdare Hukuku',         tag: 'Sınav Sorusu', emoji: '🏛️', color: '#7c5cff', boss: 'Vesayet Makamı',   bossEmoji: '🏛️', src: '3Y Özgün Hukuk Soruları' },
+  { id: 'cIdariUsul', name: 'İdari Usul Hukuku',    tag: 'Sınav Sorusu', emoji: '⚖️', color: '#00b3a4', boss: 'Süre Aşımı',       bossEmoji: '⏳', src: '3Y Özgün Hukuk Soruları' },
+  { id: 'cCezaGenel', name: 'Ceza Genel Hukuku',    tag: 'Sınav Sorusu', emoji: '🚨', color: '#ff4d4d', boss: 'Kast ve Taksir',   bossEmoji: '🚨', src: '3Y Özgün Hukuk Soruları' },
+  { id: 'cCezaUsul',  name: 'Ceza Usul Hukuku',     tag: 'Sınav Sorusu', emoji: '🔍', color: '#f7931a', boss: 'Koruma Tedbiri',   bossEmoji: '🔍', src: '3Y Özgün Hukuk Soruları' },
+  { id: 'cMedeni',    name: 'Medeni Hukuk',         tag: 'Sınav Sorusu', emoji: '👥', color: '#3b82f6', boss: 'Ehliyet Sınavı',   bossEmoji: '👥', src: '3Y Özgün Hukuk Soruları' },
+  { id: 'cBorclar',   name: 'Borçlar Hukuku',       tag: 'Sınav Sorusu', emoji: '📜', color: '#ff7a45', boss: 'Sözleşme Ejderi',  bossEmoji: '🐉', src: '3Y Özgün Hukuk Soruları' },
+  { id: 'cTicaret',   name: 'Ticaret Hukuku',       tag: 'Sınav Sorusu', emoji: '💼', color: '#0ea5e9', boss: 'Kambiyo Kralı',    bossEmoji: '👑', src: '3Y Özgün Hukuk Soruları' },
+  { id: 'cIcra',      name: 'İcra ve İflas Hukuku', tag: 'Sınav Sorusu', emoji: '⚖️', color: '#a855f7', boss: 'Haciz Memuru',     bossEmoji: '📋', src: '3Y Özgün Hukuk Soruları' }
 ];
 
 /* soru bankaları buraya dolar: KPSS.BANKS[sectionId] = [ {...}, ... ] */

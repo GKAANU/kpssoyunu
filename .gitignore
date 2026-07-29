@@ -3,3 +3,7 @@
 
 # macOS
 .DS_Store
+
+# Ticari soru bankası kitaplarından çıkarılan sorular — telif yazarlarına ait,
+# public depoya gönderilmez. Depo private yapılırsa bu satırlar kaldırılabilir.
+js/banks/c_*.js

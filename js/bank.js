@@ -107,7 +107,14 @@ KPSS.SECTIONS = [
   { id: 'cMedeni',    name: 'Medeni Hukuk',         tag: 'Sınav Sorusu', emoji: '👥', color: '#3b82f6', boss: 'Ehliyet Sınavı',   bossEmoji: '👥', src: '3Y Özgün Hukuk Soruları' },
   { id: 'cBorclar',   name: 'Borçlar Hukuku',       tag: 'Sınav Sorusu', emoji: '📜', color: '#ff7a45', boss: 'Sözleşme Ejderi',  bossEmoji: '🐉', src: '3Y Özgün Hukuk Soruları' },
   { id: 'cTicaret',   name: 'Ticaret Hukuku',       tag: 'Sınav Sorusu', emoji: '💼', color: '#0ea5e9', boss: 'Kambiyo Kralı',    bossEmoji: '👑', src: '3Y Özgün Hukuk Soruları' },
-  { id: 'cIcra',      name: 'İcra ve İflas Hukuku', tag: 'Sınav Sorusu', emoji: '⚖️', color: '#a855f7', boss: 'Haciz Memuru',     bossEmoji: '📋', src: '3Y Özgün Hukuk Soruları' }
+  { id: 'cIcra',      name: 'İcra ve İflas Hukuku', tag: 'Sınav Sorusu', emoji: '⚖️', color: '#a855f7', boss: 'Haciz Memuru',     bossEmoji: '📋', src: '3Y Özgün Hukuk Soruları' },
+
+  /* ---- Gerçek çıkmış sorular (taranmış kitaplardan OCR ile) ----
+     Şıkların yanında geldiği sınav ve yıl (ör. 2012-KPSS, 2009-Kaymakamlık)
+     konu etiketi olarak görünür. Bu bankalar da telifli, depoya gönderilmez. */
+  { id: 'xKamu',      name: 'ÇIKMIŞ — Kamu Hukuku',      tag: 'Çıkmış Soru', emoji: '🎯', color: '#22c55e', boss: 'Sınav Kurdu',    bossEmoji: '🎯', src: '4T Hukuk Çıkmış 1. Cilt' },
+  { id: 'xOzelHukuk', name: 'ÇIKMIŞ — Özel Hukuk',       tag: 'Çıkmış Soru', emoji: '🎯', color: '#14b8a6', boss: 'İçtihat Avcısı', bossEmoji: '🎯', src: '4T TÜYO Hukuk Çıkmış 2. Cilt' },
+  { id: 'xMakroPara', name: 'ÇIKMIŞ — Makro İktisat ve Para', tag: 'Çıkmış Soru', emoji: '🎯', color: '#f59e0b', boss: 'Enflasyon Devi', bossEmoji: '🎯', src: 'Makro İktisat ve Para Çıkmış 2025' }
 ];
 
 /* soru bankaları buraya dolar: KPSS.BANKS[sectionId] = [ {...}, ... ] */

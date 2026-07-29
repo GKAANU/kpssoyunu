@@ -108,3 +108,11 @@ Bağımlılık yok, build adımı yok, harici istek yok — `file://` üzerinden
 ## Not
 
 Ders notu PDF'leri bu depoya dahil edilmedi; telif hakları yayınevlerine ait. Depoda yalnızca notlardan üretilmiş soru bankaları ve uygulama kodu var.
+
+Yerel kurulumda ayrıca ticari soru bankası kitaplarından çıkarılmış "Sınav Sorusu" ve "ÇIKMIŞ" bölümleri de bulunuyor (`js/banks/c_*.js`). Bu dosyalar sorunun, şıkların ve çözümün kitabın kendi metni olduğu için `.gitignore` ile depo dışında tutuldu; yalnızca kişisel çalışma amacıyla kullanılıyor. Bu dosyalar olmadan uygulama sorunsuz açılır — `boot()` bankası boş bölümleri otomatik gizler, notlardan üretilmiş 9 bölüm çalışmaya devam eder.
+
+### Soru kalitesi
+
+Sorular "en uzun şık doğrudur" ipucuna karşı ölçülüp düzeltildi. Ölçüt, doğru şıkkın en uzun çeldiriciden kaç karakter uzun olduğu (`fark`); 15 karakterden fazlası sömürülebilir ipucu sayıldı. Düzeltme kalıbı: kuralın ayrıntısı soru gövdesine taşınır, şıklar kısa ve birbirine paralel kardeş kavramlara indirilir.
+
+OCR ile çıkarılan çıkmış sorularda ayrıca bir güvenlik kilidi var: bir sorunun kendi `Cevap X seçeneğidir` satırı OCR'da bozulmuşsa (ör. `Gevap`) blok sonraki sorunun cevap harfini yakalayabiliyor. Şıklardan sonra yeni bir soru başlangıcı görülen bloklar, sessizce yanlış cevap üretmemek için tamamen atılıyor.
